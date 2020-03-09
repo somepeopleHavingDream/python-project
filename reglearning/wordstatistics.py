@@ -7,6 +7,7 @@ import jieba    # 结巴分词
 import wordcloud    # 词云展示库
 from PIL import Image   # 图像处理库
 import matplotlib.pyplot as plt # 图像展示库
+from os import path
 
 # 读取文本
 fn = open('article.txt', 'r', encoding = 'UTF-8')
@@ -30,3 +31,22 @@ for word in seg_list:
 word_count = collections.Counter(list)
 word_count_top10 = word_count.most_common(10)
 print(word_count_top10)
+
+# 词云展示
+mask = np.array(Image.open('bg.jpeg'))
+wc = wordcloud.WordCloud(
+    # font_path = '/usr/share/fonts/truetype/truetype/unifont.ttf',
+    font_path = '/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc',
+    # font_path = 'C:/Windows/Fonts/simhei.ttf',
+    mask = mask,
+    max_words = 200,
+    max_font_size = 100
+)
+wc.generate_from_frequencies(word_count)
+image_color = wordcloud.ImageColorGenerator(mask)
+wc.recolor(color_func = image_color)
+plt.imshow(wc)
+plt.axis('off')
+plt.show()
+d = path.dirname(__file__)
+wc.to_file(path.join(d, "result.jpg"))
