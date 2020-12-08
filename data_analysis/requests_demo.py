@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 # 导入模块
 import requests
 
