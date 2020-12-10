@@ -7,6 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas
 
+
 headers = {'user-agent': 'my-app/0.0.1'}
 movie_links_by_names = {}
 all_info = []

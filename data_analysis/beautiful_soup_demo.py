@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
+
 # 定义url
 url_douban_movie = 'https://movie.douban.com/subject/1292064/'
 # 定义headers
