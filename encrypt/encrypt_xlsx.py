@@ -66,6 +66,6 @@ def encrypt_attach(file_name, ouput_path):
 if __name__ == '__main__':
     # 当前路径
     print(os.getcwd())
-    # 读xlsx文件
-    encrypt_attach(XLSX_PATH, OUTPUT_PATH)
 
+    # 读xlsx文件
+    # encrypt_attach(XLSX_PATH, OUTPUT_PATH)
