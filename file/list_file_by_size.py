@@ -25,10 +25,10 @@ def list_files_by_size(directory):
     # Sort the list of files and directories by size in descending order
     items_sorted_by_size = sorted(items_with_sizes, key=lambda x: x[1], reverse=True)
     
-    # Print the sorted list of files and directories
-    for item, size in items_sorted_by_size:
+    # Print the top 10 sorted list of files and directories
+    for item, size in items_sorted_by_size[:10]:  # Only iterate through the first 10 items
         print(f"{item}: {size / 1024 / 1024:.2f} MB")
 
 # Example usage
 # Replace '/path/to/directory' with the actual directory path
-list_files_by_size(r'C:\Users\pc\AppData\Local')
+list_files_by_size(r'C:\Users\pc\AppData\Local\Temp')
