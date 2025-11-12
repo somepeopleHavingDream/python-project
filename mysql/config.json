@@ -1,0 +1,40 @@
+{
+  "1111": {
+    "im_user": 10,
+    "im_user_token": 10,
+    "im_stat_connection": 1024,
+    "im_user_setting": 10,
+    "im_tag": 10,
+    "im_tag_conversation": 10,
+    "im_user_device": 20,
+    "im_sdk_log": 10,
+    "im_user_tag": 10,
+    "im_user_friend": 10,
+    "im_group": 10,
+    "im_ultra_group": 10,
+    "im_ultra_group_channel": 10,
+    "im_group_member": 20,
+    "im_ultra_group_member": 20,
+    "im_session": 20,
+    "im_user_conversation": 1024
+  },
+  "1112": {
+    "im_user": 10,
+    "im_user_token": 10,
+    "im_stat_connection": 1024,
+    "im_user_setting": 10,
+    "im_tag": 10,
+    "im_tag_conversation": 10,
+    "im_user_device": 20,
+    "im_sdk_log": 10,
+    "im_user_tag": 10,
+    "im_user_friend": 10,
+    "im_group": 10,
+    "im_ultra_group": 10,
+    "im_ultra_group_channel": 10,
+    "im_group_member": 20,
+    "im_ultra_group_member": 20,
+    "im_session": 20,
+    "im_user_conversation": 1024
+  }
+}
