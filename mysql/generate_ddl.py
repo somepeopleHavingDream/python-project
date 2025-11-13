@@ -61,7 +61,7 @@ def generate_for_config(cfg, templates, out_dir):
                 continue
             orig_table, stmt = templates[base]
             # produce tables from 0..count inclusive
-            for i in range(0, int(count) + 1):
+            for i in range(0, int(count)):
                 new_table = f'{base}_{tenant}_{i}'
                 # replace only the first occurrence of the original table name after CREATE TABLE
                 pattern = re.compile(r"(create\s+table\s+(?:if\s+not\s+exists\s+)?`?)" + re.escape(orig_table) + r"(`?)", flags=re.IGNORECASE)

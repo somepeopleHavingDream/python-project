@@ -51,6 +51,7 @@ create table im_group (
     group_id varchar(64) not null comment '群组 id',
     group_name varchar(128) not null comment '群组 ID 对应的名称',
     portrait_uri varchar(255) comment '头像 URI',
+    member_limit int unsigned comment '群成员上限',
     flag tinyint unsigned not null comment '标识：1-正常、2-已删除',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
