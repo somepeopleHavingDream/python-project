@@ -178,7 +178,8 @@ CREATE TABLE im_sdk_log (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
-    url varchar(255) comment '设备',
+    url text comment 'url',
     create_time bigint unsigned comment '创建时间',
-    update_time bigint unsigned comment ' 更新时间'
+    update_time bigint unsigned comment ' 更新时间',
+    index idx_app_key_user_id (app_key, user_id)
 ) ENGINE = InnoDB COMMENT = 'sdk 日志表';
