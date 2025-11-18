@@ -32,19 +32,6 @@ create table im_session (
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) comment '会话表';
-CREATE TABLE im_user_conversation (
-    id bigint unsigned not null comment '全局唯一会话 id' primary key,
-    app_key varchar(255) not null comment '标识唯一应用',
-    user_id varchar(255) not null comment 'user_id',
-    target_id varchar(255) not null comment 'target id',
-    bus_channel varchar(20) comment '频道 ID',
-    type tinyint unsigned null comment '会话类型',
-    new_message_num bigint unsigned default 0 comment '新消息数',
-    last_message text comment '最后一条消息',
-    create_time bigint unsigned comment '创建时间',
-    update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_target_id_bus_channel_type (app_key, user_id, target_id, type)
-) ENGINE = InnoDB COMMENT = '用户会话表';
 create table im_group (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
