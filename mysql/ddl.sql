@@ -141,14 +141,16 @@ CREATE TABLE im_user_friend (
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
 ) ENGINE = InnoDB COMMENT = '用户好友表';
 CREATE TABLE im_user_device (
+    id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    primary key (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE = InnoDB COMMENT = '用户设备表';
 CREATE TABLE im_user_tag (
