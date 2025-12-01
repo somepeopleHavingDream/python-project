@@ -10,7 +10,7 @@ create table im_user_1111_0 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique key (app_key, user_id)
-) comment 'im 用户表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
 create table im_user_1111_1 (
     id bigint unsigned primary key comment '全局唯一用户 id',
@@ -24,7 +24,7 @@ create table im_user_1111_1 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique key (app_key, user_id)
-) comment 'im 用户表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
 create table im_user_1111_2 (
     id bigint unsigned primary key comment '全局唯一用户 id',
@@ -38,7 +38,7 @@ create table im_user_1111_2 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique key (app_key, user_id)
-) comment 'im 用户表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
 create table im_user_1111_3 (
     id bigint unsigned primary key comment '全局唯一用户 id',
@@ -52,7 +52,7 @@ create table im_user_1111_3 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique key (app_key, user_id)
-) comment 'im 用户表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
 create table im_user_1111_4 (
     id bigint unsigned primary key comment '全局唯一用户 id',
@@ -66,7 +66,7 @@ create table im_user_1111_4 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique key (app_key, user_id)
-) comment 'im 用户表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
 create table im_user_1111_5 (
     id bigint unsigned primary key comment '全局唯一用户 id',
@@ -80,7 +80,7 @@ create table im_user_1111_5 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique key (app_key, user_id)
-) comment 'im 用户表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
 create table im_user_1111_6 (
     id bigint unsigned primary key comment '全局唯一用户 id',
@@ -94,7 +94,7 @@ create table im_user_1111_6 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique key (app_key, user_id)
-) comment 'im 用户表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
 create table im_user_1111_7 (
     id bigint unsigned primary key comment '全局唯一用户 id',
@@ -108,7 +108,7 @@ create table im_user_1111_7 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique key (app_key, user_id)
-) comment 'im 用户表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
 create table im_user_1111_8 (
     id bigint unsigned primary key comment '全局唯一用户 id',
@@ -122,7 +122,7 @@ create table im_user_1111_8 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique key (app_key, user_id)
-) comment 'im 用户表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
 create table im_user_1111_9 (
     id bigint unsigned primary key comment '全局唯一用户 id',
@@ -136,7 +136,7 @@ create table im_user_1111_9 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique key (app_key, user_id)
-) comment 'im 用户表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
 create table im_user_token_1111_0 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -146,7 +146,7 @@ create table im_user_token_1111_0 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id)
-) comment 'im 用户 token';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
 create table im_user_token_1111_1 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -156,7 +156,7 @@ create table im_user_token_1111_1 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id)
-) comment 'im 用户 token';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
 create table im_user_token_1111_2 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -166,7 +166,7 @@ create table im_user_token_1111_2 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id)
-) comment 'im 用户 token';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
 create table im_user_token_1111_3 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -176,7 +176,7 @@ create table im_user_token_1111_3 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id)
-) comment 'im 用户 token';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
 create table im_user_token_1111_4 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -186,7 +186,7 @@ create table im_user_token_1111_4 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id)
-) comment 'im 用户 token';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
 create table im_user_token_1111_5 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -196,7 +196,7 @@ create table im_user_token_1111_5 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id)
-) comment 'im 用户 token';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
 create table im_user_token_1111_6 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -206,7 +206,7 @@ create table im_user_token_1111_6 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id)
-) comment 'im 用户 token';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
 create table im_user_token_1111_7 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -216,7 +216,7 @@ create table im_user_token_1111_7 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id)
-) comment 'im 用户 token';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
 create table im_user_token_1111_8 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -226,7 +226,7 @@ create table im_user_token_1111_8 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id)
-) comment 'im 用户 token';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
 create table im_user_token_1111_9 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -236,7 +236,7 @@ create table im_user_token_1111_9 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id)
-) comment 'im 用户 token';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
 create table im_stat_connection_1111_0 (
     id bigint unsigned primary key comment '主键',
@@ -250,7 +250,7 @@ create table im_stat_connection_1111_0 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1 (
     id bigint unsigned primary key comment '主键',
@@ -264,7 +264,7 @@ create table im_stat_connection_1111_1 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_2 (
     id bigint unsigned primary key comment '主键',
@@ -278,7 +278,7 @@ create table im_stat_connection_1111_2 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_3 (
     id bigint unsigned primary key comment '主键',
@@ -292,7 +292,7 @@ create table im_stat_connection_1111_3 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_4 (
     id bigint unsigned primary key comment '主键',
@@ -306,7 +306,7 @@ create table im_stat_connection_1111_4 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_5 (
     id bigint unsigned primary key comment '主键',
@@ -320,7 +320,7 @@ create table im_stat_connection_1111_5 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_6 (
     id bigint unsigned primary key comment '主键',
@@ -334,7 +334,7 @@ create table im_stat_connection_1111_6 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_7 (
     id bigint unsigned primary key comment '主键',
@@ -348,7 +348,7 @@ create table im_stat_connection_1111_7 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_8 (
     id bigint unsigned primary key comment '主键',
@@ -362,7 +362,7 @@ create table im_stat_connection_1111_8 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_9 (
     id bigint unsigned primary key comment '主键',
@@ -376,7 +376,7 @@ create table im_stat_connection_1111_9 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_10 (
     id bigint unsigned primary key comment '主键',
@@ -390,7 +390,7 @@ create table im_stat_connection_1111_10 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_11 (
     id bigint unsigned primary key comment '主键',
@@ -404,7 +404,7 @@ create table im_stat_connection_1111_11 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_12 (
     id bigint unsigned primary key comment '主键',
@@ -418,7 +418,7 @@ create table im_stat_connection_1111_12 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_13 (
     id bigint unsigned primary key comment '主键',
@@ -432,7 +432,7 @@ create table im_stat_connection_1111_13 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_14 (
     id bigint unsigned primary key comment '主键',
@@ -446,7 +446,7 @@ create table im_stat_connection_1111_14 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_15 (
     id bigint unsigned primary key comment '主键',
@@ -460,7 +460,7 @@ create table im_stat_connection_1111_15 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_16 (
     id bigint unsigned primary key comment '主键',
@@ -474,7 +474,7 @@ create table im_stat_connection_1111_16 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_17 (
     id bigint unsigned primary key comment '主键',
@@ -488,7 +488,7 @@ create table im_stat_connection_1111_17 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_18 (
     id bigint unsigned primary key comment '主键',
@@ -502,7 +502,7 @@ create table im_stat_connection_1111_18 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_19 (
     id bigint unsigned primary key comment '主键',
@@ -516,7 +516,7 @@ create table im_stat_connection_1111_19 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_20 (
     id bigint unsigned primary key comment '主键',
@@ -530,7 +530,7 @@ create table im_stat_connection_1111_20 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_21 (
     id bigint unsigned primary key comment '主键',
@@ -544,7 +544,7 @@ create table im_stat_connection_1111_21 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_22 (
     id bigint unsigned primary key comment '主键',
@@ -558,7 +558,7 @@ create table im_stat_connection_1111_22 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_23 (
     id bigint unsigned primary key comment '主键',
@@ -572,7 +572,7 @@ create table im_stat_connection_1111_23 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_24 (
     id bigint unsigned primary key comment '主键',
@@ -586,7 +586,7 @@ create table im_stat_connection_1111_24 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_25 (
     id bigint unsigned primary key comment '主键',
@@ -600,7 +600,7 @@ create table im_stat_connection_1111_25 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_26 (
     id bigint unsigned primary key comment '主键',
@@ -614,7 +614,7 @@ create table im_stat_connection_1111_26 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_27 (
     id bigint unsigned primary key comment '主键',
@@ -628,7 +628,7 @@ create table im_stat_connection_1111_27 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_28 (
     id bigint unsigned primary key comment '主键',
@@ -642,7 +642,7 @@ create table im_stat_connection_1111_28 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_29 (
     id bigint unsigned primary key comment '主键',
@@ -656,7 +656,7 @@ create table im_stat_connection_1111_29 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_30 (
     id bigint unsigned primary key comment '主键',
@@ -670,7 +670,7 @@ create table im_stat_connection_1111_30 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_31 (
     id bigint unsigned primary key comment '主键',
@@ -684,7 +684,7 @@ create table im_stat_connection_1111_31 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_32 (
     id bigint unsigned primary key comment '主键',
@@ -698,7 +698,7 @@ create table im_stat_connection_1111_32 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_33 (
     id bigint unsigned primary key comment '主键',
@@ -712,7 +712,7 @@ create table im_stat_connection_1111_33 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_34 (
     id bigint unsigned primary key comment '主键',
@@ -726,7 +726,7 @@ create table im_stat_connection_1111_34 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_35 (
     id bigint unsigned primary key comment '主键',
@@ -740,7 +740,7 @@ create table im_stat_connection_1111_35 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_36 (
     id bigint unsigned primary key comment '主键',
@@ -754,7 +754,7 @@ create table im_stat_connection_1111_36 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_37 (
     id bigint unsigned primary key comment '主键',
@@ -768,7 +768,7 @@ create table im_stat_connection_1111_37 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_38 (
     id bigint unsigned primary key comment '主键',
@@ -782,7 +782,7 @@ create table im_stat_connection_1111_38 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_39 (
     id bigint unsigned primary key comment '主键',
@@ -796,7 +796,7 @@ create table im_stat_connection_1111_39 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_40 (
     id bigint unsigned primary key comment '主键',
@@ -810,7 +810,7 @@ create table im_stat_connection_1111_40 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_41 (
     id bigint unsigned primary key comment '主键',
@@ -824,7 +824,7 @@ create table im_stat_connection_1111_41 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_42 (
     id bigint unsigned primary key comment '主键',
@@ -838,7 +838,7 @@ create table im_stat_connection_1111_42 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_43 (
     id bigint unsigned primary key comment '主键',
@@ -852,7 +852,7 @@ create table im_stat_connection_1111_43 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_44 (
     id bigint unsigned primary key comment '主键',
@@ -866,7 +866,7 @@ create table im_stat_connection_1111_44 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_45 (
     id bigint unsigned primary key comment '主键',
@@ -880,7 +880,7 @@ create table im_stat_connection_1111_45 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_46 (
     id bigint unsigned primary key comment '主键',
@@ -894,7 +894,7 @@ create table im_stat_connection_1111_46 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_47 (
     id bigint unsigned primary key comment '主键',
@@ -908,7 +908,7 @@ create table im_stat_connection_1111_47 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_48 (
     id bigint unsigned primary key comment '主键',
@@ -922,7 +922,7 @@ create table im_stat_connection_1111_48 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_49 (
     id bigint unsigned primary key comment '主键',
@@ -936,7 +936,7 @@ create table im_stat_connection_1111_49 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_50 (
     id bigint unsigned primary key comment '主键',
@@ -950,7 +950,7 @@ create table im_stat_connection_1111_50 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_51 (
     id bigint unsigned primary key comment '主键',
@@ -964,7 +964,7 @@ create table im_stat_connection_1111_51 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_52 (
     id bigint unsigned primary key comment '主键',
@@ -978,7 +978,7 @@ create table im_stat_connection_1111_52 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_53 (
     id bigint unsigned primary key comment '主键',
@@ -992,7 +992,7 @@ create table im_stat_connection_1111_53 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_54 (
     id bigint unsigned primary key comment '主键',
@@ -1006,7 +1006,7 @@ create table im_stat_connection_1111_54 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_55 (
     id bigint unsigned primary key comment '主键',
@@ -1020,7 +1020,7 @@ create table im_stat_connection_1111_55 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_56 (
     id bigint unsigned primary key comment '主键',
@@ -1034,7 +1034,7 @@ create table im_stat_connection_1111_56 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_57 (
     id bigint unsigned primary key comment '主键',
@@ -1048,7 +1048,7 @@ create table im_stat_connection_1111_57 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_58 (
     id bigint unsigned primary key comment '主键',
@@ -1062,7 +1062,7 @@ create table im_stat_connection_1111_58 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_59 (
     id bigint unsigned primary key comment '主键',
@@ -1076,7 +1076,7 @@ create table im_stat_connection_1111_59 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_60 (
     id bigint unsigned primary key comment '主键',
@@ -1090,7 +1090,7 @@ create table im_stat_connection_1111_60 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_61 (
     id bigint unsigned primary key comment '主键',
@@ -1104,7 +1104,7 @@ create table im_stat_connection_1111_61 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_62 (
     id bigint unsigned primary key comment '主键',
@@ -1118,7 +1118,7 @@ create table im_stat_connection_1111_62 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_63 (
     id bigint unsigned primary key comment '主键',
@@ -1132,7 +1132,7 @@ create table im_stat_connection_1111_63 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_64 (
     id bigint unsigned primary key comment '主键',
@@ -1146,7 +1146,7 @@ create table im_stat_connection_1111_64 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_65 (
     id bigint unsigned primary key comment '主键',
@@ -1160,7 +1160,7 @@ create table im_stat_connection_1111_65 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_66 (
     id bigint unsigned primary key comment '主键',
@@ -1174,7 +1174,7 @@ create table im_stat_connection_1111_66 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_67 (
     id bigint unsigned primary key comment '主键',
@@ -1188,7 +1188,7 @@ create table im_stat_connection_1111_67 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_68 (
     id bigint unsigned primary key comment '主键',
@@ -1202,7 +1202,7 @@ create table im_stat_connection_1111_68 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_69 (
     id bigint unsigned primary key comment '主键',
@@ -1216,7 +1216,7 @@ create table im_stat_connection_1111_69 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_70 (
     id bigint unsigned primary key comment '主键',
@@ -1230,7 +1230,7 @@ create table im_stat_connection_1111_70 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_71 (
     id bigint unsigned primary key comment '主键',
@@ -1244,7 +1244,7 @@ create table im_stat_connection_1111_71 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_72 (
     id bigint unsigned primary key comment '主键',
@@ -1258,7 +1258,7 @@ create table im_stat_connection_1111_72 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_73 (
     id bigint unsigned primary key comment '主键',
@@ -1272,7 +1272,7 @@ create table im_stat_connection_1111_73 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_74 (
     id bigint unsigned primary key comment '主键',
@@ -1286,7 +1286,7 @@ create table im_stat_connection_1111_74 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_75 (
     id bigint unsigned primary key comment '主键',
@@ -1300,7 +1300,7 @@ create table im_stat_connection_1111_75 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_76 (
     id bigint unsigned primary key comment '主键',
@@ -1314,7 +1314,7 @@ create table im_stat_connection_1111_76 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_77 (
     id bigint unsigned primary key comment '主键',
@@ -1328,7 +1328,7 @@ create table im_stat_connection_1111_77 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_78 (
     id bigint unsigned primary key comment '主键',
@@ -1342,7 +1342,7 @@ create table im_stat_connection_1111_78 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_79 (
     id bigint unsigned primary key comment '主键',
@@ -1356,7 +1356,7 @@ create table im_stat_connection_1111_79 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_80 (
     id bigint unsigned primary key comment '主键',
@@ -1370,7 +1370,7 @@ create table im_stat_connection_1111_80 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_81 (
     id bigint unsigned primary key comment '主键',
@@ -1384,7 +1384,7 @@ create table im_stat_connection_1111_81 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_82 (
     id bigint unsigned primary key comment '主键',
@@ -1398,7 +1398,7 @@ create table im_stat_connection_1111_82 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_83 (
     id bigint unsigned primary key comment '主键',
@@ -1412,7 +1412,7 @@ create table im_stat_connection_1111_83 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_84 (
     id bigint unsigned primary key comment '主键',
@@ -1426,7 +1426,7 @@ create table im_stat_connection_1111_84 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_85 (
     id bigint unsigned primary key comment '主键',
@@ -1440,7 +1440,7 @@ create table im_stat_connection_1111_85 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_86 (
     id bigint unsigned primary key comment '主键',
@@ -1454,7 +1454,7 @@ create table im_stat_connection_1111_86 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_87 (
     id bigint unsigned primary key comment '主键',
@@ -1468,7 +1468,7 @@ create table im_stat_connection_1111_87 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_88 (
     id bigint unsigned primary key comment '主键',
@@ -1482,7 +1482,7 @@ create table im_stat_connection_1111_88 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_89 (
     id bigint unsigned primary key comment '主键',
@@ -1496,7 +1496,7 @@ create table im_stat_connection_1111_89 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_90 (
     id bigint unsigned primary key comment '主键',
@@ -1510,7 +1510,7 @@ create table im_stat_connection_1111_90 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_91 (
     id bigint unsigned primary key comment '主键',
@@ -1524,7 +1524,7 @@ create table im_stat_connection_1111_91 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_92 (
     id bigint unsigned primary key comment '主键',
@@ -1538,7 +1538,7 @@ create table im_stat_connection_1111_92 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_93 (
     id bigint unsigned primary key comment '主键',
@@ -1552,7 +1552,7 @@ create table im_stat_connection_1111_93 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_94 (
     id bigint unsigned primary key comment '主键',
@@ -1566,7 +1566,7 @@ create table im_stat_connection_1111_94 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_95 (
     id bigint unsigned primary key comment '主键',
@@ -1580,7 +1580,7 @@ create table im_stat_connection_1111_95 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_96 (
     id bigint unsigned primary key comment '主键',
@@ -1594,7 +1594,7 @@ create table im_stat_connection_1111_96 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_97 (
     id bigint unsigned primary key comment '主键',
@@ -1608,7 +1608,7 @@ create table im_stat_connection_1111_97 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_98 (
     id bigint unsigned primary key comment '主键',
@@ -1622,7 +1622,7 @@ create table im_stat_connection_1111_98 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_99 (
     id bigint unsigned primary key comment '主键',
@@ -1636,7 +1636,7 @@ create table im_stat_connection_1111_99 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_100 (
     id bigint unsigned primary key comment '主键',
@@ -1650,7 +1650,7 @@ create table im_stat_connection_1111_100 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_101 (
     id bigint unsigned primary key comment '主键',
@@ -1664,7 +1664,7 @@ create table im_stat_connection_1111_101 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_102 (
     id bigint unsigned primary key comment '主键',
@@ -1678,7 +1678,7 @@ create table im_stat_connection_1111_102 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_103 (
     id bigint unsigned primary key comment '主键',
@@ -1692,7 +1692,7 @@ create table im_stat_connection_1111_103 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_104 (
     id bigint unsigned primary key comment '主键',
@@ -1706,7 +1706,7 @@ create table im_stat_connection_1111_104 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_105 (
     id bigint unsigned primary key comment '主键',
@@ -1720,7 +1720,7 @@ create table im_stat_connection_1111_105 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_106 (
     id bigint unsigned primary key comment '主键',
@@ -1734,7 +1734,7 @@ create table im_stat_connection_1111_106 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_107 (
     id bigint unsigned primary key comment '主键',
@@ -1748,7 +1748,7 @@ create table im_stat_connection_1111_107 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_108 (
     id bigint unsigned primary key comment '主键',
@@ -1762,7 +1762,7 @@ create table im_stat_connection_1111_108 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_109 (
     id bigint unsigned primary key comment '主键',
@@ -1776,7 +1776,7 @@ create table im_stat_connection_1111_109 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_110 (
     id bigint unsigned primary key comment '主键',
@@ -1790,7 +1790,7 @@ create table im_stat_connection_1111_110 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_111 (
     id bigint unsigned primary key comment '主键',
@@ -1804,7 +1804,7 @@ create table im_stat_connection_1111_111 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_112 (
     id bigint unsigned primary key comment '主键',
@@ -1818,7 +1818,7 @@ create table im_stat_connection_1111_112 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_113 (
     id bigint unsigned primary key comment '主键',
@@ -1832,7 +1832,7 @@ create table im_stat_connection_1111_113 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_114 (
     id bigint unsigned primary key comment '主键',
@@ -1846,7 +1846,7 @@ create table im_stat_connection_1111_114 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_115 (
     id bigint unsigned primary key comment '主键',
@@ -1860,7 +1860,7 @@ create table im_stat_connection_1111_115 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_116 (
     id bigint unsigned primary key comment '主键',
@@ -1874,7 +1874,7 @@ create table im_stat_connection_1111_116 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_117 (
     id bigint unsigned primary key comment '主键',
@@ -1888,7 +1888,7 @@ create table im_stat_connection_1111_117 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_118 (
     id bigint unsigned primary key comment '主键',
@@ -1902,7 +1902,7 @@ create table im_stat_connection_1111_118 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_119 (
     id bigint unsigned primary key comment '主键',
@@ -1916,7 +1916,7 @@ create table im_stat_connection_1111_119 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_120 (
     id bigint unsigned primary key comment '主键',
@@ -1930,7 +1930,7 @@ create table im_stat_connection_1111_120 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_121 (
     id bigint unsigned primary key comment '主键',
@@ -1944,7 +1944,7 @@ create table im_stat_connection_1111_121 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_122 (
     id bigint unsigned primary key comment '主键',
@@ -1958,7 +1958,7 @@ create table im_stat_connection_1111_122 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_123 (
     id bigint unsigned primary key comment '主键',
@@ -1972,7 +1972,7 @@ create table im_stat_connection_1111_123 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_124 (
     id bigint unsigned primary key comment '主键',
@@ -1986,7 +1986,7 @@ create table im_stat_connection_1111_124 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_125 (
     id bigint unsigned primary key comment '主键',
@@ -2000,7 +2000,7 @@ create table im_stat_connection_1111_125 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_126 (
     id bigint unsigned primary key comment '主键',
@@ -2014,7 +2014,7 @@ create table im_stat_connection_1111_126 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_127 (
     id bigint unsigned primary key comment '主键',
@@ -2028,7 +2028,7 @@ create table im_stat_connection_1111_127 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_128 (
     id bigint unsigned primary key comment '主键',
@@ -2042,7 +2042,7 @@ create table im_stat_connection_1111_128 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_129 (
     id bigint unsigned primary key comment '主键',
@@ -2056,7 +2056,7 @@ create table im_stat_connection_1111_129 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_130 (
     id bigint unsigned primary key comment '主键',
@@ -2070,7 +2070,7 @@ create table im_stat_connection_1111_130 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_131 (
     id bigint unsigned primary key comment '主键',
@@ -2084,7 +2084,7 @@ create table im_stat_connection_1111_131 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_132 (
     id bigint unsigned primary key comment '主键',
@@ -2098,7 +2098,7 @@ create table im_stat_connection_1111_132 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_133 (
     id bigint unsigned primary key comment '主键',
@@ -2112,7 +2112,7 @@ create table im_stat_connection_1111_133 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_134 (
     id bigint unsigned primary key comment '主键',
@@ -2126,7 +2126,7 @@ create table im_stat_connection_1111_134 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_135 (
     id bigint unsigned primary key comment '主键',
@@ -2140,7 +2140,7 @@ create table im_stat_connection_1111_135 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_136 (
     id bigint unsigned primary key comment '主键',
@@ -2154,7 +2154,7 @@ create table im_stat_connection_1111_136 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_137 (
     id bigint unsigned primary key comment '主键',
@@ -2168,7 +2168,7 @@ create table im_stat_connection_1111_137 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_138 (
     id bigint unsigned primary key comment '主键',
@@ -2182,7 +2182,7 @@ create table im_stat_connection_1111_138 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_139 (
     id bigint unsigned primary key comment '主键',
@@ -2196,7 +2196,7 @@ create table im_stat_connection_1111_139 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_140 (
     id bigint unsigned primary key comment '主键',
@@ -2210,7 +2210,7 @@ create table im_stat_connection_1111_140 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_141 (
     id bigint unsigned primary key comment '主键',
@@ -2224,7 +2224,7 @@ create table im_stat_connection_1111_141 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_142 (
     id bigint unsigned primary key comment '主键',
@@ -2238,7 +2238,7 @@ create table im_stat_connection_1111_142 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_143 (
     id bigint unsigned primary key comment '主键',
@@ -2252,7 +2252,7 @@ create table im_stat_connection_1111_143 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_144 (
     id bigint unsigned primary key comment '主键',
@@ -2266,7 +2266,7 @@ create table im_stat_connection_1111_144 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_145 (
     id bigint unsigned primary key comment '主键',
@@ -2280,7 +2280,7 @@ create table im_stat_connection_1111_145 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_146 (
     id bigint unsigned primary key comment '主键',
@@ -2294,7 +2294,7 @@ create table im_stat_connection_1111_146 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_147 (
     id bigint unsigned primary key comment '主键',
@@ -2308,7 +2308,7 @@ create table im_stat_connection_1111_147 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_148 (
     id bigint unsigned primary key comment '主键',
@@ -2322,7 +2322,7 @@ create table im_stat_connection_1111_148 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_149 (
     id bigint unsigned primary key comment '主键',
@@ -2336,7 +2336,7 @@ create table im_stat_connection_1111_149 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_150 (
     id bigint unsigned primary key comment '主键',
@@ -2350,7 +2350,7 @@ create table im_stat_connection_1111_150 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_151 (
     id bigint unsigned primary key comment '主键',
@@ -2364,7 +2364,7 @@ create table im_stat_connection_1111_151 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_152 (
     id bigint unsigned primary key comment '主键',
@@ -2378,7 +2378,7 @@ create table im_stat_connection_1111_152 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_153 (
     id bigint unsigned primary key comment '主键',
@@ -2392,7 +2392,7 @@ create table im_stat_connection_1111_153 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_154 (
     id bigint unsigned primary key comment '主键',
@@ -2406,7 +2406,7 @@ create table im_stat_connection_1111_154 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_155 (
     id bigint unsigned primary key comment '主键',
@@ -2420,7 +2420,7 @@ create table im_stat_connection_1111_155 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_156 (
     id bigint unsigned primary key comment '主键',
@@ -2434,7 +2434,7 @@ create table im_stat_connection_1111_156 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_157 (
     id bigint unsigned primary key comment '主键',
@@ -2448,7 +2448,7 @@ create table im_stat_connection_1111_157 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_158 (
     id bigint unsigned primary key comment '主键',
@@ -2462,7 +2462,7 @@ create table im_stat_connection_1111_158 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_159 (
     id bigint unsigned primary key comment '主键',
@@ -2476,7 +2476,7 @@ create table im_stat_connection_1111_159 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_160 (
     id bigint unsigned primary key comment '主键',
@@ -2490,7 +2490,7 @@ create table im_stat_connection_1111_160 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_161 (
     id bigint unsigned primary key comment '主键',
@@ -2504,7 +2504,7 @@ create table im_stat_connection_1111_161 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_162 (
     id bigint unsigned primary key comment '主键',
@@ -2518,7 +2518,7 @@ create table im_stat_connection_1111_162 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_163 (
     id bigint unsigned primary key comment '主键',
@@ -2532,7 +2532,7 @@ create table im_stat_connection_1111_163 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_164 (
     id bigint unsigned primary key comment '主键',
@@ -2546,7 +2546,7 @@ create table im_stat_connection_1111_164 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_165 (
     id bigint unsigned primary key comment '主键',
@@ -2560,7 +2560,7 @@ create table im_stat_connection_1111_165 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_166 (
     id bigint unsigned primary key comment '主键',
@@ -2574,7 +2574,7 @@ create table im_stat_connection_1111_166 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_167 (
     id bigint unsigned primary key comment '主键',
@@ -2588,7 +2588,7 @@ create table im_stat_connection_1111_167 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_168 (
     id bigint unsigned primary key comment '主键',
@@ -2602,7 +2602,7 @@ create table im_stat_connection_1111_168 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_169 (
     id bigint unsigned primary key comment '主键',
@@ -2616,7 +2616,7 @@ create table im_stat_connection_1111_169 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_170 (
     id bigint unsigned primary key comment '主键',
@@ -2630,7 +2630,7 @@ create table im_stat_connection_1111_170 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_171 (
     id bigint unsigned primary key comment '主键',
@@ -2644,7 +2644,7 @@ create table im_stat_connection_1111_171 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_172 (
     id bigint unsigned primary key comment '主键',
@@ -2658,7 +2658,7 @@ create table im_stat_connection_1111_172 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_173 (
     id bigint unsigned primary key comment '主键',
@@ -2672,7 +2672,7 @@ create table im_stat_connection_1111_173 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_174 (
     id bigint unsigned primary key comment '主键',
@@ -2686,7 +2686,7 @@ create table im_stat_connection_1111_174 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_175 (
     id bigint unsigned primary key comment '主键',
@@ -2700,7 +2700,7 @@ create table im_stat_connection_1111_175 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_176 (
     id bigint unsigned primary key comment '主键',
@@ -2714,7 +2714,7 @@ create table im_stat_connection_1111_176 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_177 (
     id bigint unsigned primary key comment '主键',
@@ -2728,7 +2728,7 @@ create table im_stat_connection_1111_177 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_178 (
     id bigint unsigned primary key comment '主键',
@@ -2742,7 +2742,7 @@ create table im_stat_connection_1111_178 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_179 (
     id bigint unsigned primary key comment '主键',
@@ -2756,7 +2756,7 @@ create table im_stat_connection_1111_179 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_180 (
     id bigint unsigned primary key comment '主键',
@@ -2770,7 +2770,7 @@ create table im_stat_connection_1111_180 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_181 (
     id bigint unsigned primary key comment '主键',
@@ -2784,7 +2784,7 @@ create table im_stat_connection_1111_181 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_182 (
     id bigint unsigned primary key comment '主键',
@@ -2798,7 +2798,7 @@ create table im_stat_connection_1111_182 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_183 (
     id bigint unsigned primary key comment '主键',
@@ -2812,7 +2812,7 @@ create table im_stat_connection_1111_183 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_184 (
     id bigint unsigned primary key comment '主键',
@@ -2826,7 +2826,7 @@ create table im_stat_connection_1111_184 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_185 (
     id bigint unsigned primary key comment '主键',
@@ -2840,7 +2840,7 @@ create table im_stat_connection_1111_185 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_186 (
     id bigint unsigned primary key comment '主键',
@@ -2854,7 +2854,7 @@ create table im_stat_connection_1111_186 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_187 (
     id bigint unsigned primary key comment '主键',
@@ -2868,7 +2868,7 @@ create table im_stat_connection_1111_187 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_188 (
     id bigint unsigned primary key comment '主键',
@@ -2882,7 +2882,7 @@ create table im_stat_connection_1111_188 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_189 (
     id bigint unsigned primary key comment '主键',
@@ -2896,7 +2896,7 @@ create table im_stat_connection_1111_189 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_190 (
     id bigint unsigned primary key comment '主键',
@@ -2910,7 +2910,7 @@ create table im_stat_connection_1111_190 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_191 (
     id bigint unsigned primary key comment '主键',
@@ -2924,7 +2924,7 @@ create table im_stat_connection_1111_191 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_192 (
     id bigint unsigned primary key comment '主键',
@@ -2938,7 +2938,7 @@ create table im_stat_connection_1111_192 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_193 (
     id bigint unsigned primary key comment '主键',
@@ -2952,7 +2952,7 @@ create table im_stat_connection_1111_193 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_194 (
     id bigint unsigned primary key comment '主键',
@@ -2966,7 +2966,7 @@ create table im_stat_connection_1111_194 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_195 (
     id bigint unsigned primary key comment '主键',
@@ -2980,7 +2980,7 @@ create table im_stat_connection_1111_195 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_196 (
     id bigint unsigned primary key comment '主键',
@@ -2994,7 +2994,7 @@ create table im_stat_connection_1111_196 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_197 (
     id bigint unsigned primary key comment '主键',
@@ -3008,7 +3008,7 @@ create table im_stat_connection_1111_197 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_198 (
     id bigint unsigned primary key comment '主键',
@@ -3022,7 +3022,7 @@ create table im_stat_connection_1111_198 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_199 (
     id bigint unsigned primary key comment '主键',
@@ -3036,7 +3036,7 @@ create table im_stat_connection_1111_199 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_200 (
     id bigint unsigned primary key comment '主键',
@@ -3050,7 +3050,7 @@ create table im_stat_connection_1111_200 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_201 (
     id bigint unsigned primary key comment '主键',
@@ -3064,7 +3064,7 @@ create table im_stat_connection_1111_201 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_202 (
     id bigint unsigned primary key comment '主键',
@@ -3078,7 +3078,7 @@ create table im_stat_connection_1111_202 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_203 (
     id bigint unsigned primary key comment '主键',
@@ -3092,7 +3092,7 @@ create table im_stat_connection_1111_203 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_204 (
     id bigint unsigned primary key comment '主键',
@@ -3106,7 +3106,7 @@ create table im_stat_connection_1111_204 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_205 (
     id bigint unsigned primary key comment '主键',
@@ -3120,7 +3120,7 @@ create table im_stat_connection_1111_205 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_206 (
     id bigint unsigned primary key comment '主键',
@@ -3134,7 +3134,7 @@ create table im_stat_connection_1111_206 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_207 (
     id bigint unsigned primary key comment '主键',
@@ -3148,7 +3148,7 @@ create table im_stat_connection_1111_207 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_208 (
     id bigint unsigned primary key comment '主键',
@@ -3162,7 +3162,7 @@ create table im_stat_connection_1111_208 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_209 (
     id bigint unsigned primary key comment '主键',
@@ -3176,7 +3176,7 @@ create table im_stat_connection_1111_209 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_210 (
     id bigint unsigned primary key comment '主键',
@@ -3190,7 +3190,7 @@ create table im_stat_connection_1111_210 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_211 (
     id bigint unsigned primary key comment '主键',
@@ -3204,7 +3204,7 @@ create table im_stat_connection_1111_211 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_212 (
     id bigint unsigned primary key comment '主键',
@@ -3218,7 +3218,7 @@ create table im_stat_connection_1111_212 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_213 (
     id bigint unsigned primary key comment '主键',
@@ -3232,7 +3232,7 @@ create table im_stat_connection_1111_213 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_214 (
     id bigint unsigned primary key comment '主键',
@@ -3246,7 +3246,7 @@ create table im_stat_connection_1111_214 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_215 (
     id bigint unsigned primary key comment '主键',
@@ -3260,7 +3260,7 @@ create table im_stat_connection_1111_215 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_216 (
     id bigint unsigned primary key comment '主键',
@@ -3274,7 +3274,7 @@ create table im_stat_connection_1111_216 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_217 (
     id bigint unsigned primary key comment '主键',
@@ -3288,7 +3288,7 @@ create table im_stat_connection_1111_217 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_218 (
     id bigint unsigned primary key comment '主键',
@@ -3302,7 +3302,7 @@ create table im_stat_connection_1111_218 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_219 (
     id bigint unsigned primary key comment '主键',
@@ -3316,7 +3316,7 @@ create table im_stat_connection_1111_219 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_220 (
     id bigint unsigned primary key comment '主键',
@@ -3330,7 +3330,7 @@ create table im_stat_connection_1111_220 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_221 (
     id bigint unsigned primary key comment '主键',
@@ -3344,7 +3344,7 @@ create table im_stat_connection_1111_221 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_222 (
     id bigint unsigned primary key comment '主键',
@@ -3358,7 +3358,7 @@ create table im_stat_connection_1111_222 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_223 (
     id bigint unsigned primary key comment '主键',
@@ -3372,7 +3372,7 @@ create table im_stat_connection_1111_223 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_224 (
     id bigint unsigned primary key comment '主键',
@@ -3386,7 +3386,7 @@ create table im_stat_connection_1111_224 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_225 (
     id bigint unsigned primary key comment '主键',
@@ -3400,7 +3400,7 @@ create table im_stat_connection_1111_225 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_226 (
     id bigint unsigned primary key comment '主键',
@@ -3414,7 +3414,7 @@ create table im_stat_connection_1111_226 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_227 (
     id bigint unsigned primary key comment '主键',
@@ -3428,7 +3428,7 @@ create table im_stat_connection_1111_227 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_228 (
     id bigint unsigned primary key comment '主键',
@@ -3442,7 +3442,7 @@ create table im_stat_connection_1111_228 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_229 (
     id bigint unsigned primary key comment '主键',
@@ -3456,7 +3456,7 @@ create table im_stat_connection_1111_229 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_230 (
     id bigint unsigned primary key comment '主键',
@@ -3470,7 +3470,7 @@ create table im_stat_connection_1111_230 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_231 (
     id bigint unsigned primary key comment '主键',
@@ -3484,7 +3484,7 @@ create table im_stat_connection_1111_231 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_232 (
     id bigint unsigned primary key comment '主键',
@@ -3498,7 +3498,7 @@ create table im_stat_connection_1111_232 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_233 (
     id bigint unsigned primary key comment '主键',
@@ -3512,7 +3512,7 @@ create table im_stat_connection_1111_233 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_234 (
     id bigint unsigned primary key comment '主键',
@@ -3526,7 +3526,7 @@ create table im_stat_connection_1111_234 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_235 (
     id bigint unsigned primary key comment '主键',
@@ -3540,7 +3540,7 @@ create table im_stat_connection_1111_235 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_236 (
     id bigint unsigned primary key comment '主键',
@@ -3554,7 +3554,7 @@ create table im_stat_connection_1111_236 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_237 (
     id bigint unsigned primary key comment '主键',
@@ -3568,7 +3568,7 @@ create table im_stat_connection_1111_237 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_238 (
     id bigint unsigned primary key comment '主键',
@@ -3582,7 +3582,7 @@ create table im_stat_connection_1111_238 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_239 (
     id bigint unsigned primary key comment '主键',
@@ -3596,7 +3596,7 @@ create table im_stat_connection_1111_239 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_240 (
     id bigint unsigned primary key comment '主键',
@@ -3610,7 +3610,7 @@ create table im_stat_connection_1111_240 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_241 (
     id bigint unsigned primary key comment '主键',
@@ -3624,7 +3624,7 @@ create table im_stat_connection_1111_241 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_242 (
     id bigint unsigned primary key comment '主键',
@@ -3638,7 +3638,7 @@ create table im_stat_connection_1111_242 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_243 (
     id bigint unsigned primary key comment '主键',
@@ -3652,7 +3652,7 @@ create table im_stat_connection_1111_243 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_244 (
     id bigint unsigned primary key comment '主键',
@@ -3666,7 +3666,7 @@ create table im_stat_connection_1111_244 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_245 (
     id bigint unsigned primary key comment '主键',
@@ -3680,7 +3680,7 @@ create table im_stat_connection_1111_245 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_246 (
     id bigint unsigned primary key comment '主键',
@@ -3694,7 +3694,7 @@ create table im_stat_connection_1111_246 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_247 (
     id bigint unsigned primary key comment '主键',
@@ -3708,7 +3708,7 @@ create table im_stat_connection_1111_247 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_248 (
     id bigint unsigned primary key comment '主键',
@@ -3722,7 +3722,7 @@ create table im_stat_connection_1111_248 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_249 (
     id bigint unsigned primary key comment '主键',
@@ -3736,7 +3736,7 @@ create table im_stat_connection_1111_249 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_250 (
     id bigint unsigned primary key comment '主键',
@@ -3750,7 +3750,7 @@ create table im_stat_connection_1111_250 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_251 (
     id bigint unsigned primary key comment '主键',
@@ -3764,7 +3764,7 @@ create table im_stat_connection_1111_251 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_252 (
     id bigint unsigned primary key comment '主键',
@@ -3778,7 +3778,7 @@ create table im_stat_connection_1111_252 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_253 (
     id bigint unsigned primary key comment '主键',
@@ -3792,7 +3792,7 @@ create table im_stat_connection_1111_253 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_254 (
     id bigint unsigned primary key comment '主键',
@@ -3806,7 +3806,7 @@ create table im_stat_connection_1111_254 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_255 (
     id bigint unsigned primary key comment '主键',
@@ -3820,7 +3820,7 @@ create table im_stat_connection_1111_255 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_256 (
     id bigint unsigned primary key comment '主键',
@@ -3834,7 +3834,7 @@ create table im_stat_connection_1111_256 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_257 (
     id bigint unsigned primary key comment '主键',
@@ -3848,7 +3848,7 @@ create table im_stat_connection_1111_257 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_258 (
     id bigint unsigned primary key comment '主键',
@@ -3862,7 +3862,7 @@ create table im_stat_connection_1111_258 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_259 (
     id bigint unsigned primary key comment '主键',
@@ -3876,7 +3876,7 @@ create table im_stat_connection_1111_259 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_260 (
     id bigint unsigned primary key comment '主键',
@@ -3890,7 +3890,7 @@ create table im_stat_connection_1111_260 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_261 (
     id bigint unsigned primary key comment '主键',
@@ -3904,7 +3904,7 @@ create table im_stat_connection_1111_261 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_262 (
     id bigint unsigned primary key comment '主键',
@@ -3918,7 +3918,7 @@ create table im_stat_connection_1111_262 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_263 (
     id bigint unsigned primary key comment '主键',
@@ -3932,7 +3932,7 @@ create table im_stat_connection_1111_263 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_264 (
     id bigint unsigned primary key comment '主键',
@@ -3946,7 +3946,7 @@ create table im_stat_connection_1111_264 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_265 (
     id bigint unsigned primary key comment '主键',
@@ -3960,7 +3960,7 @@ create table im_stat_connection_1111_265 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_266 (
     id bigint unsigned primary key comment '主键',
@@ -3974,7 +3974,7 @@ create table im_stat_connection_1111_266 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_267 (
     id bigint unsigned primary key comment '主键',
@@ -3988,7 +3988,7 @@ create table im_stat_connection_1111_267 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_268 (
     id bigint unsigned primary key comment '主键',
@@ -4002,7 +4002,7 @@ create table im_stat_connection_1111_268 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_269 (
     id bigint unsigned primary key comment '主键',
@@ -4016,7 +4016,7 @@ create table im_stat_connection_1111_269 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_270 (
     id bigint unsigned primary key comment '主键',
@@ -4030,7 +4030,7 @@ create table im_stat_connection_1111_270 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_271 (
     id bigint unsigned primary key comment '主键',
@@ -4044,7 +4044,7 @@ create table im_stat_connection_1111_271 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_272 (
     id bigint unsigned primary key comment '主键',
@@ -4058,7 +4058,7 @@ create table im_stat_connection_1111_272 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_273 (
     id bigint unsigned primary key comment '主键',
@@ -4072,7 +4072,7 @@ create table im_stat_connection_1111_273 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_274 (
     id bigint unsigned primary key comment '主键',
@@ -4086,7 +4086,7 @@ create table im_stat_connection_1111_274 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_275 (
     id bigint unsigned primary key comment '主键',
@@ -4100,7 +4100,7 @@ create table im_stat_connection_1111_275 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_276 (
     id bigint unsigned primary key comment '主键',
@@ -4114,7 +4114,7 @@ create table im_stat_connection_1111_276 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_277 (
     id bigint unsigned primary key comment '主键',
@@ -4128,7 +4128,7 @@ create table im_stat_connection_1111_277 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_278 (
     id bigint unsigned primary key comment '主键',
@@ -4142,7 +4142,7 @@ create table im_stat_connection_1111_278 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_279 (
     id bigint unsigned primary key comment '主键',
@@ -4156,7 +4156,7 @@ create table im_stat_connection_1111_279 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_280 (
     id bigint unsigned primary key comment '主键',
@@ -4170,7 +4170,7 @@ create table im_stat_connection_1111_280 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_281 (
     id bigint unsigned primary key comment '主键',
@@ -4184,7 +4184,7 @@ create table im_stat_connection_1111_281 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_282 (
     id bigint unsigned primary key comment '主键',
@@ -4198,7 +4198,7 @@ create table im_stat_connection_1111_282 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_283 (
     id bigint unsigned primary key comment '主键',
@@ -4212,7 +4212,7 @@ create table im_stat_connection_1111_283 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_284 (
     id bigint unsigned primary key comment '主键',
@@ -4226,7 +4226,7 @@ create table im_stat_connection_1111_284 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_285 (
     id bigint unsigned primary key comment '主键',
@@ -4240,7 +4240,7 @@ create table im_stat_connection_1111_285 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_286 (
     id bigint unsigned primary key comment '主键',
@@ -4254,7 +4254,7 @@ create table im_stat_connection_1111_286 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_287 (
     id bigint unsigned primary key comment '主键',
@@ -4268,7 +4268,7 @@ create table im_stat_connection_1111_287 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_288 (
     id bigint unsigned primary key comment '主键',
@@ -4282,7 +4282,7 @@ create table im_stat_connection_1111_288 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_289 (
     id bigint unsigned primary key comment '主键',
@@ -4296,7 +4296,7 @@ create table im_stat_connection_1111_289 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_290 (
     id bigint unsigned primary key comment '主键',
@@ -4310,7 +4310,7 @@ create table im_stat_connection_1111_290 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_291 (
     id bigint unsigned primary key comment '主键',
@@ -4324,7 +4324,7 @@ create table im_stat_connection_1111_291 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_292 (
     id bigint unsigned primary key comment '主键',
@@ -4338,7 +4338,7 @@ create table im_stat_connection_1111_292 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_293 (
     id bigint unsigned primary key comment '主键',
@@ -4352,7 +4352,7 @@ create table im_stat_connection_1111_293 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_294 (
     id bigint unsigned primary key comment '主键',
@@ -4366,7 +4366,7 @@ create table im_stat_connection_1111_294 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_295 (
     id bigint unsigned primary key comment '主键',
@@ -4380,7 +4380,7 @@ create table im_stat_connection_1111_295 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_296 (
     id bigint unsigned primary key comment '主键',
@@ -4394,7 +4394,7 @@ create table im_stat_connection_1111_296 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_297 (
     id bigint unsigned primary key comment '主键',
@@ -4408,7 +4408,7 @@ create table im_stat_connection_1111_297 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_298 (
     id bigint unsigned primary key comment '主键',
@@ -4422,7 +4422,7 @@ create table im_stat_connection_1111_298 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_299 (
     id bigint unsigned primary key comment '主键',
@@ -4436,7 +4436,7 @@ create table im_stat_connection_1111_299 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_300 (
     id bigint unsigned primary key comment '主键',
@@ -4450,7 +4450,7 @@ create table im_stat_connection_1111_300 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_301 (
     id bigint unsigned primary key comment '主键',
@@ -4464,7 +4464,7 @@ create table im_stat_connection_1111_301 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_302 (
     id bigint unsigned primary key comment '主键',
@@ -4478,7 +4478,7 @@ create table im_stat_connection_1111_302 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_303 (
     id bigint unsigned primary key comment '主键',
@@ -4492,7 +4492,7 @@ create table im_stat_connection_1111_303 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_304 (
     id bigint unsigned primary key comment '主键',
@@ -4506,7 +4506,7 @@ create table im_stat_connection_1111_304 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_305 (
     id bigint unsigned primary key comment '主键',
@@ -4520,7 +4520,7 @@ create table im_stat_connection_1111_305 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_306 (
     id bigint unsigned primary key comment '主键',
@@ -4534,7 +4534,7 @@ create table im_stat_connection_1111_306 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_307 (
     id bigint unsigned primary key comment '主键',
@@ -4548,7 +4548,7 @@ create table im_stat_connection_1111_307 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_308 (
     id bigint unsigned primary key comment '主键',
@@ -4562,7 +4562,7 @@ create table im_stat_connection_1111_308 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_309 (
     id bigint unsigned primary key comment '主键',
@@ -4576,7 +4576,7 @@ create table im_stat_connection_1111_309 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_310 (
     id bigint unsigned primary key comment '主键',
@@ -4590,7 +4590,7 @@ create table im_stat_connection_1111_310 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_311 (
     id bigint unsigned primary key comment '主键',
@@ -4604,7 +4604,7 @@ create table im_stat_connection_1111_311 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_312 (
     id bigint unsigned primary key comment '主键',
@@ -4618,7 +4618,7 @@ create table im_stat_connection_1111_312 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_313 (
     id bigint unsigned primary key comment '主键',
@@ -4632,7 +4632,7 @@ create table im_stat_connection_1111_313 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_314 (
     id bigint unsigned primary key comment '主键',
@@ -4646,7 +4646,7 @@ create table im_stat_connection_1111_314 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_315 (
     id bigint unsigned primary key comment '主键',
@@ -4660,7 +4660,7 @@ create table im_stat_connection_1111_315 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_316 (
     id bigint unsigned primary key comment '主键',
@@ -4674,7 +4674,7 @@ create table im_stat_connection_1111_316 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_317 (
     id bigint unsigned primary key comment '主键',
@@ -4688,7 +4688,7 @@ create table im_stat_connection_1111_317 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_318 (
     id bigint unsigned primary key comment '主键',
@@ -4702,7 +4702,7 @@ create table im_stat_connection_1111_318 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_319 (
     id bigint unsigned primary key comment '主键',
@@ -4716,7 +4716,7 @@ create table im_stat_connection_1111_319 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_320 (
     id bigint unsigned primary key comment '主键',
@@ -4730,7 +4730,7 @@ create table im_stat_connection_1111_320 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_321 (
     id bigint unsigned primary key comment '主键',
@@ -4744,7 +4744,7 @@ create table im_stat_connection_1111_321 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_322 (
     id bigint unsigned primary key comment '主键',
@@ -4758,7 +4758,7 @@ create table im_stat_connection_1111_322 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_323 (
     id bigint unsigned primary key comment '主键',
@@ -4772,7 +4772,7 @@ create table im_stat_connection_1111_323 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_324 (
     id bigint unsigned primary key comment '主键',
@@ -4786,7 +4786,7 @@ create table im_stat_connection_1111_324 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_325 (
     id bigint unsigned primary key comment '主键',
@@ -4800,7 +4800,7 @@ create table im_stat_connection_1111_325 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_326 (
     id bigint unsigned primary key comment '主键',
@@ -4814,7 +4814,7 @@ create table im_stat_connection_1111_326 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_327 (
     id bigint unsigned primary key comment '主键',
@@ -4828,7 +4828,7 @@ create table im_stat_connection_1111_327 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_328 (
     id bigint unsigned primary key comment '主键',
@@ -4842,7 +4842,7 @@ create table im_stat_connection_1111_328 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_329 (
     id bigint unsigned primary key comment '主键',
@@ -4856,7 +4856,7 @@ create table im_stat_connection_1111_329 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_330 (
     id bigint unsigned primary key comment '主键',
@@ -4870,7 +4870,7 @@ create table im_stat_connection_1111_330 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_331 (
     id bigint unsigned primary key comment '主键',
@@ -4884,7 +4884,7 @@ create table im_stat_connection_1111_331 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_332 (
     id bigint unsigned primary key comment '主键',
@@ -4898,7 +4898,7 @@ create table im_stat_connection_1111_332 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_333 (
     id bigint unsigned primary key comment '主键',
@@ -4912,7 +4912,7 @@ create table im_stat_connection_1111_333 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_334 (
     id bigint unsigned primary key comment '主键',
@@ -4926,7 +4926,7 @@ create table im_stat_connection_1111_334 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_335 (
     id bigint unsigned primary key comment '主键',
@@ -4940,7 +4940,7 @@ create table im_stat_connection_1111_335 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_336 (
     id bigint unsigned primary key comment '主键',
@@ -4954,7 +4954,7 @@ create table im_stat_connection_1111_336 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_337 (
     id bigint unsigned primary key comment '主键',
@@ -4968,7 +4968,7 @@ create table im_stat_connection_1111_337 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_338 (
     id bigint unsigned primary key comment '主键',
@@ -4982,7 +4982,7 @@ create table im_stat_connection_1111_338 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_339 (
     id bigint unsigned primary key comment '主键',
@@ -4996,7 +4996,7 @@ create table im_stat_connection_1111_339 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_340 (
     id bigint unsigned primary key comment '主键',
@@ -5010,7 +5010,7 @@ create table im_stat_connection_1111_340 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_341 (
     id bigint unsigned primary key comment '主键',
@@ -5024,7 +5024,7 @@ create table im_stat_connection_1111_341 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_342 (
     id bigint unsigned primary key comment '主键',
@@ -5038,7 +5038,7 @@ create table im_stat_connection_1111_342 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_343 (
     id bigint unsigned primary key comment '主键',
@@ -5052,7 +5052,7 @@ create table im_stat_connection_1111_343 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_344 (
     id bigint unsigned primary key comment '主键',
@@ -5066,7 +5066,7 @@ create table im_stat_connection_1111_344 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_345 (
     id bigint unsigned primary key comment '主键',
@@ -5080,7 +5080,7 @@ create table im_stat_connection_1111_345 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_346 (
     id bigint unsigned primary key comment '主键',
@@ -5094,7 +5094,7 @@ create table im_stat_connection_1111_346 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_347 (
     id bigint unsigned primary key comment '主键',
@@ -5108,7 +5108,7 @@ create table im_stat_connection_1111_347 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_348 (
     id bigint unsigned primary key comment '主键',
@@ -5122,7 +5122,7 @@ create table im_stat_connection_1111_348 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_349 (
     id bigint unsigned primary key comment '主键',
@@ -5136,7 +5136,7 @@ create table im_stat_connection_1111_349 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_350 (
     id bigint unsigned primary key comment '主键',
@@ -5150,7 +5150,7 @@ create table im_stat_connection_1111_350 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_351 (
     id bigint unsigned primary key comment '主键',
@@ -5164,7 +5164,7 @@ create table im_stat_connection_1111_351 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_352 (
     id bigint unsigned primary key comment '主键',
@@ -5178,7 +5178,7 @@ create table im_stat_connection_1111_352 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_353 (
     id bigint unsigned primary key comment '主键',
@@ -5192,7 +5192,7 @@ create table im_stat_connection_1111_353 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_354 (
     id bigint unsigned primary key comment '主键',
@@ -5206,7 +5206,7 @@ create table im_stat_connection_1111_354 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_355 (
     id bigint unsigned primary key comment '主键',
@@ -5220,7 +5220,7 @@ create table im_stat_connection_1111_355 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_356 (
     id bigint unsigned primary key comment '主键',
@@ -5234,7 +5234,7 @@ create table im_stat_connection_1111_356 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_357 (
     id bigint unsigned primary key comment '主键',
@@ -5248,7 +5248,7 @@ create table im_stat_connection_1111_357 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_358 (
     id bigint unsigned primary key comment '主键',
@@ -5262,7 +5262,7 @@ create table im_stat_connection_1111_358 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_359 (
     id bigint unsigned primary key comment '主键',
@@ -5276,7 +5276,7 @@ create table im_stat_connection_1111_359 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_360 (
     id bigint unsigned primary key comment '主键',
@@ -5290,7 +5290,7 @@ create table im_stat_connection_1111_360 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_361 (
     id bigint unsigned primary key comment '主键',
@@ -5304,7 +5304,7 @@ create table im_stat_connection_1111_361 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_362 (
     id bigint unsigned primary key comment '主键',
@@ -5318,7 +5318,7 @@ create table im_stat_connection_1111_362 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_363 (
     id bigint unsigned primary key comment '主键',
@@ -5332,7 +5332,7 @@ create table im_stat_connection_1111_363 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_364 (
     id bigint unsigned primary key comment '主键',
@@ -5346,7 +5346,7 @@ create table im_stat_connection_1111_364 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_365 (
     id bigint unsigned primary key comment '主键',
@@ -5360,7 +5360,7 @@ create table im_stat_connection_1111_365 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_366 (
     id bigint unsigned primary key comment '主键',
@@ -5374,7 +5374,7 @@ create table im_stat_connection_1111_366 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_367 (
     id bigint unsigned primary key comment '主键',
@@ -5388,7 +5388,7 @@ create table im_stat_connection_1111_367 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_368 (
     id bigint unsigned primary key comment '主键',
@@ -5402,7 +5402,7 @@ create table im_stat_connection_1111_368 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_369 (
     id bigint unsigned primary key comment '主键',
@@ -5416,7 +5416,7 @@ create table im_stat_connection_1111_369 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_370 (
     id bigint unsigned primary key comment '主键',
@@ -5430,7 +5430,7 @@ create table im_stat_connection_1111_370 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_371 (
     id bigint unsigned primary key comment '主键',
@@ -5444,7 +5444,7 @@ create table im_stat_connection_1111_371 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_372 (
     id bigint unsigned primary key comment '主键',
@@ -5458,7 +5458,7 @@ create table im_stat_connection_1111_372 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_373 (
     id bigint unsigned primary key comment '主键',
@@ -5472,7 +5472,7 @@ create table im_stat_connection_1111_373 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_374 (
     id bigint unsigned primary key comment '主键',
@@ -5486,7 +5486,7 @@ create table im_stat_connection_1111_374 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_375 (
     id bigint unsigned primary key comment '主键',
@@ -5500,7 +5500,7 @@ create table im_stat_connection_1111_375 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_376 (
     id bigint unsigned primary key comment '主键',
@@ -5514,7 +5514,7 @@ create table im_stat_connection_1111_376 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_377 (
     id bigint unsigned primary key comment '主键',
@@ -5528,7 +5528,7 @@ create table im_stat_connection_1111_377 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_378 (
     id bigint unsigned primary key comment '主键',
@@ -5542,7 +5542,7 @@ create table im_stat_connection_1111_378 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_379 (
     id bigint unsigned primary key comment '主键',
@@ -5556,7 +5556,7 @@ create table im_stat_connection_1111_379 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_380 (
     id bigint unsigned primary key comment '主键',
@@ -5570,7 +5570,7 @@ create table im_stat_connection_1111_380 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_381 (
     id bigint unsigned primary key comment '主键',
@@ -5584,7 +5584,7 @@ create table im_stat_connection_1111_381 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_382 (
     id bigint unsigned primary key comment '主键',
@@ -5598,7 +5598,7 @@ create table im_stat_connection_1111_382 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_383 (
     id bigint unsigned primary key comment '主键',
@@ -5612,7 +5612,7 @@ create table im_stat_connection_1111_383 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_384 (
     id bigint unsigned primary key comment '主键',
@@ -5626,7 +5626,7 @@ create table im_stat_connection_1111_384 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_385 (
     id bigint unsigned primary key comment '主键',
@@ -5640,7 +5640,7 @@ create table im_stat_connection_1111_385 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_386 (
     id bigint unsigned primary key comment '主键',
@@ -5654,7 +5654,7 @@ create table im_stat_connection_1111_386 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_387 (
     id bigint unsigned primary key comment '主键',
@@ -5668,7 +5668,7 @@ create table im_stat_connection_1111_387 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_388 (
     id bigint unsigned primary key comment '主键',
@@ -5682,7 +5682,7 @@ create table im_stat_connection_1111_388 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_389 (
     id bigint unsigned primary key comment '主键',
@@ -5696,7 +5696,7 @@ create table im_stat_connection_1111_389 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_390 (
     id bigint unsigned primary key comment '主键',
@@ -5710,7 +5710,7 @@ create table im_stat_connection_1111_390 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_391 (
     id bigint unsigned primary key comment '主键',
@@ -5724,7 +5724,7 @@ create table im_stat_connection_1111_391 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_392 (
     id bigint unsigned primary key comment '主键',
@@ -5738,7 +5738,7 @@ create table im_stat_connection_1111_392 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_393 (
     id bigint unsigned primary key comment '主键',
@@ -5752,7 +5752,7 @@ create table im_stat_connection_1111_393 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_394 (
     id bigint unsigned primary key comment '主键',
@@ -5766,7 +5766,7 @@ create table im_stat_connection_1111_394 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_395 (
     id bigint unsigned primary key comment '主键',
@@ -5780,7 +5780,7 @@ create table im_stat_connection_1111_395 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_396 (
     id bigint unsigned primary key comment '主键',
@@ -5794,7 +5794,7 @@ create table im_stat_connection_1111_396 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_397 (
     id bigint unsigned primary key comment '主键',
@@ -5808,7 +5808,7 @@ create table im_stat_connection_1111_397 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_398 (
     id bigint unsigned primary key comment '主键',
@@ -5822,7 +5822,7 @@ create table im_stat_connection_1111_398 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_399 (
     id bigint unsigned primary key comment '主键',
@@ -5836,7 +5836,7 @@ create table im_stat_connection_1111_399 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_400 (
     id bigint unsigned primary key comment '主键',
@@ -5850,7 +5850,7 @@ create table im_stat_connection_1111_400 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_401 (
     id bigint unsigned primary key comment '主键',
@@ -5864,7 +5864,7 @@ create table im_stat_connection_1111_401 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_402 (
     id bigint unsigned primary key comment '主键',
@@ -5878,7 +5878,7 @@ create table im_stat_connection_1111_402 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_403 (
     id bigint unsigned primary key comment '主键',
@@ -5892,7 +5892,7 @@ create table im_stat_connection_1111_403 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_404 (
     id bigint unsigned primary key comment '主键',
@@ -5906,7 +5906,7 @@ create table im_stat_connection_1111_404 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_405 (
     id bigint unsigned primary key comment '主键',
@@ -5920,7 +5920,7 @@ create table im_stat_connection_1111_405 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_406 (
     id bigint unsigned primary key comment '主键',
@@ -5934,7 +5934,7 @@ create table im_stat_connection_1111_406 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_407 (
     id bigint unsigned primary key comment '主键',
@@ -5948,7 +5948,7 @@ create table im_stat_connection_1111_407 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_408 (
     id bigint unsigned primary key comment '主键',
@@ -5962,7 +5962,7 @@ create table im_stat_connection_1111_408 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_409 (
     id bigint unsigned primary key comment '主键',
@@ -5976,7 +5976,7 @@ create table im_stat_connection_1111_409 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_410 (
     id bigint unsigned primary key comment '主键',
@@ -5990,7 +5990,7 @@ create table im_stat_connection_1111_410 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_411 (
     id bigint unsigned primary key comment '主键',
@@ -6004,7 +6004,7 @@ create table im_stat_connection_1111_411 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_412 (
     id bigint unsigned primary key comment '主键',
@@ -6018,7 +6018,7 @@ create table im_stat_connection_1111_412 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_413 (
     id bigint unsigned primary key comment '主键',
@@ -6032,7 +6032,7 @@ create table im_stat_connection_1111_413 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_414 (
     id bigint unsigned primary key comment '主键',
@@ -6046,7 +6046,7 @@ create table im_stat_connection_1111_414 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_415 (
     id bigint unsigned primary key comment '主键',
@@ -6060,7 +6060,7 @@ create table im_stat_connection_1111_415 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_416 (
     id bigint unsigned primary key comment '主键',
@@ -6074,7 +6074,7 @@ create table im_stat_connection_1111_416 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_417 (
     id bigint unsigned primary key comment '主键',
@@ -6088,7 +6088,7 @@ create table im_stat_connection_1111_417 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_418 (
     id bigint unsigned primary key comment '主键',
@@ -6102,7 +6102,7 @@ create table im_stat_connection_1111_418 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_419 (
     id bigint unsigned primary key comment '主键',
@@ -6116,7 +6116,7 @@ create table im_stat_connection_1111_419 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_420 (
     id bigint unsigned primary key comment '主键',
@@ -6130,7 +6130,7 @@ create table im_stat_connection_1111_420 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_421 (
     id bigint unsigned primary key comment '主键',
@@ -6144,7 +6144,7 @@ create table im_stat_connection_1111_421 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_422 (
     id bigint unsigned primary key comment '主键',
@@ -6158,7 +6158,7 @@ create table im_stat_connection_1111_422 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_423 (
     id bigint unsigned primary key comment '主键',
@@ -6172,7 +6172,7 @@ create table im_stat_connection_1111_423 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_424 (
     id bigint unsigned primary key comment '主键',
@@ -6186,7 +6186,7 @@ create table im_stat_connection_1111_424 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_425 (
     id bigint unsigned primary key comment '主键',
@@ -6200,7 +6200,7 @@ create table im_stat_connection_1111_425 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_426 (
     id bigint unsigned primary key comment '主键',
@@ -6214,7 +6214,7 @@ create table im_stat_connection_1111_426 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_427 (
     id bigint unsigned primary key comment '主键',
@@ -6228,7 +6228,7 @@ create table im_stat_connection_1111_427 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_428 (
     id bigint unsigned primary key comment '主键',
@@ -6242,7 +6242,7 @@ create table im_stat_connection_1111_428 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_429 (
     id bigint unsigned primary key comment '主键',
@@ -6256,7 +6256,7 @@ create table im_stat_connection_1111_429 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_430 (
     id bigint unsigned primary key comment '主键',
@@ -6270,7 +6270,7 @@ create table im_stat_connection_1111_430 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_431 (
     id bigint unsigned primary key comment '主键',
@@ -6284,7 +6284,7 @@ create table im_stat_connection_1111_431 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_432 (
     id bigint unsigned primary key comment '主键',
@@ -6298,7 +6298,7 @@ create table im_stat_connection_1111_432 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_433 (
     id bigint unsigned primary key comment '主键',
@@ -6312,7 +6312,7 @@ create table im_stat_connection_1111_433 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_434 (
     id bigint unsigned primary key comment '主键',
@@ -6326,7 +6326,7 @@ create table im_stat_connection_1111_434 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_435 (
     id bigint unsigned primary key comment '主键',
@@ -6340,7 +6340,7 @@ create table im_stat_connection_1111_435 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_436 (
     id bigint unsigned primary key comment '主键',
@@ -6354,7 +6354,7 @@ create table im_stat_connection_1111_436 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_437 (
     id bigint unsigned primary key comment '主键',
@@ -6368,7 +6368,7 @@ create table im_stat_connection_1111_437 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_438 (
     id bigint unsigned primary key comment '主键',
@@ -6382,7 +6382,7 @@ create table im_stat_connection_1111_438 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_439 (
     id bigint unsigned primary key comment '主键',
@@ -6396,7 +6396,7 @@ create table im_stat_connection_1111_439 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_440 (
     id bigint unsigned primary key comment '主键',
@@ -6410,7 +6410,7 @@ create table im_stat_connection_1111_440 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_441 (
     id bigint unsigned primary key comment '主键',
@@ -6424,7 +6424,7 @@ create table im_stat_connection_1111_441 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_442 (
     id bigint unsigned primary key comment '主键',
@@ -6438,7 +6438,7 @@ create table im_stat_connection_1111_442 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_443 (
     id bigint unsigned primary key comment '主键',
@@ -6452,7 +6452,7 @@ create table im_stat_connection_1111_443 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_444 (
     id bigint unsigned primary key comment '主键',
@@ -6466,7 +6466,7 @@ create table im_stat_connection_1111_444 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_445 (
     id bigint unsigned primary key comment '主键',
@@ -6480,7 +6480,7 @@ create table im_stat_connection_1111_445 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_446 (
     id bigint unsigned primary key comment '主键',
@@ -6494,7 +6494,7 @@ create table im_stat_connection_1111_446 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_447 (
     id bigint unsigned primary key comment '主键',
@@ -6508,7 +6508,7 @@ create table im_stat_connection_1111_447 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_448 (
     id bigint unsigned primary key comment '主键',
@@ -6522,7 +6522,7 @@ create table im_stat_connection_1111_448 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_449 (
     id bigint unsigned primary key comment '主键',
@@ -6536,7 +6536,7 @@ create table im_stat_connection_1111_449 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_450 (
     id bigint unsigned primary key comment '主键',
@@ -6550,7 +6550,7 @@ create table im_stat_connection_1111_450 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_451 (
     id bigint unsigned primary key comment '主键',
@@ -6564,7 +6564,7 @@ create table im_stat_connection_1111_451 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_452 (
     id bigint unsigned primary key comment '主键',
@@ -6578,7 +6578,7 @@ create table im_stat_connection_1111_452 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_453 (
     id bigint unsigned primary key comment '主键',
@@ -6592,7 +6592,7 @@ create table im_stat_connection_1111_453 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_454 (
     id bigint unsigned primary key comment '主键',
@@ -6606,7 +6606,7 @@ create table im_stat_connection_1111_454 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_455 (
     id bigint unsigned primary key comment '主键',
@@ -6620,7 +6620,7 @@ create table im_stat_connection_1111_455 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_456 (
     id bigint unsigned primary key comment '主键',
@@ -6634,7 +6634,7 @@ create table im_stat_connection_1111_456 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_457 (
     id bigint unsigned primary key comment '主键',
@@ -6648,7 +6648,7 @@ create table im_stat_connection_1111_457 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_458 (
     id bigint unsigned primary key comment '主键',
@@ -6662,7 +6662,7 @@ create table im_stat_connection_1111_458 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_459 (
     id bigint unsigned primary key comment '主键',
@@ -6676,7 +6676,7 @@ create table im_stat_connection_1111_459 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_460 (
     id bigint unsigned primary key comment '主键',
@@ -6690,7 +6690,7 @@ create table im_stat_connection_1111_460 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_461 (
     id bigint unsigned primary key comment '主键',
@@ -6704,7 +6704,7 @@ create table im_stat_connection_1111_461 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_462 (
     id bigint unsigned primary key comment '主键',
@@ -6718,7 +6718,7 @@ create table im_stat_connection_1111_462 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_463 (
     id bigint unsigned primary key comment '主键',
@@ -6732,7 +6732,7 @@ create table im_stat_connection_1111_463 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_464 (
     id bigint unsigned primary key comment '主键',
@@ -6746,7 +6746,7 @@ create table im_stat_connection_1111_464 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_465 (
     id bigint unsigned primary key comment '主键',
@@ -6760,7 +6760,7 @@ create table im_stat_connection_1111_465 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_466 (
     id bigint unsigned primary key comment '主键',
@@ -6774,7 +6774,7 @@ create table im_stat_connection_1111_466 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_467 (
     id bigint unsigned primary key comment '主键',
@@ -6788,7 +6788,7 @@ create table im_stat_connection_1111_467 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_468 (
     id bigint unsigned primary key comment '主键',
@@ -6802,7 +6802,7 @@ create table im_stat_connection_1111_468 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_469 (
     id bigint unsigned primary key comment '主键',
@@ -6816,7 +6816,7 @@ create table im_stat_connection_1111_469 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_470 (
     id bigint unsigned primary key comment '主键',
@@ -6830,7 +6830,7 @@ create table im_stat_connection_1111_470 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_471 (
     id bigint unsigned primary key comment '主键',
@@ -6844,7 +6844,7 @@ create table im_stat_connection_1111_471 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_472 (
     id bigint unsigned primary key comment '主键',
@@ -6858,7 +6858,7 @@ create table im_stat_connection_1111_472 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_473 (
     id bigint unsigned primary key comment '主键',
@@ -6872,7 +6872,7 @@ create table im_stat_connection_1111_473 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_474 (
     id bigint unsigned primary key comment '主键',
@@ -6886,7 +6886,7 @@ create table im_stat_connection_1111_474 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_475 (
     id bigint unsigned primary key comment '主键',
@@ -6900,7 +6900,7 @@ create table im_stat_connection_1111_475 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_476 (
     id bigint unsigned primary key comment '主键',
@@ -6914,7 +6914,7 @@ create table im_stat_connection_1111_476 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_477 (
     id bigint unsigned primary key comment '主键',
@@ -6928,7 +6928,7 @@ create table im_stat_connection_1111_477 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_478 (
     id bigint unsigned primary key comment '主键',
@@ -6942,7 +6942,7 @@ create table im_stat_connection_1111_478 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_479 (
     id bigint unsigned primary key comment '主键',
@@ -6956,7 +6956,7 @@ create table im_stat_connection_1111_479 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_480 (
     id bigint unsigned primary key comment '主键',
@@ -6970,7 +6970,7 @@ create table im_stat_connection_1111_480 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_481 (
     id bigint unsigned primary key comment '主键',
@@ -6984,7 +6984,7 @@ create table im_stat_connection_1111_481 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_482 (
     id bigint unsigned primary key comment '主键',
@@ -6998,7 +6998,7 @@ create table im_stat_connection_1111_482 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_483 (
     id bigint unsigned primary key comment '主键',
@@ -7012,7 +7012,7 @@ create table im_stat_connection_1111_483 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_484 (
     id bigint unsigned primary key comment '主键',
@@ -7026,7 +7026,7 @@ create table im_stat_connection_1111_484 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_485 (
     id bigint unsigned primary key comment '主键',
@@ -7040,7 +7040,7 @@ create table im_stat_connection_1111_485 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_486 (
     id bigint unsigned primary key comment '主键',
@@ -7054,7 +7054,7 @@ create table im_stat_connection_1111_486 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_487 (
     id bigint unsigned primary key comment '主键',
@@ -7068,7 +7068,7 @@ create table im_stat_connection_1111_487 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_488 (
     id bigint unsigned primary key comment '主键',
@@ -7082,7 +7082,7 @@ create table im_stat_connection_1111_488 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_489 (
     id bigint unsigned primary key comment '主键',
@@ -7096,7 +7096,7 @@ create table im_stat_connection_1111_489 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_490 (
     id bigint unsigned primary key comment '主键',
@@ -7110,7 +7110,7 @@ create table im_stat_connection_1111_490 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_491 (
     id bigint unsigned primary key comment '主键',
@@ -7124,7 +7124,7 @@ create table im_stat_connection_1111_491 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_492 (
     id bigint unsigned primary key comment '主键',
@@ -7138,7 +7138,7 @@ create table im_stat_connection_1111_492 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_493 (
     id bigint unsigned primary key comment '主键',
@@ -7152,7 +7152,7 @@ create table im_stat_connection_1111_493 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_494 (
     id bigint unsigned primary key comment '主键',
@@ -7166,7 +7166,7 @@ create table im_stat_connection_1111_494 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_495 (
     id bigint unsigned primary key comment '主键',
@@ -7180,7 +7180,7 @@ create table im_stat_connection_1111_495 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_496 (
     id bigint unsigned primary key comment '主键',
@@ -7194,7 +7194,7 @@ create table im_stat_connection_1111_496 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_497 (
     id bigint unsigned primary key comment '主键',
@@ -7208,7 +7208,7 @@ create table im_stat_connection_1111_497 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_498 (
     id bigint unsigned primary key comment '主键',
@@ -7222,7 +7222,7 @@ create table im_stat_connection_1111_498 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_499 (
     id bigint unsigned primary key comment '主键',
@@ -7236,7 +7236,7 @@ create table im_stat_connection_1111_499 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_500 (
     id bigint unsigned primary key comment '主键',
@@ -7250,7 +7250,7 @@ create table im_stat_connection_1111_500 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_501 (
     id bigint unsigned primary key comment '主键',
@@ -7264,7 +7264,7 @@ create table im_stat_connection_1111_501 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_502 (
     id bigint unsigned primary key comment '主键',
@@ -7278,7 +7278,7 @@ create table im_stat_connection_1111_502 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_503 (
     id bigint unsigned primary key comment '主键',
@@ -7292,7 +7292,7 @@ create table im_stat_connection_1111_503 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_504 (
     id bigint unsigned primary key comment '主键',
@@ -7306,7 +7306,7 @@ create table im_stat_connection_1111_504 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_505 (
     id bigint unsigned primary key comment '主键',
@@ -7320,7 +7320,7 @@ create table im_stat_connection_1111_505 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_506 (
     id bigint unsigned primary key comment '主键',
@@ -7334,7 +7334,7 @@ create table im_stat_connection_1111_506 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_507 (
     id bigint unsigned primary key comment '主键',
@@ -7348,7 +7348,7 @@ create table im_stat_connection_1111_507 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_508 (
     id bigint unsigned primary key comment '主键',
@@ -7362,7 +7362,7 @@ create table im_stat_connection_1111_508 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_509 (
     id bigint unsigned primary key comment '主键',
@@ -7376,7 +7376,7 @@ create table im_stat_connection_1111_509 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_510 (
     id bigint unsigned primary key comment '主键',
@@ -7390,7 +7390,7 @@ create table im_stat_connection_1111_510 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_511 (
     id bigint unsigned primary key comment '主键',
@@ -7404,7 +7404,7 @@ create table im_stat_connection_1111_511 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_512 (
     id bigint unsigned primary key comment '主键',
@@ -7418,7 +7418,7 @@ create table im_stat_connection_1111_512 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_513 (
     id bigint unsigned primary key comment '主键',
@@ -7432,7 +7432,7 @@ create table im_stat_connection_1111_513 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_514 (
     id bigint unsigned primary key comment '主键',
@@ -7446,7 +7446,7 @@ create table im_stat_connection_1111_514 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_515 (
     id bigint unsigned primary key comment '主键',
@@ -7460,7 +7460,7 @@ create table im_stat_connection_1111_515 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_516 (
     id bigint unsigned primary key comment '主键',
@@ -7474,7 +7474,7 @@ create table im_stat_connection_1111_516 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_517 (
     id bigint unsigned primary key comment '主键',
@@ -7488,7 +7488,7 @@ create table im_stat_connection_1111_517 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_518 (
     id bigint unsigned primary key comment '主键',
@@ -7502,7 +7502,7 @@ create table im_stat_connection_1111_518 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_519 (
     id bigint unsigned primary key comment '主键',
@@ -7516,7 +7516,7 @@ create table im_stat_connection_1111_519 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_520 (
     id bigint unsigned primary key comment '主键',
@@ -7530,7 +7530,7 @@ create table im_stat_connection_1111_520 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_521 (
     id bigint unsigned primary key comment '主键',
@@ -7544,7 +7544,7 @@ create table im_stat_connection_1111_521 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_522 (
     id bigint unsigned primary key comment '主键',
@@ -7558,7 +7558,7 @@ create table im_stat_connection_1111_522 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_523 (
     id bigint unsigned primary key comment '主键',
@@ -7572,7 +7572,7 @@ create table im_stat_connection_1111_523 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_524 (
     id bigint unsigned primary key comment '主键',
@@ -7586,7 +7586,7 @@ create table im_stat_connection_1111_524 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_525 (
     id bigint unsigned primary key comment '主键',
@@ -7600,7 +7600,7 @@ create table im_stat_connection_1111_525 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_526 (
     id bigint unsigned primary key comment '主键',
@@ -7614,7 +7614,7 @@ create table im_stat_connection_1111_526 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_527 (
     id bigint unsigned primary key comment '主键',
@@ -7628,7 +7628,7 @@ create table im_stat_connection_1111_527 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_528 (
     id bigint unsigned primary key comment '主键',
@@ -7642,7 +7642,7 @@ create table im_stat_connection_1111_528 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_529 (
     id bigint unsigned primary key comment '主键',
@@ -7656,7 +7656,7 @@ create table im_stat_connection_1111_529 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_530 (
     id bigint unsigned primary key comment '主键',
@@ -7670,7 +7670,7 @@ create table im_stat_connection_1111_530 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_531 (
     id bigint unsigned primary key comment '主键',
@@ -7684,7 +7684,7 @@ create table im_stat_connection_1111_531 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_532 (
     id bigint unsigned primary key comment '主键',
@@ -7698,7 +7698,7 @@ create table im_stat_connection_1111_532 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_533 (
     id bigint unsigned primary key comment '主键',
@@ -7712,7 +7712,7 @@ create table im_stat_connection_1111_533 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_534 (
     id bigint unsigned primary key comment '主键',
@@ -7726,7 +7726,7 @@ create table im_stat_connection_1111_534 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_535 (
     id bigint unsigned primary key comment '主键',
@@ -7740,7 +7740,7 @@ create table im_stat_connection_1111_535 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_536 (
     id bigint unsigned primary key comment '主键',
@@ -7754,7 +7754,7 @@ create table im_stat_connection_1111_536 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_537 (
     id bigint unsigned primary key comment '主键',
@@ -7768,7 +7768,7 @@ create table im_stat_connection_1111_537 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_538 (
     id bigint unsigned primary key comment '主键',
@@ -7782,7 +7782,7 @@ create table im_stat_connection_1111_538 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_539 (
     id bigint unsigned primary key comment '主键',
@@ -7796,7 +7796,7 @@ create table im_stat_connection_1111_539 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_540 (
     id bigint unsigned primary key comment '主键',
@@ -7810,7 +7810,7 @@ create table im_stat_connection_1111_540 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_541 (
     id bigint unsigned primary key comment '主键',
@@ -7824,7 +7824,7 @@ create table im_stat_connection_1111_541 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_542 (
     id bigint unsigned primary key comment '主键',
@@ -7838,7 +7838,7 @@ create table im_stat_connection_1111_542 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_543 (
     id bigint unsigned primary key comment '主键',
@@ -7852,7 +7852,7 @@ create table im_stat_connection_1111_543 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_544 (
     id bigint unsigned primary key comment '主键',
@@ -7866,7 +7866,7 @@ create table im_stat_connection_1111_544 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_545 (
     id bigint unsigned primary key comment '主键',
@@ -7880,7 +7880,7 @@ create table im_stat_connection_1111_545 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_546 (
     id bigint unsigned primary key comment '主键',
@@ -7894,7 +7894,7 @@ create table im_stat_connection_1111_546 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_547 (
     id bigint unsigned primary key comment '主键',
@@ -7908,7 +7908,7 @@ create table im_stat_connection_1111_547 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_548 (
     id bigint unsigned primary key comment '主键',
@@ -7922,7 +7922,7 @@ create table im_stat_connection_1111_548 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_549 (
     id bigint unsigned primary key comment '主键',
@@ -7936,7 +7936,7 @@ create table im_stat_connection_1111_549 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_550 (
     id bigint unsigned primary key comment '主键',
@@ -7950,7 +7950,7 @@ create table im_stat_connection_1111_550 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_551 (
     id bigint unsigned primary key comment '主键',
@@ -7964,7 +7964,7 @@ create table im_stat_connection_1111_551 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_552 (
     id bigint unsigned primary key comment '主键',
@@ -7978,7 +7978,7 @@ create table im_stat_connection_1111_552 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_553 (
     id bigint unsigned primary key comment '主键',
@@ -7992,7 +7992,7 @@ create table im_stat_connection_1111_553 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_554 (
     id bigint unsigned primary key comment '主键',
@@ -8006,7 +8006,7 @@ create table im_stat_connection_1111_554 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_555 (
     id bigint unsigned primary key comment '主键',
@@ -8020,7 +8020,7 @@ create table im_stat_connection_1111_555 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_556 (
     id bigint unsigned primary key comment '主键',
@@ -8034,7 +8034,7 @@ create table im_stat_connection_1111_556 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_557 (
     id bigint unsigned primary key comment '主键',
@@ -8048,7 +8048,7 @@ create table im_stat_connection_1111_557 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_558 (
     id bigint unsigned primary key comment '主键',
@@ -8062,7 +8062,7 @@ create table im_stat_connection_1111_558 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_559 (
     id bigint unsigned primary key comment '主键',
@@ -8076,7 +8076,7 @@ create table im_stat_connection_1111_559 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_560 (
     id bigint unsigned primary key comment '主键',
@@ -8090,7 +8090,7 @@ create table im_stat_connection_1111_560 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_561 (
     id bigint unsigned primary key comment '主键',
@@ -8104,7 +8104,7 @@ create table im_stat_connection_1111_561 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_562 (
     id bigint unsigned primary key comment '主键',
@@ -8118,7 +8118,7 @@ create table im_stat_connection_1111_562 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_563 (
     id bigint unsigned primary key comment '主键',
@@ -8132,7 +8132,7 @@ create table im_stat_connection_1111_563 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_564 (
     id bigint unsigned primary key comment '主键',
@@ -8146,7 +8146,7 @@ create table im_stat_connection_1111_564 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_565 (
     id bigint unsigned primary key comment '主键',
@@ -8160,7 +8160,7 @@ create table im_stat_connection_1111_565 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_566 (
     id bigint unsigned primary key comment '主键',
@@ -8174,7 +8174,7 @@ create table im_stat_connection_1111_566 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_567 (
     id bigint unsigned primary key comment '主键',
@@ -8188,7 +8188,7 @@ create table im_stat_connection_1111_567 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_568 (
     id bigint unsigned primary key comment '主键',
@@ -8202,7 +8202,7 @@ create table im_stat_connection_1111_568 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_569 (
     id bigint unsigned primary key comment '主键',
@@ -8216,7 +8216,7 @@ create table im_stat_connection_1111_569 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_570 (
     id bigint unsigned primary key comment '主键',
@@ -8230,7 +8230,7 @@ create table im_stat_connection_1111_570 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_571 (
     id bigint unsigned primary key comment '主键',
@@ -8244,7 +8244,7 @@ create table im_stat_connection_1111_571 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_572 (
     id bigint unsigned primary key comment '主键',
@@ -8258,7 +8258,7 @@ create table im_stat_connection_1111_572 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_573 (
     id bigint unsigned primary key comment '主键',
@@ -8272,7 +8272,7 @@ create table im_stat_connection_1111_573 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_574 (
     id bigint unsigned primary key comment '主键',
@@ -8286,7 +8286,7 @@ create table im_stat_connection_1111_574 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_575 (
     id bigint unsigned primary key comment '主键',
@@ -8300,7 +8300,7 @@ create table im_stat_connection_1111_575 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_576 (
     id bigint unsigned primary key comment '主键',
@@ -8314,7 +8314,7 @@ create table im_stat_connection_1111_576 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_577 (
     id bigint unsigned primary key comment '主键',
@@ -8328,7 +8328,7 @@ create table im_stat_connection_1111_577 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_578 (
     id bigint unsigned primary key comment '主键',
@@ -8342,7 +8342,7 @@ create table im_stat_connection_1111_578 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_579 (
     id bigint unsigned primary key comment '主键',
@@ -8356,7 +8356,7 @@ create table im_stat_connection_1111_579 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_580 (
     id bigint unsigned primary key comment '主键',
@@ -8370,7 +8370,7 @@ create table im_stat_connection_1111_580 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_581 (
     id bigint unsigned primary key comment '主键',
@@ -8384,7 +8384,7 @@ create table im_stat_connection_1111_581 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_582 (
     id bigint unsigned primary key comment '主键',
@@ -8398,7 +8398,7 @@ create table im_stat_connection_1111_582 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_583 (
     id bigint unsigned primary key comment '主键',
@@ -8412,7 +8412,7 @@ create table im_stat_connection_1111_583 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_584 (
     id bigint unsigned primary key comment '主键',
@@ -8426,7 +8426,7 @@ create table im_stat_connection_1111_584 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_585 (
     id bigint unsigned primary key comment '主键',
@@ -8440,7 +8440,7 @@ create table im_stat_connection_1111_585 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_586 (
     id bigint unsigned primary key comment '主键',
@@ -8454,7 +8454,7 @@ create table im_stat_connection_1111_586 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_587 (
     id bigint unsigned primary key comment '主键',
@@ -8468,7 +8468,7 @@ create table im_stat_connection_1111_587 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_588 (
     id bigint unsigned primary key comment '主键',
@@ -8482,7 +8482,7 @@ create table im_stat_connection_1111_588 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_589 (
     id bigint unsigned primary key comment '主键',
@@ -8496,7 +8496,7 @@ create table im_stat_connection_1111_589 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_590 (
     id bigint unsigned primary key comment '主键',
@@ -8510,7 +8510,7 @@ create table im_stat_connection_1111_590 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_591 (
     id bigint unsigned primary key comment '主键',
@@ -8524,7 +8524,7 @@ create table im_stat_connection_1111_591 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_592 (
     id bigint unsigned primary key comment '主键',
@@ -8538,7 +8538,7 @@ create table im_stat_connection_1111_592 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_593 (
     id bigint unsigned primary key comment '主键',
@@ -8552,7 +8552,7 @@ create table im_stat_connection_1111_593 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_594 (
     id bigint unsigned primary key comment '主键',
@@ -8566,7 +8566,7 @@ create table im_stat_connection_1111_594 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_595 (
     id bigint unsigned primary key comment '主键',
@@ -8580,7 +8580,7 @@ create table im_stat_connection_1111_595 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_596 (
     id bigint unsigned primary key comment '主键',
@@ -8594,7 +8594,7 @@ create table im_stat_connection_1111_596 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_597 (
     id bigint unsigned primary key comment '主键',
@@ -8608,7 +8608,7 @@ create table im_stat_connection_1111_597 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_598 (
     id bigint unsigned primary key comment '主键',
@@ -8622,7 +8622,7 @@ create table im_stat_connection_1111_598 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_599 (
     id bigint unsigned primary key comment '主键',
@@ -8636,7 +8636,7 @@ create table im_stat_connection_1111_599 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_600 (
     id bigint unsigned primary key comment '主键',
@@ -8650,7 +8650,7 @@ create table im_stat_connection_1111_600 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_601 (
     id bigint unsigned primary key comment '主键',
@@ -8664,7 +8664,7 @@ create table im_stat_connection_1111_601 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_602 (
     id bigint unsigned primary key comment '主键',
@@ -8678,7 +8678,7 @@ create table im_stat_connection_1111_602 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_603 (
     id bigint unsigned primary key comment '主键',
@@ -8692,7 +8692,7 @@ create table im_stat_connection_1111_603 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_604 (
     id bigint unsigned primary key comment '主键',
@@ -8706,7 +8706,7 @@ create table im_stat_connection_1111_604 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_605 (
     id bigint unsigned primary key comment '主键',
@@ -8720,7 +8720,7 @@ create table im_stat_connection_1111_605 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_606 (
     id bigint unsigned primary key comment '主键',
@@ -8734,7 +8734,7 @@ create table im_stat_connection_1111_606 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_607 (
     id bigint unsigned primary key comment '主键',
@@ -8748,7 +8748,7 @@ create table im_stat_connection_1111_607 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_608 (
     id bigint unsigned primary key comment '主键',
@@ -8762,7 +8762,7 @@ create table im_stat_connection_1111_608 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_609 (
     id bigint unsigned primary key comment '主键',
@@ -8776,7 +8776,7 @@ create table im_stat_connection_1111_609 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_610 (
     id bigint unsigned primary key comment '主键',
@@ -8790,7 +8790,7 @@ create table im_stat_connection_1111_610 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_611 (
     id bigint unsigned primary key comment '主键',
@@ -8804,7 +8804,7 @@ create table im_stat_connection_1111_611 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_612 (
     id bigint unsigned primary key comment '主键',
@@ -8818,7 +8818,7 @@ create table im_stat_connection_1111_612 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_613 (
     id bigint unsigned primary key comment '主键',
@@ -8832,7 +8832,7 @@ create table im_stat_connection_1111_613 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_614 (
     id bigint unsigned primary key comment '主键',
@@ -8846,7 +8846,7 @@ create table im_stat_connection_1111_614 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_615 (
     id bigint unsigned primary key comment '主键',
@@ -8860,7 +8860,7 @@ create table im_stat_connection_1111_615 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_616 (
     id bigint unsigned primary key comment '主键',
@@ -8874,7 +8874,7 @@ create table im_stat_connection_1111_616 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_617 (
     id bigint unsigned primary key comment '主键',
@@ -8888,7 +8888,7 @@ create table im_stat_connection_1111_617 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_618 (
     id bigint unsigned primary key comment '主键',
@@ -8902,7 +8902,7 @@ create table im_stat_connection_1111_618 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_619 (
     id bigint unsigned primary key comment '主键',
@@ -8916,7 +8916,7 @@ create table im_stat_connection_1111_619 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_620 (
     id bigint unsigned primary key comment '主键',
@@ -8930,7 +8930,7 @@ create table im_stat_connection_1111_620 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_621 (
     id bigint unsigned primary key comment '主键',
@@ -8944,7 +8944,7 @@ create table im_stat_connection_1111_621 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_622 (
     id bigint unsigned primary key comment '主键',
@@ -8958,7 +8958,7 @@ create table im_stat_connection_1111_622 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_623 (
     id bigint unsigned primary key comment '主键',
@@ -8972,7 +8972,7 @@ create table im_stat_connection_1111_623 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_624 (
     id bigint unsigned primary key comment '主键',
@@ -8986,7 +8986,7 @@ create table im_stat_connection_1111_624 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_625 (
     id bigint unsigned primary key comment '主键',
@@ -9000,7 +9000,7 @@ create table im_stat_connection_1111_625 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_626 (
     id bigint unsigned primary key comment '主键',
@@ -9014,7 +9014,7 @@ create table im_stat_connection_1111_626 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_627 (
     id bigint unsigned primary key comment '主键',
@@ -9028,7 +9028,7 @@ create table im_stat_connection_1111_627 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_628 (
     id bigint unsigned primary key comment '主键',
@@ -9042,7 +9042,7 @@ create table im_stat_connection_1111_628 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_629 (
     id bigint unsigned primary key comment '主键',
@@ -9056,7 +9056,7 @@ create table im_stat_connection_1111_629 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_630 (
     id bigint unsigned primary key comment '主键',
@@ -9070,7 +9070,7 @@ create table im_stat_connection_1111_630 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_631 (
     id bigint unsigned primary key comment '主键',
@@ -9084,7 +9084,7 @@ create table im_stat_connection_1111_631 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_632 (
     id bigint unsigned primary key comment '主键',
@@ -9098,7 +9098,7 @@ create table im_stat_connection_1111_632 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_633 (
     id bigint unsigned primary key comment '主键',
@@ -9112,7 +9112,7 @@ create table im_stat_connection_1111_633 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_634 (
     id bigint unsigned primary key comment '主键',
@@ -9126,7 +9126,7 @@ create table im_stat_connection_1111_634 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_635 (
     id bigint unsigned primary key comment '主键',
@@ -9140,7 +9140,7 @@ create table im_stat_connection_1111_635 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_636 (
     id bigint unsigned primary key comment '主键',
@@ -9154,7 +9154,7 @@ create table im_stat_connection_1111_636 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_637 (
     id bigint unsigned primary key comment '主键',
@@ -9168,7 +9168,7 @@ create table im_stat_connection_1111_637 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_638 (
     id bigint unsigned primary key comment '主键',
@@ -9182,7 +9182,7 @@ create table im_stat_connection_1111_638 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_639 (
     id bigint unsigned primary key comment '主键',
@@ -9196,7 +9196,7 @@ create table im_stat_connection_1111_639 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_640 (
     id bigint unsigned primary key comment '主键',
@@ -9210,7 +9210,7 @@ create table im_stat_connection_1111_640 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_641 (
     id bigint unsigned primary key comment '主键',
@@ -9224,7 +9224,7 @@ create table im_stat_connection_1111_641 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_642 (
     id bigint unsigned primary key comment '主键',
@@ -9238,7 +9238,7 @@ create table im_stat_connection_1111_642 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_643 (
     id bigint unsigned primary key comment '主键',
@@ -9252,7 +9252,7 @@ create table im_stat_connection_1111_643 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_644 (
     id bigint unsigned primary key comment '主键',
@@ -9266,7 +9266,7 @@ create table im_stat_connection_1111_644 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_645 (
     id bigint unsigned primary key comment '主键',
@@ -9280,7 +9280,7 @@ create table im_stat_connection_1111_645 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_646 (
     id bigint unsigned primary key comment '主键',
@@ -9294,7 +9294,7 @@ create table im_stat_connection_1111_646 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_647 (
     id bigint unsigned primary key comment '主键',
@@ -9308,7 +9308,7 @@ create table im_stat_connection_1111_647 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_648 (
     id bigint unsigned primary key comment '主键',
@@ -9322,7 +9322,7 @@ create table im_stat_connection_1111_648 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_649 (
     id bigint unsigned primary key comment '主键',
@@ -9336,7 +9336,7 @@ create table im_stat_connection_1111_649 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_650 (
     id bigint unsigned primary key comment '主键',
@@ -9350,7 +9350,7 @@ create table im_stat_connection_1111_650 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_651 (
     id bigint unsigned primary key comment '主键',
@@ -9364,7 +9364,7 @@ create table im_stat_connection_1111_651 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_652 (
     id bigint unsigned primary key comment '主键',
@@ -9378,7 +9378,7 @@ create table im_stat_connection_1111_652 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_653 (
     id bigint unsigned primary key comment '主键',
@@ -9392,7 +9392,7 @@ create table im_stat_connection_1111_653 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_654 (
     id bigint unsigned primary key comment '主键',
@@ -9406,7 +9406,7 @@ create table im_stat_connection_1111_654 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_655 (
     id bigint unsigned primary key comment '主键',
@@ -9420,7 +9420,7 @@ create table im_stat_connection_1111_655 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_656 (
     id bigint unsigned primary key comment '主键',
@@ -9434,7 +9434,7 @@ create table im_stat_connection_1111_656 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_657 (
     id bigint unsigned primary key comment '主键',
@@ -9448,7 +9448,7 @@ create table im_stat_connection_1111_657 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_658 (
     id bigint unsigned primary key comment '主键',
@@ -9462,7 +9462,7 @@ create table im_stat_connection_1111_658 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_659 (
     id bigint unsigned primary key comment '主键',
@@ -9476,7 +9476,7 @@ create table im_stat_connection_1111_659 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_660 (
     id bigint unsigned primary key comment '主键',
@@ -9490,7 +9490,7 @@ create table im_stat_connection_1111_660 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_661 (
     id bigint unsigned primary key comment '主键',
@@ -9504,7 +9504,7 @@ create table im_stat_connection_1111_661 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_662 (
     id bigint unsigned primary key comment '主键',
@@ -9518,7 +9518,7 @@ create table im_stat_connection_1111_662 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_663 (
     id bigint unsigned primary key comment '主键',
@@ -9532,7 +9532,7 @@ create table im_stat_connection_1111_663 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_664 (
     id bigint unsigned primary key comment '主键',
@@ -9546,7 +9546,7 @@ create table im_stat_connection_1111_664 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_665 (
     id bigint unsigned primary key comment '主键',
@@ -9560,7 +9560,7 @@ create table im_stat_connection_1111_665 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_666 (
     id bigint unsigned primary key comment '主键',
@@ -9574,7 +9574,7 @@ create table im_stat_connection_1111_666 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_667 (
     id bigint unsigned primary key comment '主键',
@@ -9588,7 +9588,7 @@ create table im_stat_connection_1111_667 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_668 (
     id bigint unsigned primary key comment '主键',
@@ -9602,7 +9602,7 @@ create table im_stat_connection_1111_668 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_669 (
     id bigint unsigned primary key comment '主键',
@@ -9616,7 +9616,7 @@ create table im_stat_connection_1111_669 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_670 (
     id bigint unsigned primary key comment '主键',
@@ -9630,7 +9630,7 @@ create table im_stat_connection_1111_670 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_671 (
     id bigint unsigned primary key comment '主键',
@@ -9644,7 +9644,7 @@ create table im_stat_connection_1111_671 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_672 (
     id bigint unsigned primary key comment '主键',
@@ -9658,7 +9658,7 @@ create table im_stat_connection_1111_672 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_673 (
     id bigint unsigned primary key comment '主键',
@@ -9672,7 +9672,7 @@ create table im_stat_connection_1111_673 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_674 (
     id bigint unsigned primary key comment '主键',
@@ -9686,7 +9686,7 @@ create table im_stat_connection_1111_674 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_675 (
     id bigint unsigned primary key comment '主键',
@@ -9700,7 +9700,7 @@ create table im_stat_connection_1111_675 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_676 (
     id bigint unsigned primary key comment '主键',
@@ -9714,7 +9714,7 @@ create table im_stat_connection_1111_676 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_677 (
     id bigint unsigned primary key comment '主键',
@@ -9728,7 +9728,7 @@ create table im_stat_connection_1111_677 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_678 (
     id bigint unsigned primary key comment '主键',
@@ -9742,7 +9742,7 @@ create table im_stat_connection_1111_678 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_679 (
     id bigint unsigned primary key comment '主键',
@@ -9756,7 +9756,7 @@ create table im_stat_connection_1111_679 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_680 (
     id bigint unsigned primary key comment '主键',
@@ -9770,7 +9770,7 @@ create table im_stat_connection_1111_680 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_681 (
     id bigint unsigned primary key comment '主键',
@@ -9784,7 +9784,7 @@ create table im_stat_connection_1111_681 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_682 (
     id bigint unsigned primary key comment '主键',
@@ -9798,7 +9798,7 @@ create table im_stat_connection_1111_682 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_683 (
     id bigint unsigned primary key comment '主键',
@@ -9812,7 +9812,7 @@ create table im_stat_connection_1111_683 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_684 (
     id bigint unsigned primary key comment '主键',
@@ -9826,7 +9826,7 @@ create table im_stat_connection_1111_684 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_685 (
     id bigint unsigned primary key comment '主键',
@@ -9840,7 +9840,7 @@ create table im_stat_connection_1111_685 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_686 (
     id bigint unsigned primary key comment '主键',
@@ -9854,7 +9854,7 @@ create table im_stat_connection_1111_686 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_687 (
     id bigint unsigned primary key comment '主键',
@@ -9868,7 +9868,7 @@ create table im_stat_connection_1111_687 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_688 (
     id bigint unsigned primary key comment '主键',
@@ -9882,7 +9882,7 @@ create table im_stat_connection_1111_688 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_689 (
     id bigint unsigned primary key comment '主键',
@@ -9896,7 +9896,7 @@ create table im_stat_connection_1111_689 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_690 (
     id bigint unsigned primary key comment '主键',
@@ -9910,7 +9910,7 @@ create table im_stat_connection_1111_690 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_691 (
     id bigint unsigned primary key comment '主键',
@@ -9924,7 +9924,7 @@ create table im_stat_connection_1111_691 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_692 (
     id bigint unsigned primary key comment '主键',
@@ -9938,7 +9938,7 @@ create table im_stat_connection_1111_692 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_693 (
     id bigint unsigned primary key comment '主键',
@@ -9952,7 +9952,7 @@ create table im_stat_connection_1111_693 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_694 (
     id bigint unsigned primary key comment '主键',
@@ -9966,7 +9966,7 @@ create table im_stat_connection_1111_694 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_695 (
     id bigint unsigned primary key comment '主键',
@@ -9980,7 +9980,7 @@ create table im_stat_connection_1111_695 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_696 (
     id bigint unsigned primary key comment '主键',
@@ -9994,7 +9994,7 @@ create table im_stat_connection_1111_696 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_697 (
     id bigint unsigned primary key comment '主键',
@@ -10008,7 +10008,7 @@ create table im_stat_connection_1111_697 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_698 (
     id bigint unsigned primary key comment '主键',
@@ -10022,7 +10022,7 @@ create table im_stat_connection_1111_698 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_699 (
     id bigint unsigned primary key comment '主键',
@@ -10036,7 +10036,7 @@ create table im_stat_connection_1111_699 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_700 (
     id bigint unsigned primary key comment '主键',
@@ -10050,7 +10050,7 @@ create table im_stat_connection_1111_700 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_701 (
     id bigint unsigned primary key comment '主键',
@@ -10064,7 +10064,7 @@ create table im_stat_connection_1111_701 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_702 (
     id bigint unsigned primary key comment '主键',
@@ -10078,7 +10078,7 @@ create table im_stat_connection_1111_702 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_703 (
     id bigint unsigned primary key comment '主键',
@@ -10092,7 +10092,7 @@ create table im_stat_connection_1111_703 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_704 (
     id bigint unsigned primary key comment '主键',
@@ -10106,7 +10106,7 @@ create table im_stat_connection_1111_704 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_705 (
     id bigint unsigned primary key comment '主键',
@@ -10120,7 +10120,7 @@ create table im_stat_connection_1111_705 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_706 (
     id bigint unsigned primary key comment '主键',
@@ -10134,7 +10134,7 @@ create table im_stat_connection_1111_706 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_707 (
     id bigint unsigned primary key comment '主键',
@@ -10148,7 +10148,7 @@ create table im_stat_connection_1111_707 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_708 (
     id bigint unsigned primary key comment '主键',
@@ -10162,7 +10162,7 @@ create table im_stat_connection_1111_708 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_709 (
     id bigint unsigned primary key comment '主键',
@@ -10176,7 +10176,7 @@ create table im_stat_connection_1111_709 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_710 (
     id bigint unsigned primary key comment '主键',
@@ -10190,7 +10190,7 @@ create table im_stat_connection_1111_710 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_711 (
     id bigint unsigned primary key comment '主键',
@@ -10204,7 +10204,7 @@ create table im_stat_connection_1111_711 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_712 (
     id bigint unsigned primary key comment '主键',
@@ -10218,7 +10218,7 @@ create table im_stat_connection_1111_712 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_713 (
     id bigint unsigned primary key comment '主键',
@@ -10232,7 +10232,7 @@ create table im_stat_connection_1111_713 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_714 (
     id bigint unsigned primary key comment '主键',
@@ -10246,7 +10246,7 @@ create table im_stat_connection_1111_714 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_715 (
     id bigint unsigned primary key comment '主键',
@@ -10260,7 +10260,7 @@ create table im_stat_connection_1111_715 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_716 (
     id bigint unsigned primary key comment '主键',
@@ -10274,7 +10274,7 @@ create table im_stat_connection_1111_716 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_717 (
     id bigint unsigned primary key comment '主键',
@@ -10288,7 +10288,7 @@ create table im_stat_connection_1111_717 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_718 (
     id bigint unsigned primary key comment '主键',
@@ -10302,7 +10302,7 @@ create table im_stat_connection_1111_718 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_719 (
     id bigint unsigned primary key comment '主键',
@@ -10316,7 +10316,7 @@ create table im_stat_connection_1111_719 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_720 (
     id bigint unsigned primary key comment '主键',
@@ -10330,7 +10330,7 @@ create table im_stat_connection_1111_720 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_721 (
     id bigint unsigned primary key comment '主键',
@@ -10344,7 +10344,7 @@ create table im_stat_connection_1111_721 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_722 (
     id bigint unsigned primary key comment '主键',
@@ -10358,7 +10358,7 @@ create table im_stat_connection_1111_722 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_723 (
     id bigint unsigned primary key comment '主键',
@@ -10372,7 +10372,7 @@ create table im_stat_connection_1111_723 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_724 (
     id bigint unsigned primary key comment '主键',
@@ -10386,7 +10386,7 @@ create table im_stat_connection_1111_724 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_725 (
     id bigint unsigned primary key comment '主键',
@@ -10400,7 +10400,7 @@ create table im_stat_connection_1111_725 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_726 (
     id bigint unsigned primary key comment '主键',
@@ -10414,7 +10414,7 @@ create table im_stat_connection_1111_726 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_727 (
     id bigint unsigned primary key comment '主键',
@@ -10428,7 +10428,7 @@ create table im_stat_connection_1111_727 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_728 (
     id bigint unsigned primary key comment '主键',
@@ -10442,7 +10442,7 @@ create table im_stat_connection_1111_728 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_729 (
     id bigint unsigned primary key comment '主键',
@@ -10456,7 +10456,7 @@ create table im_stat_connection_1111_729 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_730 (
     id bigint unsigned primary key comment '主键',
@@ -10470,7 +10470,7 @@ create table im_stat_connection_1111_730 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_731 (
     id bigint unsigned primary key comment '主键',
@@ -10484,7 +10484,7 @@ create table im_stat_connection_1111_731 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_732 (
     id bigint unsigned primary key comment '主键',
@@ -10498,7 +10498,7 @@ create table im_stat_connection_1111_732 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_733 (
     id bigint unsigned primary key comment '主键',
@@ -10512,7 +10512,7 @@ create table im_stat_connection_1111_733 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_734 (
     id bigint unsigned primary key comment '主键',
@@ -10526,7 +10526,7 @@ create table im_stat_connection_1111_734 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_735 (
     id bigint unsigned primary key comment '主键',
@@ -10540,7 +10540,7 @@ create table im_stat_connection_1111_735 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_736 (
     id bigint unsigned primary key comment '主键',
@@ -10554,7 +10554,7 @@ create table im_stat_connection_1111_736 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_737 (
     id bigint unsigned primary key comment '主键',
@@ -10568,7 +10568,7 @@ create table im_stat_connection_1111_737 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_738 (
     id bigint unsigned primary key comment '主键',
@@ -10582,7 +10582,7 @@ create table im_stat_connection_1111_738 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_739 (
     id bigint unsigned primary key comment '主键',
@@ -10596,7 +10596,7 @@ create table im_stat_connection_1111_739 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_740 (
     id bigint unsigned primary key comment '主键',
@@ -10610,7 +10610,7 @@ create table im_stat_connection_1111_740 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_741 (
     id bigint unsigned primary key comment '主键',
@@ -10624,7 +10624,7 @@ create table im_stat_connection_1111_741 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_742 (
     id bigint unsigned primary key comment '主键',
@@ -10638,7 +10638,7 @@ create table im_stat_connection_1111_742 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_743 (
     id bigint unsigned primary key comment '主键',
@@ -10652,7 +10652,7 @@ create table im_stat_connection_1111_743 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_744 (
     id bigint unsigned primary key comment '主键',
@@ -10666,7 +10666,7 @@ create table im_stat_connection_1111_744 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_745 (
     id bigint unsigned primary key comment '主键',
@@ -10680,7 +10680,7 @@ create table im_stat_connection_1111_745 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_746 (
     id bigint unsigned primary key comment '主键',
@@ -10694,7 +10694,7 @@ create table im_stat_connection_1111_746 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_747 (
     id bigint unsigned primary key comment '主键',
@@ -10708,7 +10708,7 @@ create table im_stat_connection_1111_747 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_748 (
     id bigint unsigned primary key comment '主键',
@@ -10722,7 +10722,7 @@ create table im_stat_connection_1111_748 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_749 (
     id bigint unsigned primary key comment '主键',
@@ -10736,7 +10736,7 @@ create table im_stat_connection_1111_749 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_750 (
     id bigint unsigned primary key comment '主键',
@@ -10750,7 +10750,7 @@ create table im_stat_connection_1111_750 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_751 (
     id bigint unsigned primary key comment '主键',
@@ -10764,7 +10764,7 @@ create table im_stat_connection_1111_751 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_752 (
     id bigint unsigned primary key comment '主键',
@@ -10778,7 +10778,7 @@ create table im_stat_connection_1111_752 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_753 (
     id bigint unsigned primary key comment '主键',
@@ -10792,7 +10792,7 @@ create table im_stat_connection_1111_753 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_754 (
     id bigint unsigned primary key comment '主键',
@@ -10806,7 +10806,7 @@ create table im_stat_connection_1111_754 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_755 (
     id bigint unsigned primary key comment '主键',
@@ -10820,7 +10820,7 @@ create table im_stat_connection_1111_755 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_756 (
     id bigint unsigned primary key comment '主键',
@@ -10834,7 +10834,7 @@ create table im_stat_connection_1111_756 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_757 (
     id bigint unsigned primary key comment '主键',
@@ -10848,7 +10848,7 @@ create table im_stat_connection_1111_757 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_758 (
     id bigint unsigned primary key comment '主键',
@@ -10862,7 +10862,7 @@ create table im_stat_connection_1111_758 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_759 (
     id bigint unsigned primary key comment '主键',
@@ -10876,7 +10876,7 @@ create table im_stat_connection_1111_759 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_760 (
     id bigint unsigned primary key comment '主键',
@@ -10890,7 +10890,7 @@ create table im_stat_connection_1111_760 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_761 (
     id bigint unsigned primary key comment '主键',
@@ -10904,7 +10904,7 @@ create table im_stat_connection_1111_761 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_762 (
     id bigint unsigned primary key comment '主键',
@@ -10918,7 +10918,7 @@ create table im_stat_connection_1111_762 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_763 (
     id bigint unsigned primary key comment '主键',
@@ -10932,7 +10932,7 @@ create table im_stat_connection_1111_763 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_764 (
     id bigint unsigned primary key comment '主键',
@@ -10946,7 +10946,7 @@ create table im_stat_connection_1111_764 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_765 (
     id bigint unsigned primary key comment '主键',
@@ -10960,7 +10960,7 @@ create table im_stat_connection_1111_765 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_766 (
     id bigint unsigned primary key comment '主键',
@@ -10974,7 +10974,7 @@ create table im_stat_connection_1111_766 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_767 (
     id bigint unsigned primary key comment '主键',
@@ -10988,7 +10988,7 @@ create table im_stat_connection_1111_767 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_768 (
     id bigint unsigned primary key comment '主键',
@@ -11002,7 +11002,7 @@ create table im_stat_connection_1111_768 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_769 (
     id bigint unsigned primary key comment '主键',
@@ -11016,7 +11016,7 @@ create table im_stat_connection_1111_769 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_770 (
     id bigint unsigned primary key comment '主键',
@@ -11030,7 +11030,7 @@ create table im_stat_connection_1111_770 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_771 (
     id bigint unsigned primary key comment '主键',
@@ -11044,7 +11044,7 @@ create table im_stat_connection_1111_771 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_772 (
     id bigint unsigned primary key comment '主键',
@@ -11058,7 +11058,7 @@ create table im_stat_connection_1111_772 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_773 (
     id bigint unsigned primary key comment '主键',
@@ -11072,7 +11072,7 @@ create table im_stat_connection_1111_773 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_774 (
     id bigint unsigned primary key comment '主键',
@@ -11086,7 +11086,7 @@ create table im_stat_connection_1111_774 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_775 (
     id bigint unsigned primary key comment '主键',
@@ -11100,7 +11100,7 @@ create table im_stat_connection_1111_775 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_776 (
     id bigint unsigned primary key comment '主键',
@@ -11114,7 +11114,7 @@ create table im_stat_connection_1111_776 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_777 (
     id bigint unsigned primary key comment '主键',
@@ -11128,7 +11128,7 @@ create table im_stat_connection_1111_777 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_778 (
     id bigint unsigned primary key comment '主键',
@@ -11142,7 +11142,7 @@ create table im_stat_connection_1111_778 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_779 (
     id bigint unsigned primary key comment '主键',
@@ -11156,7 +11156,7 @@ create table im_stat_connection_1111_779 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_780 (
     id bigint unsigned primary key comment '主键',
@@ -11170,7 +11170,7 @@ create table im_stat_connection_1111_780 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_781 (
     id bigint unsigned primary key comment '主键',
@@ -11184,7 +11184,7 @@ create table im_stat_connection_1111_781 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_782 (
     id bigint unsigned primary key comment '主键',
@@ -11198,7 +11198,7 @@ create table im_stat_connection_1111_782 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_783 (
     id bigint unsigned primary key comment '主键',
@@ -11212,7 +11212,7 @@ create table im_stat_connection_1111_783 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_784 (
     id bigint unsigned primary key comment '主键',
@@ -11226,7 +11226,7 @@ create table im_stat_connection_1111_784 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_785 (
     id bigint unsigned primary key comment '主键',
@@ -11240,7 +11240,7 @@ create table im_stat_connection_1111_785 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_786 (
     id bigint unsigned primary key comment '主键',
@@ -11254,7 +11254,7 @@ create table im_stat_connection_1111_786 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_787 (
     id bigint unsigned primary key comment '主键',
@@ -11268,7 +11268,7 @@ create table im_stat_connection_1111_787 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_788 (
     id bigint unsigned primary key comment '主键',
@@ -11282,7 +11282,7 @@ create table im_stat_connection_1111_788 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_789 (
     id bigint unsigned primary key comment '主键',
@@ -11296,7 +11296,7 @@ create table im_stat_connection_1111_789 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_790 (
     id bigint unsigned primary key comment '主键',
@@ -11310,7 +11310,7 @@ create table im_stat_connection_1111_790 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_791 (
     id bigint unsigned primary key comment '主键',
@@ -11324,7 +11324,7 @@ create table im_stat_connection_1111_791 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_792 (
     id bigint unsigned primary key comment '主键',
@@ -11338,7 +11338,7 @@ create table im_stat_connection_1111_792 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_793 (
     id bigint unsigned primary key comment '主键',
@@ -11352,7 +11352,7 @@ create table im_stat_connection_1111_793 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_794 (
     id bigint unsigned primary key comment '主键',
@@ -11366,7 +11366,7 @@ create table im_stat_connection_1111_794 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_795 (
     id bigint unsigned primary key comment '主键',
@@ -11380,7 +11380,7 @@ create table im_stat_connection_1111_795 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_796 (
     id bigint unsigned primary key comment '主键',
@@ -11394,7 +11394,7 @@ create table im_stat_connection_1111_796 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_797 (
     id bigint unsigned primary key comment '主键',
@@ -11408,7 +11408,7 @@ create table im_stat_connection_1111_797 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_798 (
     id bigint unsigned primary key comment '主键',
@@ -11422,7 +11422,7 @@ create table im_stat_connection_1111_798 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_799 (
     id bigint unsigned primary key comment '主键',
@@ -11436,7 +11436,7 @@ create table im_stat_connection_1111_799 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_800 (
     id bigint unsigned primary key comment '主键',
@@ -11450,7 +11450,7 @@ create table im_stat_connection_1111_800 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_801 (
     id bigint unsigned primary key comment '主键',
@@ -11464,7 +11464,7 @@ create table im_stat_connection_1111_801 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_802 (
     id bigint unsigned primary key comment '主键',
@@ -11478,7 +11478,7 @@ create table im_stat_connection_1111_802 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_803 (
     id bigint unsigned primary key comment '主键',
@@ -11492,7 +11492,7 @@ create table im_stat_connection_1111_803 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_804 (
     id bigint unsigned primary key comment '主键',
@@ -11506,7 +11506,7 @@ create table im_stat_connection_1111_804 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_805 (
     id bigint unsigned primary key comment '主键',
@@ -11520,7 +11520,7 @@ create table im_stat_connection_1111_805 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_806 (
     id bigint unsigned primary key comment '主键',
@@ -11534,7 +11534,7 @@ create table im_stat_connection_1111_806 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_807 (
     id bigint unsigned primary key comment '主键',
@@ -11548,7 +11548,7 @@ create table im_stat_connection_1111_807 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_808 (
     id bigint unsigned primary key comment '主键',
@@ -11562,7 +11562,7 @@ create table im_stat_connection_1111_808 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_809 (
     id bigint unsigned primary key comment '主键',
@@ -11576,7 +11576,7 @@ create table im_stat_connection_1111_809 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_810 (
     id bigint unsigned primary key comment '主键',
@@ -11590,7 +11590,7 @@ create table im_stat_connection_1111_810 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_811 (
     id bigint unsigned primary key comment '主键',
@@ -11604,7 +11604,7 @@ create table im_stat_connection_1111_811 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_812 (
     id bigint unsigned primary key comment '主键',
@@ -11618,7 +11618,7 @@ create table im_stat_connection_1111_812 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_813 (
     id bigint unsigned primary key comment '主键',
@@ -11632,7 +11632,7 @@ create table im_stat_connection_1111_813 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_814 (
     id bigint unsigned primary key comment '主键',
@@ -11646,7 +11646,7 @@ create table im_stat_connection_1111_814 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_815 (
     id bigint unsigned primary key comment '主键',
@@ -11660,7 +11660,7 @@ create table im_stat_connection_1111_815 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_816 (
     id bigint unsigned primary key comment '主键',
@@ -11674,7 +11674,7 @@ create table im_stat_connection_1111_816 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_817 (
     id bigint unsigned primary key comment '主键',
@@ -11688,7 +11688,7 @@ create table im_stat_connection_1111_817 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_818 (
     id bigint unsigned primary key comment '主键',
@@ -11702,7 +11702,7 @@ create table im_stat_connection_1111_818 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_819 (
     id bigint unsigned primary key comment '主键',
@@ -11716,7 +11716,7 @@ create table im_stat_connection_1111_819 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_820 (
     id bigint unsigned primary key comment '主键',
@@ -11730,7 +11730,7 @@ create table im_stat_connection_1111_820 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_821 (
     id bigint unsigned primary key comment '主键',
@@ -11744,7 +11744,7 @@ create table im_stat_connection_1111_821 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_822 (
     id bigint unsigned primary key comment '主键',
@@ -11758,7 +11758,7 @@ create table im_stat_connection_1111_822 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_823 (
     id bigint unsigned primary key comment '主键',
@@ -11772,7 +11772,7 @@ create table im_stat_connection_1111_823 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_824 (
     id bigint unsigned primary key comment '主键',
@@ -11786,7 +11786,7 @@ create table im_stat_connection_1111_824 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_825 (
     id bigint unsigned primary key comment '主键',
@@ -11800,7 +11800,7 @@ create table im_stat_connection_1111_825 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_826 (
     id bigint unsigned primary key comment '主键',
@@ -11814,7 +11814,7 @@ create table im_stat_connection_1111_826 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_827 (
     id bigint unsigned primary key comment '主键',
@@ -11828,7 +11828,7 @@ create table im_stat_connection_1111_827 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_828 (
     id bigint unsigned primary key comment '主键',
@@ -11842,7 +11842,7 @@ create table im_stat_connection_1111_828 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_829 (
     id bigint unsigned primary key comment '主键',
@@ -11856,7 +11856,7 @@ create table im_stat_connection_1111_829 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_830 (
     id bigint unsigned primary key comment '主键',
@@ -11870,7 +11870,7 @@ create table im_stat_connection_1111_830 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_831 (
     id bigint unsigned primary key comment '主键',
@@ -11884,7 +11884,7 @@ create table im_stat_connection_1111_831 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_832 (
     id bigint unsigned primary key comment '主键',
@@ -11898,7 +11898,7 @@ create table im_stat_connection_1111_832 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_833 (
     id bigint unsigned primary key comment '主键',
@@ -11912,7 +11912,7 @@ create table im_stat_connection_1111_833 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_834 (
     id bigint unsigned primary key comment '主键',
@@ -11926,7 +11926,7 @@ create table im_stat_connection_1111_834 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_835 (
     id bigint unsigned primary key comment '主键',
@@ -11940,7 +11940,7 @@ create table im_stat_connection_1111_835 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_836 (
     id bigint unsigned primary key comment '主键',
@@ -11954,7 +11954,7 @@ create table im_stat_connection_1111_836 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_837 (
     id bigint unsigned primary key comment '主键',
@@ -11968,7 +11968,7 @@ create table im_stat_connection_1111_837 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_838 (
     id bigint unsigned primary key comment '主键',
@@ -11982,7 +11982,7 @@ create table im_stat_connection_1111_838 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_839 (
     id bigint unsigned primary key comment '主键',
@@ -11996,7 +11996,7 @@ create table im_stat_connection_1111_839 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_840 (
     id bigint unsigned primary key comment '主键',
@@ -12010,7 +12010,7 @@ create table im_stat_connection_1111_840 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_841 (
     id bigint unsigned primary key comment '主键',
@@ -12024,7 +12024,7 @@ create table im_stat_connection_1111_841 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_842 (
     id bigint unsigned primary key comment '主键',
@@ -12038,7 +12038,7 @@ create table im_stat_connection_1111_842 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_843 (
     id bigint unsigned primary key comment '主键',
@@ -12052,7 +12052,7 @@ create table im_stat_connection_1111_843 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_844 (
     id bigint unsigned primary key comment '主键',
@@ -12066,7 +12066,7 @@ create table im_stat_connection_1111_844 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_845 (
     id bigint unsigned primary key comment '主键',
@@ -12080,7 +12080,7 @@ create table im_stat_connection_1111_845 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_846 (
     id bigint unsigned primary key comment '主键',
@@ -12094,7 +12094,7 @@ create table im_stat_connection_1111_846 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_847 (
     id bigint unsigned primary key comment '主键',
@@ -12108,7 +12108,7 @@ create table im_stat_connection_1111_847 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_848 (
     id bigint unsigned primary key comment '主键',
@@ -12122,7 +12122,7 @@ create table im_stat_connection_1111_848 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_849 (
     id bigint unsigned primary key comment '主键',
@@ -12136,7 +12136,7 @@ create table im_stat_connection_1111_849 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_850 (
     id bigint unsigned primary key comment '主键',
@@ -12150,7 +12150,7 @@ create table im_stat_connection_1111_850 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_851 (
     id bigint unsigned primary key comment '主键',
@@ -12164,7 +12164,7 @@ create table im_stat_connection_1111_851 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_852 (
     id bigint unsigned primary key comment '主键',
@@ -12178,7 +12178,7 @@ create table im_stat_connection_1111_852 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_853 (
     id bigint unsigned primary key comment '主键',
@@ -12192,7 +12192,7 @@ create table im_stat_connection_1111_853 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_854 (
     id bigint unsigned primary key comment '主键',
@@ -12206,7 +12206,7 @@ create table im_stat_connection_1111_854 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_855 (
     id bigint unsigned primary key comment '主键',
@@ -12220,7 +12220,7 @@ create table im_stat_connection_1111_855 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_856 (
     id bigint unsigned primary key comment '主键',
@@ -12234,7 +12234,7 @@ create table im_stat_connection_1111_856 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_857 (
     id bigint unsigned primary key comment '主键',
@@ -12248,7 +12248,7 @@ create table im_stat_connection_1111_857 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_858 (
     id bigint unsigned primary key comment '主键',
@@ -12262,7 +12262,7 @@ create table im_stat_connection_1111_858 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_859 (
     id bigint unsigned primary key comment '主键',
@@ -12276,7 +12276,7 @@ create table im_stat_connection_1111_859 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_860 (
     id bigint unsigned primary key comment '主键',
@@ -12290,7 +12290,7 @@ create table im_stat_connection_1111_860 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_861 (
     id bigint unsigned primary key comment '主键',
@@ -12304,7 +12304,7 @@ create table im_stat_connection_1111_861 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_862 (
     id bigint unsigned primary key comment '主键',
@@ -12318,7 +12318,7 @@ create table im_stat_connection_1111_862 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_863 (
     id bigint unsigned primary key comment '主键',
@@ -12332,7 +12332,7 @@ create table im_stat_connection_1111_863 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_864 (
     id bigint unsigned primary key comment '主键',
@@ -12346,7 +12346,7 @@ create table im_stat_connection_1111_864 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_865 (
     id bigint unsigned primary key comment '主键',
@@ -12360,7 +12360,7 @@ create table im_stat_connection_1111_865 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_866 (
     id bigint unsigned primary key comment '主键',
@@ -12374,7 +12374,7 @@ create table im_stat_connection_1111_866 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_867 (
     id bigint unsigned primary key comment '主键',
@@ -12388,7 +12388,7 @@ create table im_stat_connection_1111_867 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_868 (
     id bigint unsigned primary key comment '主键',
@@ -12402,7 +12402,7 @@ create table im_stat_connection_1111_868 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_869 (
     id bigint unsigned primary key comment '主键',
@@ -12416,7 +12416,7 @@ create table im_stat_connection_1111_869 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_870 (
     id bigint unsigned primary key comment '主键',
@@ -12430,7 +12430,7 @@ create table im_stat_connection_1111_870 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_871 (
     id bigint unsigned primary key comment '主键',
@@ -12444,7 +12444,7 @@ create table im_stat_connection_1111_871 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_872 (
     id bigint unsigned primary key comment '主键',
@@ -12458,7 +12458,7 @@ create table im_stat_connection_1111_872 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_873 (
     id bigint unsigned primary key comment '主键',
@@ -12472,7 +12472,7 @@ create table im_stat_connection_1111_873 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_874 (
     id bigint unsigned primary key comment '主键',
@@ -12486,7 +12486,7 @@ create table im_stat_connection_1111_874 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_875 (
     id bigint unsigned primary key comment '主键',
@@ -12500,7 +12500,7 @@ create table im_stat_connection_1111_875 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_876 (
     id bigint unsigned primary key comment '主键',
@@ -12514,7 +12514,7 @@ create table im_stat_connection_1111_876 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_877 (
     id bigint unsigned primary key comment '主键',
@@ -12528,7 +12528,7 @@ create table im_stat_connection_1111_877 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_878 (
     id bigint unsigned primary key comment '主键',
@@ -12542,7 +12542,7 @@ create table im_stat_connection_1111_878 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_879 (
     id bigint unsigned primary key comment '主键',
@@ -12556,7 +12556,7 @@ create table im_stat_connection_1111_879 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_880 (
     id bigint unsigned primary key comment '主键',
@@ -12570,7 +12570,7 @@ create table im_stat_connection_1111_880 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_881 (
     id bigint unsigned primary key comment '主键',
@@ -12584,7 +12584,7 @@ create table im_stat_connection_1111_881 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_882 (
     id bigint unsigned primary key comment '主键',
@@ -12598,7 +12598,7 @@ create table im_stat_connection_1111_882 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_883 (
     id bigint unsigned primary key comment '主键',
@@ -12612,7 +12612,7 @@ create table im_stat_connection_1111_883 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_884 (
     id bigint unsigned primary key comment '主键',
@@ -12626,7 +12626,7 @@ create table im_stat_connection_1111_884 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_885 (
     id bigint unsigned primary key comment '主键',
@@ -12640,7 +12640,7 @@ create table im_stat_connection_1111_885 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_886 (
     id bigint unsigned primary key comment '主键',
@@ -12654,7 +12654,7 @@ create table im_stat_connection_1111_886 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_887 (
     id bigint unsigned primary key comment '主键',
@@ -12668,7 +12668,7 @@ create table im_stat_connection_1111_887 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_888 (
     id bigint unsigned primary key comment '主键',
@@ -12682,7 +12682,7 @@ create table im_stat_connection_1111_888 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_889 (
     id bigint unsigned primary key comment '主键',
@@ -12696,7 +12696,7 @@ create table im_stat_connection_1111_889 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_890 (
     id bigint unsigned primary key comment '主键',
@@ -12710,7 +12710,7 @@ create table im_stat_connection_1111_890 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_891 (
     id bigint unsigned primary key comment '主键',
@@ -12724,7 +12724,7 @@ create table im_stat_connection_1111_891 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_892 (
     id bigint unsigned primary key comment '主键',
@@ -12738,7 +12738,7 @@ create table im_stat_connection_1111_892 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_893 (
     id bigint unsigned primary key comment '主键',
@@ -12752,7 +12752,7 @@ create table im_stat_connection_1111_893 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_894 (
     id bigint unsigned primary key comment '主键',
@@ -12766,7 +12766,7 @@ create table im_stat_connection_1111_894 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_895 (
     id bigint unsigned primary key comment '主键',
@@ -12780,7 +12780,7 @@ create table im_stat_connection_1111_895 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_896 (
     id bigint unsigned primary key comment '主键',
@@ -12794,7 +12794,7 @@ create table im_stat_connection_1111_896 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_897 (
     id bigint unsigned primary key comment '主键',
@@ -12808,7 +12808,7 @@ create table im_stat_connection_1111_897 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_898 (
     id bigint unsigned primary key comment '主键',
@@ -12822,7 +12822,7 @@ create table im_stat_connection_1111_898 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_899 (
     id bigint unsigned primary key comment '主键',
@@ -12836,7 +12836,7 @@ create table im_stat_connection_1111_899 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_900 (
     id bigint unsigned primary key comment '主键',
@@ -12850,7 +12850,7 @@ create table im_stat_connection_1111_900 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_901 (
     id bigint unsigned primary key comment '主键',
@@ -12864,7 +12864,7 @@ create table im_stat_connection_1111_901 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_902 (
     id bigint unsigned primary key comment '主键',
@@ -12878,7 +12878,7 @@ create table im_stat_connection_1111_902 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_903 (
     id bigint unsigned primary key comment '主键',
@@ -12892,7 +12892,7 @@ create table im_stat_connection_1111_903 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_904 (
     id bigint unsigned primary key comment '主键',
@@ -12906,7 +12906,7 @@ create table im_stat_connection_1111_904 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_905 (
     id bigint unsigned primary key comment '主键',
@@ -12920,7 +12920,7 @@ create table im_stat_connection_1111_905 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_906 (
     id bigint unsigned primary key comment '主键',
@@ -12934,7 +12934,7 @@ create table im_stat_connection_1111_906 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_907 (
     id bigint unsigned primary key comment '主键',
@@ -12948,7 +12948,7 @@ create table im_stat_connection_1111_907 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_908 (
     id bigint unsigned primary key comment '主键',
@@ -12962,7 +12962,7 @@ create table im_stat_connection_1111_908 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_909 (
     id bigint unsigned primary key comment '主键',
@@ -12976,7 +12976,7 @@ create table im_stat_connection_1111_909 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_910 (
     id bigint unsigned primary key comment '主键',
@@ -12990,7 +12990,7 @@ create table im_stat_connection_1111_910 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_911 (
     id bigint unsigned primary key comment '主键',
@@ -13004,7 +13004,7 @@ create table im_stat_connection_1111_911 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_912 (
     id bigint unsigned primary key comment '主键',
@@ -13018,7 +13018,7 @@ create table im_stat_connection_1111_912 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_913 (
     id bigint unsigned primary key comment '主键',
@@ -13032,7 +13032,7 @@ create table im_stat_connection_1111_913 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_914 (
     id bigint unsigned primary key comment '主键',
@@ -13046,7 +13046,7 @@ create table im_stat_connection_1111_914 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_915 (
     id bigint unsigned primary key comment '主键',
@@ -13060,7 +13060,7 @@ create table im_stat_connection_1111_915 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_916 (
     id bigint unsigned primary key comment '主键',
@@ -13074,7 +13074,7 @@ create table im_stat_connection_1111_916 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_917 (
     id bigint unsigned primary key comment '主键',
@@ -13088,7 +13088,7 @@ create table im_stat_connection_1111_917 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_918 (
     id bigint unsigned primary key comment '主键',
@@ -13102,7 +13102,7 @@ create table im_stat_connection_1111_918 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_919 (
     id bigint unsigned primary key comment '主键',
@@ -13116,7 +13116,7 @@ create table im_stat_connection_1111_919 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_920 (
     id bigint unsigned primary key comment '主键',
@@ -13130,7 +13130,7 @@ create table im_stat_connection_1111_920 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_921 (
     id bigint unsigned primary key comment '主键',
@@ -13144,7 +13144,7 @@ create table im_stat_connection_1111_921 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_922 (
     id bigint unsigned primary key comment '主键',
@@ -13158,7 +13158,7 @@ create table im_stat_connection_1111_922 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_923 (
     id bigint unsigned primary key comment '主键',
@@ -13172,7 +13172,7 @@ create table im_stat_connection_1111_923 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_924 (
     id bigint unsigned primary key comment '主键',
@@ -13186,7 +13186,7 @@ create table im_stat_connection_1111_924 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_925 (
     id bigint unsigned primary key comment '主键',
@@ -13200,7 +13200,7 @@ create table im_stat_connection_1111_925 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_926 (
     id bigint unsigned primary key comment '主键',
@@ -13214,7 +13214,7 @@ create table im_stat_connection_1111_926 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_927 (
     id bigint unsigned primary key comment '主键',
@@ -13228,7 +13228,7 @@ create table im_stat_connection_1111_927 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_928 (
     id bigint unsigned primary key comment '主键',
@@ -13242,7 +13242,7 @@ create table im_stat_connection_1111_928 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_929 (
     id bigint unsigned primary key comment '主键',
@@ -13256,7 +13256,7 @@ create table im_stat_connection_1111_929 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_930 (
     id bigint unsigned primary key comment '主键',
@@ -13270,7 +13270,7 @@ create table im_stat_connection_1111_930 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_931 (
     id bigint unsigned primary key comment '主键',
@@ -13284,7 +13284,7 @@ create table im_stat_connection_1111_931 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_932 (
     id bigint unsigned primary key comment '主键',
@@ -13298,7 +13298,7 @@ create table im_stat_connection_1111_932 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_933 (
     id bigint unsigned primary key comment '主键',
@@ -13312,7 +13312,7 @@ create table im_stat_connection_1111_933 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_934 (
     id bigint unsigned primary key comment '主键',
@@ -13326,7 +13326,7 @@ create table im_stat_connection_1111_934 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_935 (
     id bigint unsigned primary key comment '主键',
@@ -13340,7 +13340,7 @@ create table im_stat_connection_1111_935 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_936 (
     id bigint unsigned primary key comment '主键',
@@ -13354,7 +13354,7 @@ create table im_stat_connection_1111_936 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_937 (
     id bigint unsigned primary key comment '主键',
@@ -13368,7 +13368,7 @@ create table im_stat_connection_1111_937 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_938 (
     id bigint unsigned primary key comment '主键',
@@ -13382,7 +13382,7 @@ create table im_stat_connection_1111_938 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_939 (
     id bigint unsigned primary key comment '主键',
@@ -13396,7 +13396,7 @@ create table im_stat_connection_1111_939 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_940 (
     id bigint unsigned primary key comment '主键',
@@ -13410,7 +13410,7 @@ create table im_stat_connection_1111_940 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_941 (
     id bigint unsigned primary key comment '主键',
@@ -13424,7 +13424,7 @@ create table im_stat_connection_1111_941 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_942 (
     id bigint unsigned primary key comment '主键',
@@ -13438,7 +13438,7 @@ create table im_stat_connection_1111_942 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_943 (
     id bigint unsigned primary key comment '主键',
@@ -13452,7 +13452,7 @@ create table im_stat_connection_1111_943 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_944 (
     id bigint unsigned primary key comment '主键',
@@ -13466,7 +13466,7 @@ create table im_stat_connection_1111_944 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_945 (
     id bigint unsigned primary key comment '主键',
@@ -13480,7 +13480,7 @@ create table im_stat_connection_1111_945 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_946 (
     id bigint unsigned primary key comment '主键',
@@ -13494,7 +13494,7 @@ create table im_stat_connection_1111_946 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_947 (
     id bigint unsigned primary key comment '主键',
@@ -13508,7 +13508,7 @@ create table im_stat_connection_1111_947 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_948 (
     id bigint unsigned primary key comment '主键',
@@ -13522,7 +13522,7 @@ create table im_stat_connection_1111_948 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_949 (
     id bigint unsigned primary key comment '主键',
@@ -13536,7 +13536,7 @@ create table im_stat_connection_1111_949 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_950 (
     id bigint unsigned primary key comment '主键',
@@ -13550,7 +13550,7 @@ create table im_stat_connection_1111_950 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_951 (
     id bigint unsigned primary key comment '主键',
@@ -13564,7 +13564,7 @@ create table im_stat_connection_1111_951 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_952 (
     id bigint unsigned primary key comment '主键',
@@ -13578,7 +13578,7 @@ create table im_stat_connection_1111_952 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_953 (
     id bigint unsigned primary key comment '主键',
@@ -13592,7 +13592,7 @@ create table im_stat_connection_1111_953 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_954 (
     id bigint unsigned primary key comment '主键',
@@ -13606,7 +13606,7 @@ create table im_stat_connection_1111_954 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_955 (
     id bigint unsigned primary key comment '主键',
@@ -13620,7 +13620,7 @@ create table im_stat_connection_1111_955 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_956 (
     id bigint unsigned primary key comment '主键',
@@ -13634,7 +13634,7 @@ create table im_stat_connection_1111_956 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_957 (
     id bigint unsigned primary key comment '主键',
@@ -13648,7 +13648,7 @@ create table im_stat_connection_1111_957 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_958 (
     id bigint unsigned primary key comment '主键',
@@ -13662,7 +13662,7 @@ create table im_stat_connection_1111_958 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_959 (
     id bigint unsigned primary key comment '主键',
@@ -13676,7 +13676,7 @@ create table im_stat_connection_1111_959 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_960 (
     id bigint unsigned primary key comment '主键',
@@ -13690,7 +13690,7 @@ create table im_stat_connection_1111_960 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_961 (
     id bigint unsigned primary key comment '主键',
@@ -13704,7 +13704,7 @@ create table im_stat_connection_1111_961 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_962 (
     id bigint unsigned primary key comment '主键',
@@ -13718,7 +13718,7 @@ create table im_stat_connection_1111_962 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_963 (
     id bigint unsigned primary key comment '主键',
@@ -13732,7 +13732,7 @@ create table im_stat_connection_1111_963 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_964 (
     id bigint unsigned primary key comment '主键',
@@ -13746,7 +13746,7 @@ create table im_stat_connection_1111_964 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_965 (
     id bigint unsigned primary key comment '主键',
@@ -13760,7 +13760,7 @@ create table im_stat_connection_1111_965 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_966 (
     id bigint unsigned primary key comment '主键',
@@ -13774,7 +13774,7 @@ create table im_stat_connection_1111_966 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_967 (
     id bigint unsigned primary key comment '主键',
@@ -13788,7 +13788,7 @@ create table im_stat_connection_1111_967 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_968 (
     id bigint unsigned primary key comment '主键',
@@ -13802,7 +13802,7 @@ create table im_stat_connection_1111_968 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_969 (
     id bigint unsigned primary key comment '主键',
@@ -13816,7 +13816,7 @@ create table im_stat_connection_1111_969 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_970 (
     id bigint unsigned primary key comment '主键',
@@ -13830,7 +13830,7 @@ create table im_stat_connection_1111_970 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_971 (
     id bigint unsigned primary key comment '主键',
@@ -13844,7 +13844,7 @@ create table im_stat_connection_1111_971 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_972 (
     id bigint unsigned primary key comment '主键',
@@ -13858,7 +13858,7 @@ create table im_stat_connection_1111_972 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_973 (
     id bigint unsigned primary key comment '主键',
@@ -13872,7 +13872,7 @@ create table im_stat_connection_1111_973 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_974 (
     id bigint unsigned primary key comment '主键',
@@ -13886,7 +13886,7 @@ create table im_stat_connection_1111_974 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_975 (
     id bigint unsigned primary key comment '主键',
@@ -13900,7 +13900,7 @@ create table im_stat_connection_1111_975 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_976 (
     id bigint unsigned primary key comment '主键',
@@ -13914,7 +13914,7 @@ create table im_stat_connection_1111_976 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_977 (
     id bigint unsigned primary key comment '主键',
@@ -13928,7 +13928,7 @@ create table im_stat_connection_1111_977 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_978 (
     id bigint unsigned primary key comment '主键',
@@ -13942,7 +13942,7 @@ create table im_stat_connection_1111_978 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_979 (
     id bigint unsigned primary key comment '主键',
@@ -13956,7 +13956,7 @@ create table im_stat_connection_1111_979 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_980 (
     id bigint unsigned primary key comment '主键',
@@ -13970,7 +13970,7 @@ create table im_stat_connection_1111_980 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_981 (
     id bigint unsigned primary key comment '主键',
@@ -13984,7 +13984,7 @@ create table im_stat_connection_1111_981 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_982 (
     id bigint unsigned primary key comment '主键',
@@ -13998,7 +13998,7 @@ create table im_stat_connection_1111_982 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_983 (
     id bigint unsigned primary key comment '主键',
@@ -14012,7 +14012,7 @@ create table im_stat_connection_1111_983 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_984 (
     id bigint unsigned primary key comment '主键',
@@ -14026,7 +14026,7 @@ create table im_stat_connection_1111_984 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_985 (
     id bigint unsigned primary key comment '主键',
@@ -14040,7 +14040,7 @@ create table im_stat_connection_1111_985 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_986 (
     id bigint unsigned primary key comment '主键',
@@ -14054,7 +14054,7 @@ create table im_stat_connection_1111_986 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_987 (
     id bigint unsigned primary key comment '主键',
@@ -14068,7 +14068,7 @@ create table im_stat_connection_1111_987 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_988 (
     id bigint unsigned primary key comment '主键',
@@ -14082,7 +14082,7 @@ create table im_stat_connection_1111_988 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_989 (
     id bigint unsigned primary key comment '主键',
@@ -14096,7 +14096,7 @@ create table im_stat_connection_1111_989 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_990 (
     id bigint unsigned primary key comment '主键',
@@ -14110,7 +14110,7 @@ create table im_stat_connection_1111_990 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_991 (
     id bigint unsigned primary key comment '主键',
@@ -14124,7 +14124,7 @@ create table im_stat_connection_1111_991 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_992 (
     id bigint unsigned primary key comment '主键',
@@ -14138,7 +14138,7 @@ create table im_stat_connection_1111_992 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_993 (
     id bigint unsigned primary key comment '主键',
@@ -14152,7 +14152,7 @@ create table im_stat_connection_1111_993 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_994 (
     id bigint unsigned primary key comment '主键',
@@ -14166,7 +14166,7 @@ create table im_stat_connection_1111_994 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_995 (
     id bigint unsigned primary key comment '主键',
@@ -14180,7 +14180,7 @@ create table im_stat_connection_1111_995 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_996 (
     id bigint unsigned primary key comment '主键',
@@ -14194,7 +14194,7 @@ create table im_stat_connection_1111_996 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_997 (
     id bigint unsigned primary key comment '主键',
@@ -14208,7 +14208,7 @@ create table im_stat_connection_1111_997 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_998 (
     id bigint unsigned primary key comment '主键',
@@ -14222,7 +14222,7 @@ create table im_stat_connection_1111_998 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_999 (
     id bigint unsigned primary key comment '主键',
@@ -14236,7 +14236,7 @@ create table im_stat_connection_1111_999 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1000 (
     id bigint unsigned primary key comment '主键',
@@ -14250,7 +14250,7 @@ create table im_stat_connection_1111_1000 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1001 (
     id bigint unsigned primary key comment '主键',
@@ -14264,7 +14264,7 @@ create table im_stat_connection_1111_1001 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1002 (
     id bigint unsigned primary key comment '主键',
@@ -14278,7 +14278,7 @@ create table im_stat_connection_1111_1002 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1003 (
     id bigint unsigned primary key comment '主键',
@@ -14292,7 +14292,7 @@ create table im_stat_connection_1111_1003 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1004 (
     id bigint unsigned primary key comment '主键',
@@ -14306,7 +14306,7 @@ create table im_stat_connection_1111_1004 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1005 (
     id bigint unsigned primary key comment '主键',
@@ -14320,7 +14320,7 @@ create table im_stat_connection_1111_1005 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1006 (
     id bigint unsigned primary key comment '主键',
@@ -14334,7 +14334,7 @@ create table im_stat_connection_1111_1006 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1007 (
     id bigint unsigned primary key comment '主键',
@@ -14348,7 +14348,7 @@ create table im_stat_connection_1111_1007 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1008 (
     id bigint unsigned primary key comment '主键',
@@ -14362,7 +14362,7 @@ create table im_stat_connection_1111_1008 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1009 (
     id bigint unsigned primary key comment '主键',
@@ -14376,7 +14376,7 @@ create table im_stat_connection_1111_1009 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1010 (
     id bigint unsigned primary key comment '主键',
@@ -14390,7 +14390,7 @@ create table im_stat_connection_1111_1010 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1011 (
     id bigint unsigned primary key comment '主键',
@@ -14404,7 +14404,7 @@ create table im_stat_connection_1111_1011 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1012 (
     id bigint unsigned primary key comment '主键',
@@ -14418,7 +14418,7 @@ create table im_stat_connection_1111_1012 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1013 (
     id bigint unsigned primary key comment '主键',
@@ -14432,7 +14432,7 @@ create table im_stat_connection_1111_1013 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1014 (
     id bigint unsigned primary key comment '主键',
@@ -14446,7 +14446,7 @@ create table im_stat_connection_1111_1014 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1015 (
     id bigint unsigned primary key comment '主键',
@@ -14460,7 +14460,7 @@ create table im_stat_connection_1111_1015 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1016 (
     id bigint unsigned primary key comment '主键',
@@ -14474,7 +14474,7 @@ create table im_stat_connection_1111_1016 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1017 (
     id bigint unsigned primary key comment '主键',
@@ -14488,7 +14488,7 @@ create table im_stat_connection_1111_1017 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1018 (
     id bigint unsigned primary key comment '主键',
@@ -14502,7 +14502,7 @@ create table im_stat_connection_1111_1018 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1019 (
     id bigint unsigned primary key comment '主键',
@@ -14516,7 +14516,7 @@ create table im_stat_connection_1111_1019 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1020 (
     id bigint unsigned primary key comment '主键',
@@ -14530,7 +14530,7 @@ create table im_stat_connection_1111_1020 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1021 (
     id bigint unsigned primary key comment '主键',
@@ -14544,7 +14544,7 @@ create table im_stat_connection_1111_1021 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1022 (
     id bigint unsigned primary key comment '主键',
@@ -14558,7 +14558,7 @@ create table im_stat_connection_1111_1022 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 create table im_stat_connection_1111_1023 (
     id bigint unsigned primary key comment '主键',
@@ -14572,7 +14572,7 @@ create table im_stat_connection_1111_1023 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 
 CREATE TABLE im_user_setting_1111_0 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14582,7 +14582,7 @@ CREATE TABLE im_user_setting_1111_0 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
-) ENGINE = InnoDB COMMENT = '用户设置表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
 CREATE TABLE im_user_setting_1111_1 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14592,7 +14592,7 @@ CREATE TABLE im_user_setting_1111_1 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
-) ENGINE = InnoDB COMMENT = '用户设置表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
 CREATE TABLE im_user_setting_1111_2 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14602,7 +14602,7 @@ CREATE TABLE im_user_setting_1111_2 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
-) ENGINE = InnoDB COMMENT = '用户设置表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
 CREATE TABLE im_user_setting_1111_3 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14612,7 +14612,7 @@ CREATE TABLE im_user_setting_1111_3 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
-) ENGINE = InnoDB COMMENT = '用户设置表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
 CREATE TABLE im_user_setting_1111_4 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14622,7 +14622,7 @@ CREATE TABLE im_user_setting_1111_4 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
-) ENGINE = InnoDB COMMENT = '用户设置表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
 CREATE TABLE im_user_setting_1111_5 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14632,7 +14632,7 @@ CREATE TABLE im_user_setting_1111_5 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
-) ENGINE = InnoDB COMMENT = '用户设置表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
 CREATE TABLE im_user_setting_1111_6 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14642,7 +14642,7 @@ CREATE TABLE im_user_setting_1111_6 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
-) ENGINE = InnoDB COMMENT = '用户设置表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
 CREATE TABLE im_user_setting_1111_7 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14652,7 +14652,7 @@ CREATE TABLE im_user_setting_1111_7 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
-) ENGINE = InnoDB COMMENT = '用户设置表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
 CREATE TABLE im_user_setting_1111_8 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14662,7 +14662,7 @@ CREATE TABLE im_user_setting_1111_8 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
-) ENGINE = InnoDB COMMENT = '用户设置表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
 CREATE TABLE im_user_setting_1111_9 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14672,7 +14672,7 @@ CREATE TABLE im_user_setting_1111_9 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
-) ENGINE = InnoDB COMMENT = '用户设置表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
 create table im_tag_1111_0 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14683,7 +14683,7 @@ create table im_tag_1111_0 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id, tag_id)
-) COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 create table im_tag_1111_1 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14694,7 +14694,7 @@ create table im_tag_1111_1 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id, tag_id)
-) COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 create table im_tag_1111_2 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14705,7 +14705,7 @@ create table im_tag_1111_2 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id, tag_id)
-) COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 create table im_tag_1111_3 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14716,7 +14716,7 @@ create table im_tag_1111_3 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id, tag_id)
-) COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 create table im_tag_1111_4 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14727,7 +14727,7 @@ create table im_tag_1111_4 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id, tag_id)
-) COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 create table im_tag_1111_5 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14738,7 +14738,7 @@ create table im_tag_1111_5 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id, tag_id)
-) COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 create table im_tag_1111_6 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14749,7 +14749,7 @@ create table im_tag_1111_6 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id, tag_id)
-) COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 create table im_tag_1111_7 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14760,7 +14760,7 @@ create table im_tag_1111_7 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id, tag_id)
-) COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 create table im_tag_1111_8 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14771,7 +14771,7 @@ create table im_tag_1111_8 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id, tag_id)
-) COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 create table im_tag_1111_9 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -14782,7 +14782,7 @@ create table im_tag_1111_9 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id, tag_id)
-) COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 create table im_tag_conversation_1111_0 (
     id bigint unsigned primary key comment '主键',
@@ -14796,7 +14796,7 @@ create table im_tag_conversation_1111_0 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_id (app_key, user_id, tag_id),
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
-) comment '用户标签会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
 create table im_tag_conversation_1111_1 (
     id bigint unsigned primary key comment '主键',
@@ -14810,7 +14810,7 @@ create table im_tag_conversation_1111_1 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_id (app_key, user_id, tag_id),
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
-) comment '用户标签会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
 create table im_tag_conversation_1111_2 (
     id bigint unsigned primary key comment '主键',
@@ -14824,7 +14824,7 @@ create table im_tag_conversation_1111_2 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_id (app_key, user_id, tag_id),
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
-) comment '用户标签会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
 create table im_tag_conversation_1111_3 (
     id bigint unsigned primary key comment '主键',
@@ -14838,7 +14838,7 @@ create table im_tag_conversation_1111_3 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_id (app_key, user_id, tag_id),
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
-) comment '用户标签会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
 create table im_tag_conversation_1111_4 (
     id bigint unsigned primary key comment '主键',
@@ -14852,7 +14852,7 @@ create table im_tag_conversation_1111_4 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_id (app_key, user_id, tag_id),
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
-) comment '用户标签会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
 create table im_tag_conversation_1111_5 (
     id bigint unsigned primary key comment '主键',
@@ -14866,7 +14866,7 @@ create table im_tag_conversation_1111_5 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_id (app_key, user_id, tag_id),
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
-) comment '用户标签会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
 create table im_tag_conversation_1111_6 (
     id bigint unsigned primary key comment '主键',
@@ -14880,7 +14880,7 @@ create table im_tag_conversation_1111_6 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_id (app_key, user_id, tag_id),
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
-) comment '用户标签会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
 create table im_tag_conversation_1111_7 (
     id bigint unsigned primary key comment '主键',
@@ -14894,7 +14894,7 @@ create table im_tag_conversation_1111_7 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_id (app_key, user_id, tag_id),
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
-) comment '用户标签会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
 create table im_tag_conversation_1111_8 (
     id bigint unsigned primary key comment '主键',
@@ -14908,7 +14908,7 @@ create table im_tag_conversation_1111_8 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_id (app_key, user_id, tag_id),
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
-) comment '用户标签会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
 create table im_tag_conversation_1111_9 (
     id bigint unsigned primary key comment '主键',
@@ -14922,7 +14922,7 @@ create table im_tag_conversation_1111_9 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_id (app_key, user_id, tag_id),
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
-) comment '用户标签会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
 CREATE TABLE im_user_device_1111_0 (
     id bigint unsigned primary key comment '主键',
@@ -14936,7 +14936,7 @@ CREATE TABLE im_user_device_1111_0 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_1 (
     id bigint unsigned primary key comment '主键',
@@ -14950,7 +14950,7 @@ CREATE TABLE im_user_device_1111_1 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_2 (
     id bigint unsigned primary key comment '主键',
@@ -14964,7 +14964,7 @@ CREATE TABLE im_user_device_1111_2 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_3 (
     id bigint unsigned primary key comment '主键',
@@ -14978,7 +14978,7 @@ CREATE TABLE im_user_device_1111_3 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_4 (
     id bigint unsigned primary key comment '主键',
@@ -14992,7 +14992,7 @@ CREATE TABLE im_user_device_1111_4 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_5 (
     id bigint unsigned primary key comment '主键',
@@ -15006,7 +15006,7 @@ CREATE TABLE im_user_device_1111_5 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_6 (
     id bigint unsigned primary key comment '主键',
@@ -15020,7 +15020,7 @@ CREATE TABLE im_user_device_1111_6 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_7 (
     id bigint unsigned primary key comment '主键',
@@ -15034,7 +15034,7 @@ CREATE TABLE im_user_device_1111_7 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_8 (
     id bigint unsigned primary key comment '主键',
@@ -15048,7 +15048,7 @@ CREATE TABLE im_user_device_1111_8 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_9 (
     id bigint unsigned primary key comment '主键',
@@ -15062,7 +15062,7 @@ CREATE TABLE im_user_device_1111_9 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_10 (
     id bigint unsigned primary key comment '主键',
@@ -15076,7 +15076,7 @@ CREATE TABLE im_user_device_1111_10 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_11 (
     id bigint unsigned primary key comment '主键',
@@ -15090,7 +15090,7 @@ CREATE TABLE im_user_device_1111_11 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_12 (
     id bigint unsigned primary key comment '主键',
@@ -15104,7 +15104,7 @@ CREATE TABLE im_user_device_1111_12 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_13 (
     id bigint unsigned primary key comment '主键',
@@ -15118,7 +15118,7 @@ CREATE TABLE im_user_device_1111_13 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_14 (
     id bigint unsigned primary key comment '主键',
@@ -15132,7 +15132,7 @@ CREATE TABLE im_user_device_1111_14 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_15 (
     id bigint unsigned primary key comment '主键',
@@ -15146,7 +15146,7 @@ CREATE TABLE im_user_device_1111_15 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_16 (
     id bigint unsigned primary key comment '主键',
@@ -15160,7 +15160,7 @@ CREATE TABLE im_user_device_1111_16 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_17 (
     id bigint unsigned primary key comment '主键',
@@ -15174,7 +15174,7 @@ CREATE TABLE im_user_device_1111_17 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_18 (
     id bigint unsigned primary key comment '主键',
@@ -15188,7 +15188,7 @@ CREATE TABLE im_user_device_1111_18 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_user_device_1111_19 (
     id bigint unsigned primary key comment '主键',
@@ -15202,7 +15202,7 @@ CREATE TABLE im_user_device_1111_19 (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
 CREATE TABLE im_sdk_log_1111_0 (
     id bigint unsigned primary key comment '主键',
@@ -15212,7 +15212,7 @@ CREATE TABLE im_sdk_log_1111_0 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id (app_key, user_id)
-) ENGINE = InnoDB COMMENT = 'sdk 日志表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
 CREATE TABLE im_sdk_log_1111_1 (
     id bigint unsigned primary key comment '主键',
@@ -15222,7 +15222,7 @@ CREATE TABLE im_sdk_log_1111_1 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id (app_key, user_id)
-) ENGINE = InnoDB COMMENT = 'sdk 日志表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
 CREATE TABLE im_sdk_log_1111_2 (
     id bigint unsigned primary key comment '主键',
@@ -15232,7 +15232,7 @@ CREATE TABLE im_sdk_log_1111_2 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id (app_key, user_id)
-) ENGINE = InnoDB COMMENT = 'sdk 日志表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
 CREATE TABLE im_sdk_log_1111_3 (
     id bigint unsigned primary key comment '主键',
@@ -15242,7 +15242,7 @@ CREATE TABLE im_sdk_log_1111_3 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id (app_key, user_id)
-) ENGINE = InnoDB COMMENT = 'sdk 日志表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
 CREATE TABLE im_sdk_log_1111_4 (
     id bigint unsigned primary key comment '主键',
@@ -15252,7 +15252,7 @@ CREATE TABLE im_sdk_log_1111_4 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id (app_key, user_id)
-) ENGINE = InnoDB COMMENT = 'sdk 日志表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
 CREATE TABLE im_sdk_log_1111_5 (
     id bigint unsigned primary key comment '主键',
@@ -15262,7 +15262,7 @@ CREATE TABLE im_sdk_log_1111_5 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id (app_key, user_id)
-) ENGINE = InnoDB COMMENT = 'sdk 日志表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
 CREATE TABLE im_sdk_log_1111_6 (
     id bigint unsigned primary key comment '主键',
@@ -15272,7 +15272,7 @@ CREATE TABLE im_sdk_log_1111_6 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id (app_key, user_id)
-) ENGINE = InnoDB COMMENT = 'sdk 日志表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
 CREATE TABLE im_sdk_log_1111_7 (
     id bigint unsigned primary key comment '主键',
@@ -15282,7 +15282,7 @@ CREATE TABLE im_sdk_log_1111_7 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id (app_key, user_id)
-) ENGINE = InnoDB COMMENT = 'sdk 日志表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
 CREATE TABLE im_sdk_log_1111_8 (
     id bigint unsigned primary key comment '主键',
@@ -15292,7 +15292,7 @@ CREATE TABLE im_sdk_log_1111_8 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id (app_key, user_id)
-) ENGINE = InnoDB COMMENT = 'sdk 日志表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
 CREATE TABLE im_sdk_log_1111_9 (
     id bigint unsigned primary key comment '主键',
@@ -15302,7 +15302,7 @@ CREATE TABLE im_sdk_log_1111_9 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id (app_key, user_id)
-) ENGINE = InnoDB COMMENT = 'sdk 日志表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
 CREATE TABLE im_user_tag_1111_0 (
     id bigint unsigned primary key comment '主键',
@@ -15313,7 +15313,7 @@ CREATE TABLE im_user_tag_1111_0 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
-) ENGINE = InnoDB COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 CREATE TABLE im_user_tag_1111_1 (
     id bigint unsigned primary key comment '主键',
@@ -15324,7 +15324,7 @@ CREATE TABLE im_user_tag_1111_1 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
-) ENGINE = InnoDB COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 CREATE TABLE im_user_tag_1111_2 (
     id bigint unsigned primary key comment '主键',
@@ -15335,7 +15335,7 @@ CREATE TABLE im_user_tag_1111_2 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
-) ENGINE = InnoDB COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 CREATE TABLE im_user_tag_1111_3 (
     id bigint unsigned primary key comment '主键',
@@ -15346,7 +15346,7 @@ CREATE TABLE im_user_tag_1111_3 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
-) ENGINE = InnoDB COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 CREATE TABLE im_user_tag_1111_4 (
     id bigint unsigned primary key comment '主键',
@@ -15357,7 +15357,7 @@ CREATE TABLE im_user_tag_1111_4 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
-) ENGINE = InnoDB COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 CREATE TABLE im_user_tag_1111_5 (
     id bigint unsigned primary key comment '主键',
@@ -15368,7 +15368,7 @@ CREATE TABLE im_user_tag_1111_5 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
-) ENGINE = InnoDB COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 CREATE TABLE im_user_tag_1111_6 (
     id bigint unsigned primary key comment '主键',
@@ -15379,7 +15379,7 @@ CREATE TABLE im_user_tag_1111_6 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
-) ENGINE = InnoDB COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 CREATE TABLE im_user_tag_1111_7 (
     id bigint unsigned primary key comment '主键',
@@ -15390,7 +15390,7 @@ CREATE TABLE im_user_tag_1111_7 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
-) ENGINE = InnoDB COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 CREATE TABLE im_user_tag_1111_8 (
     id bigint unsigned primary key comment '主键',
@@ -15401,7 +15401,7 @@ CREATE TABLE im_user_tag_1111_8 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
-) ENGINE = InnoDB COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 CREATE TABLE im_user_tag_1111_9 (
     id bigint unsigned primary key comment '主键',
@@ -15412,7 +15412,7 @@ CREATE TABLE im_user_tag_1111_9 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
-) ENGINE = InnoDB COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
 CREATE TABLE im_user_friend_1111_0 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15423,7 +15423,7 @@ CREATE TABLE im_user_friend_1111_0 (
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
-) ENGINE = InnoDB COMMENT = '用户好友表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
 CREATE TABLE im_user_friend_1111_1 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15434,7 +15434,7 @@ CREATE TABLE im_user_friend_1111_1 (
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
-) ENGINE = InnoDB COMMENT = '用户好友表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
 CREATE TABLE im_user_friend_1111_2 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15445,7 +15445,7 @@ CREATE TABLE im_user_friend_1111_2 (
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
-) ENGINE = InnoDB COMMENT = '用户好友表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
 CREATE TABLE im_user_friend_1111_3 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15456,7 +15456,7 @@ CREATE TABLE im_user_friend_1111_3 (
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
-) ENGINE = InnoDB COMMENT = '用户好友表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
 CREATE TABLE im_user_friend_1111_4 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15467,7 +15467,7 @@ CREATE TABLE im_user_friend_1111_4 (
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
-) ENGINE = InnoDB COMMENT = '用户好友表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
 CREATE TABLE im_user_friend_1111_5 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15478,7 +15478,7 @@ CREATE TABLE im_user_friend_1111_5 (
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
-) ENGINE = InnoDB COMMENT = '用户好友表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
 CREATE TABLE im_user_friend_1111_6 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15489,7 +15489,7 @@ CREATE TABLE im_user_friend_1111_6 (
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
-) ENGINE = InnoDB COMMENT = '用户好友表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
 CREATE TABLE im_user_friend_1111_7 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15500,7 +15500,7 @@ CREATE TABLE im_user_friend_1111_7 (
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
-) ENGINE = InnoDB COMMENT = '用户好友表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
 CREATE TABLE im_user_friend_1111_8 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15511,7 +15511,7 @@ CREATE TABLE im_user_friend_1111_8 (
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
-) ENGINE = InnoDB COMMENT = '用户好友表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
 CREATE TABLE im_user_friend_1111_9 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15522,7 +15522,7 @@ CREATE TABLE im_user_friend_1111_9 (
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
-) ENGINE = InnoDB COMMENT = '用户好友表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
 create table im_group_1111_0 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15535,7 +15535,7 @@ create table im_group_1111_0 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '群组表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
 create table im_group_1111_1 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15548,7 +15548,7 @@ create table im_group_1111_1 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '群组表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
 create table im_group_1111_2 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15561,7 +15561,7 @@ create table im_group_1111_2 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '群组表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
 create table im_group_1111_3 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15574,7 +15574,7 @@ create table im_group_1111_3 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '群组表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
 create table im_group_1111_4 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15587,7 +15587,7 @@ create table im_group_1111_4 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '群组表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
 create table im_group_1111_5 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15600,7 +15600,7 @@ create table im_group_1111_5 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '群组表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
 create table im_group_1111_6 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15613,7 +15613,7 @@ create table im_group_1111_6 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '群组表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
 create table im_group_1111_7 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15626,7 +15626,7 @@ create table im_group_1111_7 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '群组表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
 create table im_group_1111_8 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15639,7 +15639,7 @@ create table im_group_1111_8 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '群组表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
 create table im_group_1111_9 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15652,7 +15652,7 @@ create table im_group_1111_9 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '群组表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
 create table im_ultra_group_1111_0 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15664,7 +15664,7 @@ create table im_ultra_group_1111_0 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '超级群表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
 create table im_ultra_group_1111_1 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15676,7 +15676,7 @@ create table im_ultra_group_1111_1 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '超级群表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
 create table im_ultra_group_1111_2 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15688,7 +15688,7 @@ create table im_ultra_group_1111_2 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '超级群表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
 create table im_ultra_group_1111_3 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15700,7 +15700,7 @@ create table im_ultra_group_1111_3 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '超级群表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
 create table im_ultra_group_1111_4 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15712,7 +15712,7 @@ create table im_ultra_group_1111_4 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '超级群表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
 create table im_ultra_group_1111_5 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15724,7 +15724,7 @@ create table im_ultra_group_1111_5 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '超级群表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
 create table im_ultra_group_1111_6 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15736,7 +15736,7 @@ create table im_ultra_group_1111_6 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '超级群表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
 create table im_ultra_group_1111_7 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15748,7 +15748,7 @@ create table im_ultra_group_1111_7 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '超级群表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
 create table im_ultra_group_1111_8 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15760,7 +15760,7 @@ create table im_ultra_group_1111_8 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '超级群表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
 create table im_ultra_group_1111_9 (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -15772,7 +15772,7 @@ create table im_ultra_group_1111_9 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '超级群表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
 create table im_ultra_group_channel_1111_0 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15783,7 +15783,7 @@ create table im_ultra_group_channel_1111_0 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, bus_channel)
-) comment '超级群频道表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
 create table im_ultra_group_channel_1111_1 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15794,7 +15794,7 @@ create table im_ultra_group_channel_1111_1 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, bus_channel)
-) comment '超级群频道表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
 create table im_ultra_group_channel_1111_2 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15805,7 +15805,7 @@ create table im_ultra_group_channel_1111_2 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, bus_channel)
-) comment '超级群频道表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
 create table im_ultra_group_channel_1111_3 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15816,7 +15816,7 @@ create table im_ultra_group_channel_1111_3 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, bus_channel)
-) comment '超级群频道表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
 create table im_ultra_group_channel_1111_4 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15827,7 +15827,7 @@ create table im_ultra_group_channel_1111_4 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, bus_channel)
-) comment '超级群频道表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
 create table im_ultra_group_channel_1111_5 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15838,7 +15838,7 @@ create table im_ultra_group_channel_1111_5 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, bus_channel)
-) comment '超级群频道表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
 create table im_ultra_group_channel_1111_6 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15849,7 +15849,7 @@ create table im_ultra_group_channel_1111_6 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, bus_channel)
-) comment '超级群频道表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
 create table im_ultra_group_channel_1111_7 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15860,7 +15860,7 @@ create table im_ultra_group_channel_1111_7 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, bus_channel)
-) comment '超级群频道表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
 create table im_ultra_group_channel_1111_8 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15871,7 +15871,7 @@ create table im_ultra_group_channel_1111_8 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, bus_channel)
-) comment '超级群频道表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
 create table im_ultra_group_channel_1111_9 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15882,7 +15882,7 @@ create table im_ultra_group_channel_1111_9 (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, bus_channel)
-) comment '超级群频道表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
 create table im_group_member_1111_0 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15893,7 +15893,7 @@ create table im_group_member_1111_0 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_1 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15904,7 +15904,7 @@ create table im_group_member_1111_1 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_2 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15915,7 +15915,7 @@ create table im_group_member_1111_2 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_3 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15926,7 +15926,7 @@ create table im_group_member_1111_3 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_4 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15937,7 +15937,7 @@ create table im_group_member_1111_4 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_5 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15948,7 +15948,7 @@ create table im_group_member_1111_5 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_6 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15959,7 +15959,7 @@ create table im_group_member_1111_6 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_7 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15970,7 +15970,7 @@ create table im_group_member_1111_7 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_8 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15981,7 +15981,7 @@ create table im_group_member_1111_8 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_9 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -15992,7 +15992,7 @@ create table im_group_member_1111_9 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_10 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16003,7 +16003,7 @@ create table im_group_member_1111_10 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_11 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16014,7 +16014,7 @@ create table im_group_member_1111_11 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_12 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16025,7 +16025,7 @@ create table im_group_member_1111_12 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_13 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16036,7 +16036,7 @@ create table im_group_member_1111_13 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_14 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16047,7 +16047,7 @@ create table im_group_member_1111_14 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_15 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16058,7 +16058,7 @@ create table im_group_member_1111_15 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_16 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16069,7 +16069,7 @@ create table im_group_member_1111_16 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_17 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16080,7 +16080,7 @@ create table im_group_member_1111_17 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_18 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16091,7 +16091,7 @@ create table im_group_member_1111_18 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_group_member_1111_19 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16102,7 +16102,7 @@ create table im_group_member_1111_19 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
 create table im_ultra_group_member_1111_0 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16113,7 +16113,7 @@ create table im_ultra_group_member_1111_0 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_1 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16124,7 +16124,7 @@ create table im_ultra_group_member_1111_1 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_2 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16135,7 +16135,7 @@ create table im_ultra_group_member_1111_2 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_3 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16146,7 +16146,7 @@ create table im_ultra_group_member_1111_3 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_4 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16157,7 +16157,7 @@ create table im_ultra_group_member_1111_4 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_5 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16168,7 +16168,7 @@ create table im_ultra_group_member_1111_5 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_6 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16179,7 +16179,7 @@ create table im_ultra_group_member_1111_6 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_7 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16190,7 +16190,7 @@ create table im_ultra_group_member_1111_7 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_8 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16201,7 +16201,7 @@ create table im_ultra_group_member_1111_8 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_9 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16212,7 +16212,7 @@ create table im_ultra_group_member_1111_9 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_10 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16223,7 +16223,7 @@ create table im_ultra_group_member_1111_10 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_11 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16234,7 +16234,7 @@ create table im_ultra_group_member_1111_11 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_12 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16245,7 +16245,7 @@ create table im_ultra_group_member_1111_12 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_13 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16256,7 +16256,7 @@ create table im_ultra_group_member_1111_13 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_14 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16267,7 +16267,7 @@ create table im_ultra_group_member_1111_14 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_15 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16278,7 +16278,7 @@ create table im_ultra_group_member_1111_15 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_16 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16289,7 +16289,7 @@ create table im_ultra_group_member_1111_16 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_17 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16300,7 +16300,7 @@ create table im_ultra_group_member_1111_17 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_18 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16311,7 +16311,7 @@ create table im_ultra_group_member_1111_18 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_ultra_group_member_1111_19 (
     app_key varchar(255) not null comment '标识唯一应用',
@@ -16322,7 +16322,7 @@ create table im_ultra_group_member_1111_19 (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
 create table im_session_1111_0 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16335,7 +16335,7 @@ create table im_session_1111_0 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_1 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16348,7 +16348,7 @@ create table im_session_1111_1 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_2 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16361,7 +16361,7 @@ create table im_session_1111_2 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_3 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16374,7 +16374,7 @@ create table im_session_1111_3 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_4 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16387,7 +16387,7 @@ create table im_session_1111_4 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_5 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16400,7 +16400,7 @@ create table im_session_1111_5 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_6 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16413,7 +16413,7 @@ create table im_session_1111_6 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_7 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16426,7 +16426,7 @@ create table im_session_1111_7 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_8 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16439,7 +16439,7 @@ create table im_session_1111_8 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_9 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16452,7 +16452,7 @@ create table im_session_1111_9 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_10 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16465,7 +16465,7 @@ create table im_session_1111_10 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_11 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16478,7 +16478,7 @@ create table im_session_1111_11 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_12 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16491,7 +16491,7 @@ create table im_session_1111_12 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_13 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16504,7 +16504,7 @@ create table im_session_1111_13 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_14 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16517,7 +16517,7 @@ create table im_session_1111_14 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_15 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16530,7 +16530,7 @@ create table im_session_1111_15 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_16 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16543,7 +16543,7 @@ create table im_session_1111_16 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_17 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16556,7 +16556,7 @@ create table im_session_1111_17 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_18 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16569,7 +16569,7 @@ create table im_session_1111_18 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
 create table im_session_1111_19 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
@@ -16582,5 +16582,5 @@ create table im_session_1111_19 (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 

@@ -10,7 +10,7 @@ create table im_user (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique key (app_key, user_id)
-) comment 'im 用户表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 create table im_user_token (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -19,7 +19,7 @@ create table im_user_token (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id)
-) comment 'im 用户 token';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 create table im_session (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
@@ -31,7 +31,7 @@ create table im_session (
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
-) comment '会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 create table im_group (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
@@ -43,7 +43,7 @@ create table im_group (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '群组表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 create table im_ultra_group (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
@@ -54,7 +54,7 @@ create table im_ultra_group (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, group_name)
-) comment '超级群表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 create table im_ultra_group_channel (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -64,7 +64,7 @@ create table im_ultra_group_channel (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     unique (app_key, group_id, bus_channel)
-) comment '超级群频道表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 create table im_group_member (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -74,7 +74,7 @@ create table im_group_member (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '群组成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 create table im_ultra_group_member (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -84,7 +84,7 @@ create table im_ultra_group_member (
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
-) comment '超级群成员表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 create table im_stat_connection (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
@@ -97,7 +97,7 @@ create table im_stat_connection (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_platform (app_key, user_id, platform)
-) comment '对连接的统计表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 CREATE TABLE im_user_setting (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -106,7 +106,7 @@ CREATE TABLE im_user_setting (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
-) ENGINE = InnoDB COMMENT = '用户设置表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 create table im_tag (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -116,7 +116,7 @@ create table im_tag (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     primary key (app_key, user_id, tag_id)
-) COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 create table im_tag_conversation (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
@@ -129,7 +129,7 @@ create table im_tag_conversation (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_id (app_key, user_id, tag_id),
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
-) comment '用户标签会话表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 CREATE TABLE im_user_friend (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -139,7 +139,7 @@ CREATE TABLE im_user_friend (
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
-) ENGINE = InnoDB COMMENT = '用户好友表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 CREATE TABLE im_user_device (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
@@ -152,7 +152,7 @@ CREATE TABLE im_user_device (
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_device (app_key, user_id, device),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
-) ENGINE = InnoDB COMMENT = '用户设备表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 CREATE TABLE im_user_tag (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
@@ -162,7 +162,7 @@ CREATE TABLE im_user_tag (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
-) ENGINE = InnoDB COMMENT = '用户标签表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 CREATE TABLE im_sdk_log (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
@@ -171,4 +171,4 @@ CREATE TABLE im_sdk_log (
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
     index idx_app_key_user_id (app_key, user_id)
-) ENGINE = InnoDB COMMENT = 'sdk 日志表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
