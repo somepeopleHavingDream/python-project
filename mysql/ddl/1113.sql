@@ -1,4 +1,4 @@
-create table im_user_1112_0 (
+create table im_user_1113_0 (
     id bigint unsigned primary key comment '全局唯一用户 id',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -12,7 +12,7 @@ create table im_user_1112_0 (
     unique key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
-create table im_user_1112_1 (
+create table im_user_1113_1 (
     id bigint unsigned primary key comment '全局唯一用户 id',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -26,7 +26,7 @@ create table im_user_1112_1 (
     unique key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
-create table im_user_1112_2 (
+create table im_user_1113_2 (
     id bigint unsigned primary key comment '全局唯一用户 id',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -40,7 +40,7 @@ create table im_user_1112_2 (
     unique key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
-create table im_user_1112_3 (
+create table im_user_1113_3 (
     id bigint unsigned primary key comment '全局唯一用户 id',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -54,7 +54,7 @@ create table im_user_1112_3 (
     unique key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
-create table im_user_1112_4 (
+create table im_user_1113_4 (
     id bigint unsigned primary key comment '全局唯一用户 id',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -68,7 +68,7 @@ create table im_user_1112_4 (
     unique key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
-create table im_user_1112_5 (
+create table im_user_1113_5 (
     id bigint unsigned primary key comment '全局唯一用户 id',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -82,7 +82,7 @@ create table im_user_1112_5 (
     unique key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
-create table im_user_1112_6 (
+create table im_user_1113_6 (
     id bigint unsigned primary key comment '全局唯一用户 id',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -96,7 +96,7 @@ create table im_user_1112_6 (
     unique key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
-create table im_user_1112_7 (
+create table im_user_1113_7 (
     id bigint unsigned primary key comment '全局唯一用户 id',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -110,7 +110,7 @@ create table im_user_1112_7 (
     unique key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
-create table im_user_1112_8 (
+create table im_user_1113_8 (
     id bigint unsigned primary key comment '全局唯一用户 id',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -124,7 +124,7 @@ create table im_user_1112_8 (
     unique key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
-create table im_user_1112_9 (
+create table im_user_1113_9 (
     id bigint unsigned primary key comment '全局唯一用户 id',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -138,7 +138,7 @@ create table im_user_1112_9 (
     unique key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户表';
 
-create table im_user_token_1112_0 (
+create table im_user_token_1113_0 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     token varchar(255) not null comment 'token 信息',
@@ -148,7 +148,7 @@ create table im_user_token_1112_0 (
     primary key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
-create table im_user_token_1112_1 (
+create table im_user_token_1113_1 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     token varchar(255) not null comment 'token 信息',
@@ -158,7 +158,7 @@ create table im_user_token_1112_1 (
     primary key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
-create table im_user_token_1112_2 (
+create table im_user_token_1113_2 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     token varchar(255) not null comment 'token 信息',
@@ -168,7 +168,7 @@ create table im_user_token_1112_2 (
     primary key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
-create table im_user_token_1112_3 (
+create table im_user_token_1113_3 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     token varchar(255) not null comment 'token 信息',
@@ -178,7 +178,7 @@ create table im_user_token_1112_3 (
     primary key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
-create table im_user_token_1112_4 (
+create table im_user_token_1113_4 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     token varchar(255) not null comment 'token 信息',
@@ -188,7 +188,7 @@ create table im_user_token_1112_4 (
     primary key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
-create table im_user_token_1112_5 (
+create table im_user_token_1113_5 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     token varchar(255) not null comment 'token 信息',
@@ -198,7 +198,7 @@ create table im_user_token_1112_5 (
     primary key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
-create table im_user_token_1112_6 (
+create table im_user_token_1113_6 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     token varchar(255) not null comment 'token 信息',
@@ -208,7 +208,7 @@ create table im_user_token_1112_6 (
     primary key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
-create table im_user_token_1112_7 (
+create table im_user_token_1113_7 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     token varchar(255) not null comment 'token 信息',
@@ -218,7 +218,7 @@ create table im_user_token_1112_7 (
     primary key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
-create table im_user_token_1112_8 (
+create table im_user_token_1113_8 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     token varchar(255) not null comment 'token 信息',
@@ -228,7 +228,7 @@ create table im_user_token_1112_8 (
     primary key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
-create table im_user_token_1112_9 (
+create table im_user_token_1113_9 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     token varchar(255) not null comment 'token 信息',
@@ -238,7 +238,7 @@ create table im_user_token_1112_9 (
     primary key (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment 'im 用户 token';
 
-CREATE TABLE im_user_setting_1112_0 (
+CREATE TABLE im_user_setting_1113_0 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     setting_type VARCHAR(50) NOT NULL COMMENT '设置类型(如:conversation_pinned,theme_preference,notification_setting)',
@@ -248,7 +248,7 @@ CREATE TABLE im_user_setting_1112_0 (
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
-CREATE TABLE im_user_setting_1112_1 (
+CREATE TABLE im_user_setting_1113_1 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     setting_type VARCHAR(50) NOT NULL COMMENT '设置类型(如:conversation_pinned,theme_preference,notification_setting)',
@@ -258,7 +258,7 @@ CREATE TABLE im_user_setting_1112_1 (
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
-CREATE TABLE im_user_setting_1112_2 (
+CREATE TABLE im_user_setting_1113_2 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     setting_type VARCHAR(50) NOT NULL COMMENT '设置类型(如:conversation_pinned,theme_preference,notification_setting)',
@@ -268,7 +268,7 @@ CREATE TABLE im_user_setting_1112_2 (
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
-CREATE TABLE im_user_setting_1112_3 (
+CREATE TABLE im_user_setting_1113_3 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     setting_type VARCHAR(50) NOT NULL COMMENT '设置类型(如:conversation_pinned,theme_preference,notification_setting)',
@@ -278,7 +278,7 @@ CREATE TABLE im_user_setting_1112_3 (
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
-CREATE TABLE im_user_setting_1112_4 (
+CREATE TABLE im_user_setting_1113_4 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     setting_type VARCHAR(50) NOT NULL COMMENT '设置类型(如:conversation_pinned,theme_preference,notification_setting)',
@@ -288,7 +288,7 @@ CREATE TABLE im_user_setting_1112_4 (
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
-CREATE TABLE im_user_setting_1112_5 (
+CREATE TABLE im_user_setting_1113_5 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     setting_type VARCHAR(50) NOT NULL COMMENT '设置类型(如:conversation_pinned,theme_preference,notification_setting)',
@@ -298,7 +298,7 @@ CREATE TABLE im_user_setting_1112_5 (
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
-CREATE TABLE im_user_setting_1112_6 (
+CREATE TABLE im_user_setting_1113_6 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     setting_type VARCHAR(50) NOT NULL COMMENT '设置类型(如:conversation_pinned,theme_preference,notification_setting)',
@@ -308,7 +308,7 @@ CREATE TABLE im_user_setting_1112_6 (
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
-CREATE TABLE im_user_setting_1112_7 (
+CREATE TABLE im_user_setting_1113_7 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     setting_type VARCHAR(50) NOT NULL COMMENT '设置类型(如:conversation_pinned,theme_preference,notification_setting)',
@@ -318,7 +318,7 @@ CREATE TABLE im_user_setting_1112_7 (
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
-CREATE TABLE im_user_setting_1112_8 (
+CREATE TABLE im_user_setting_1113_8 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     setting_type VARCHAR(50) NOT NULL COMMENT '设置类型(如:conversation_pinned,theme_preference,notification_setting)',
@@ -328,7 +328,7 @@ CREATE TABLE im_user_setting_1112_8 (
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
-CREATE TABLE im_user_setting_1112_9 (
+CREATE TABLE im_user_setting_1113_9 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     setting_type VARCHAR(50) NOT NULL COMMENT '设置类型(如:conversation_pinned,theme_preference,notification_setting)',
@@ -338,7 +338,7 @@ CREATE TABLE im_user_setting_1112_9 (
     UNIQUE KEY pk_user_setting (app_key, user_id, setting_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设置表';
 
-create table im_tag_1112_0 (
+create table im_tag_1113_0 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     tag_id varchar(10) comment '标签唯一标识',
@@ -349,7 +349,7 @@ create table im_tag_1112_0 (
     primary key (app_key, user_id, tag_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-create table im_tag_1112_1 (
+create table im_tag_1113_1 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     tag_id varchar(10) comment '标签唯一标识',
@@ -360,7 +360,7 @@ create table im_tag_1112_1 (
     primary key (app_key, user_id, tag_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-create table im_tag_1112_2 (
+create table im_tag_1113_2 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     tag_id varchar(10) comment '标签唯一标识',
@@ -371,7 +371,7 @@ create table im_tag_1112_2 (
     primary key (app_key, user_id, tag_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-create table im_tag_1112_3 (
+create table im_tag_1113_3 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     tag_id varchar(10) comment '标签唯一标识',
@@ -382,7 +382,7 @@ create table im_tag_1112_3 (
     primary key (app_key, user_id, tag_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-create table im_tag_1112_4 (
+create table im_tag_1113_4 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     tag_id varchar(10) comment '标签唯一标识',
@@ -393,7 +393,7 @@ create table im_tag_1112_4 (
     primary key (app_key, user_id, tag_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-create table im_tag_1112_5 (
+create table im_tag_1113_5 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     tag_id varchar(10) comment '标签唯一标识',
@@ -404,7 +404,7 @@ create table im_tag_1112_5 (
     primary key (app_key, user_id, tag_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-create table im_tag_1112_6 (
+create table im_tag_1113_6 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     tag_id varchar(10) comment '标签唯一标识',
@@ -415,7 +415,7 @@ create table im_tag_1112_6 (
     primary key (app_key, user_id, tag_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-create table im_tag_1112_7 (
+create table im_tag_1113_7 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     tag_id varchar(10) comment '标签唯一标识',
@@ -426,7 +426,7 @@ create table im_tag_1112_7 (
     primary key (app_key, user_id, tag_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-create table im_tag_1112_8 (
+create table im_tag_1113_8 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     tag_id varchar(10) comment '标签唯一标识',
@@ -437,7 +437,7 @@ create table im_tag_1112_8 (
     primary key (app_key, user_id, tag_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-create table im_tag_1112_9 (
+create table im_tag_1113_9 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
     tag_id varchar(10) comment '标签唯一标识',
@@ -448,7 +448,7 @@ create table im_tag_1112_9 (
     primary key (app_key, user_id, tag_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-create table im_tag_conversation_1112_0 (
+create table im_tag_conversation_1113_0 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -462,7 +462,7 @@ create table im_tag_conversation_1112_0 (
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
-create table im_tag_conversation_1112_1 (
+create table im_tag_conversation_1113_1 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -476,7 +476,7 @@ create table im_tag_conversation_1112_1 (
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
-create table im_tag_conversation_1112_2 (
+create table im_tag_conversation_1113_2 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -490,7 +490,7 @@ create table im_tag_conversation_1112_2 (
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
-create table im_tag_conversation_1112_3 (
+create table im_tag_conversation_1113_3 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -504,7 +504,7 @@ create table im_tag_conversation_1112_3 (
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
-create table im_tag_conversation_1112_4 (
+create table im_tag_conversation_1113_4 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -518,7 +518,7 @@ create table im_tag_conversation_1112_4 (
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
-create table im_tag_conversation_1112_5 (
+create table im_tag_conversation_1113_5 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -532,7 +532,7 @@ create table im_tag_conversation_1112_5 (
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
-create table im_tag_conversation_1112_6 (
+create table im_tag_conversation_1113_6 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -546,7 +546,7 @@ create table im_tag_conversation_1112_6 (
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
-create table im_tag_conversation_1112_7 (
+create table im_tag_conversation_1113_7 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -560,7 +560,7 @@ create table im_tag_conversation_1112_7 (
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
-create table im_tag_conversation_1112_8 (
+create table im_tag_conversation_1113_8 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -574,7 +574,7 @@ create table im_tag_conversation_1112_8 (
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
-create table im_tag_conversation_1112_9 (
+create table im_tag_conversation_1113_9 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -588,7 +588,7 @@ create table im_tag_conversation_1112_9 (
     index idx_app_key_user_id_target_id_conversation_type (app_key, user_id, target_id, conversation_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '用户标签会话表';
 
-CREATE TABLE im_user_device_1112_0 (
+CREATE TABLE im_user_device_1113_0 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -602,7 +602,7 @@ CREATE TABLE im_user_device_1112_0 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_1 (
+CREATE TABLE im_user_device_1113_1 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -616,7 +616,7 @@ CREATE TABLE im_user_device_1112_1 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_2 (
+CREATE TABLE im_user_device_1113_2 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -630,7 +630,7 @@ CREATE TABLE im_user_device_1112_2 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_3 (
+CREATE TABLE im_user_device_1113_3 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -644,7 +644,7 @@ CREATE TABLE im_user_device_1112_3 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_4 (
+CREATE TABLE im_user_device_1113_4 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -658,7 +658,7 @@ CREATE TABLE im_user_device_1112_4 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_5 (
+CREATE TABLE im_user_device_1113_5 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -672,7 +672,7 @@ CREATE TABLE im_user_device_1112_5 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_6 (
+CREATE TABLE im_user_device_1113_6 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -686,7 +686,7 @@ CREATE TABLE im_user_device_1112_6 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_7 (
+CREATE TABLE im_user_device_1113_7 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -700,7 +700,7 @@ CREATE TABLE im_user_device_1112_7 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_8 (
+CREATE TABLE im_user_device_1113_8 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -714,7 +714,7 @@ CREATE TABLE im_user_device_1112_8 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_9 (
+CREATE TABLE im_user_device_1113_9 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -728,7 +728,7 @@ CREATE TABLE im_user_device_1112_9 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_10 (
+CREATE TABLE im_user_device_1113_10 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -742,7 +742,7 @@ CREATE TABLE im_user_device_1112_10 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_11 (
+CREATE TABLE im_user_device_1113_11 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -756,7 +756,7 @@ CREATE TABLE im_user_device_1112_11 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_12 (
+CREATE TABLE im_user_device_1113_12 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -770,7 +770,7 @@ CREATE TABLE im_user_device_1112_12 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_13 (
+CREATE TABLE im_user_device_1113_13 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -784,7 +784,7 @@ CREATE TABLE im_user_device_1112_13 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_14 (
+CREATE TABLE im_user_device_1113_14 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -798,7 +798,7 @@ CREATE TABLE im_user_device_1112_14 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_15 (
+CREATE TABLE im_user_device_1113_15 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -812,7 +812,7 @@ CREATE TABLE im_user_device_1112_15 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_16 (
+CREATE TABLE im_user_device_1113_16 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -826,7 +826,7 @@ CREATE TABLE im_user_device_1112_16 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_17 (
+CREATE TABLE im_user_device_1113_17 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -840,7 +840,7 @@ CREATE TABLE im_user_device_1112_17 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_18 (
+CREATE TABLE im_user_device_1113_18 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -854,7 +854,7 @@ CREATE TABLE im_user_device_1112_18 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_user_device_1112_19 (
+CREATE TABLE im_user_device_1113_19 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -868,7 +868,7 @@ CREATE TABLE im_user_device_1112_19 (
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
-CREATE TABLE im_sdk_log_1112_0 (
+CREATE TABLE im_sdk_log_1113_0 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -878,7 +878,7 @@ CREATE TABLE im_sdk_log_1112_0 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
-CREATE TABLE im_sdk_log_1112_1 (
+CREATE TABLE im_sdk_log_1113_1 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -888,7 +888,7 @@ CREATE TABLE im_sdk_log_1112_1 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
-CREATE TABLE im_sdk_log_1112_2 (
+CREATE TABLE im_sdk_log_1113_2 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -898,7 +898,7 @@ CREATE TABLE im_sdk_log_1112_2 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
-CREATE TABLE im_sdk_log_1112_3 (
+CREATE TABLE im_sdk_log_1113_3 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -908,7 +908,7 @@ CREATE TABLE im_sdk_log_1112_3 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
-CREATE TABLE im_sdk_log_1112_4 (
+CREATE TABLE im_sdk_log_1113_4 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -918,7 +918,7 @@ CREATE TABLE im_sdk_log_1112_4 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
-CREATE TABLE im_sdk_log_1112_5 (
+CREATE TABLE im_sdk_log_1113_5 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -928,7 +928,7 @@ CREATE TABLE im_sdk_log_1112_5 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
-CREATE TABLE im_sdk_log_1112_6 (
+CREATE TABLE im_sdk_log_1113_6 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -938,7 +938,7 @@ CREATE TABLE im_sdk_log_1112_6 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
-CREATE TABLE im_sdk_log_1112_7 (
+CREATE TABLE im_sdk_log_1113_7 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -948,7 +948,7 @@ CREATE TABLE im_sdk_log_1112_7 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
-CREATE TABLE im_sdk_log_1112_8 (
+CREATE TABLE im_sdk_log_1113_8 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -958,7 +958,7 @@ CREATE TABLE im_sdk_log_1112_8 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
-CREATE TABLE im_sdk_log_1112_9 (
+CREATE TABLE im_sdk_log_1113_9 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -968,7 +968,7 @@ CREATE TABLE im_sdk_log_1112_9 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = 'sdk 日志表';
 
-CREATE TABLE im_user_tag_1112_0 (
+CREATE TABLE im_user_tag_1113_0 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -979,7 +979,7 @@ CREATE TABLE im_user_tag_1112_0 (
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-CREATE TABLE im_user_tag_1112_1 (
+CREATE TABLE im_user_tag_1113_1 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -990,7 +990,7 @@ CREATE TABLE im_user_tag_1112_1 (
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-CREATE TABLE im_user_tag_1112_2 (
+CREATE TABLE im_user_tag_1113_2 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -1001,7 +1001,7 @@ CREATE TABLE im_user_tag_1112_2 (
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-CREATE TABLE im_user_tag_1112_3 (
+CREATE TABLE im_user_tag_1113_3 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -1012,7 +1012,7 @@ CREATE TABLE im_user_tag_1112_3 (
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-CREATE TABLE im_user_tag_1112_4 (
+CREATE TABLE im_user_tag_1113_4 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -1023,7 +1023,7 @@ CREATE TABLE im_user_tag_1112_4 (
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-CREATE TABLE im_user_tag_1112_5 (
+CREATE TABLE im_user_tag_1113_5 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -1034,7 +1034,7 @@ CREATE TABLE im_user_tag_1112_5 (
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-CREATE TABLE im_user_tag_1112_6 (
+CREATE TABLE im_user_tag_1113_6 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -1045,7 +1045,7 @@ CREATE TABLE im_user_tag_1112_6 (
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-CREATE TABLE im_user_tag_1112_7 (
+CREATE TABLE im_user_tag_1113_7 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -1056,7 +1056,7 @@ CREATE TABLE im_user_tag_1112_7 (
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-CREATE TABLE im_user_tag_1112_8 (
+CREATE TABLE im_user_tag_1113_8 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -1067,7 +1067,7 @@ CREATE TABLE im_user_tag_1112_8 (
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-CREATE TABLE im_user_tag_1112_9 (
+CREATE TABLE im_user_tag_1113_9 (
     id bigint unsigned primary key comment '主键',
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
@@ -1078,7 +1078,7 @@ CREATE TABLE im_user_tag_1112_9 (
     index idx_app_key_user_id_tag_name (app_key, user_id, tag_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户标签表';
 
-CREATE TABLE im_user_friend_1112_0 (
+CREATE TABLE im_user_friend_1113_0 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     target_id varchar(255) not null comment 'target_id',
@@ -1089,7 +1089,7 @@ CREATE TABLE im_user_friend_1112_0 (
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
-CREATE TABLE im_user_friend_1112_1 (
+CREATE TABLE im_user_friend_1113_1 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     target_id varchar(255) not null comment 'target_id',
@@ -1100,7 +1100,7 @@ CREATE TABLE im_user_friend_1112_1 (
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
-CREATE TABLE im_user_friend_1112_2 (
+CREATE TABLE im_user_friend_1113_2 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     target_id varchar(255) not null comment 'target_id',
@@ -1111,7 +1111,7 @@ CREATE TABLE im_user_friend_1112_2 (
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
-CREATE TABLE im_user_friend_1112_3 (
+CREATE TABLE im_user_friend_1113_3 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     target_id varchar(255) not null comment 'target_id',
@@ -1122,7 +1122,7 @@ CREATE TABLE im_user_friend_1112_3 (
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
-CREATE TABLE im_user_friend_1112_4 (
+CREATE TABLE im_user_friend_1113_4 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     target_id varchar(255) not null comment 'target_id',
@@ -1133,7 +1133,7 @@ CREATE TABLE im_user_friend_1112_4 (
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
-CREATE TABLE im_user_friend_1112_5 (
+CREATE TABLE im_user_friend_1113_5 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     target_id varchar(255) not null comment 'target_id',
@@ -1144,7 +1144,7 @@ CREATE TABLE im_user_friend_1112_5 (
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
-CREATE TABLE im_user_friend_1112_6 (
+CREATE TABLE im_user_friend_1113_6 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     target_id varchar(255) not null comment 'target_id',
@@ -1155,7 +1155,7 @@ CREATE TABLE im_user_friend_1112_6 (
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
-CREATE TABLE im_user_friend_1112_7 (
+CREATE TABLE im_user_friend_1113_7 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     target_id varchar(255) not null comment 'target_id',
@@ -1166,7 +1166,7 @@ CREATE TABLE im_user_friend_1112_7 (
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
-CREATE TABLE im_user_friend_1112_8 (
+CREATE TABLE im_user_friend_1113_8 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     target_id varchar(255) not null comment 'target_id',
@@ -1177,7 +1177,7 @@ CREATE TABLE im_user_friend_1112_8 (
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
-CREATE TABLE im_user_friend_1112_9 (
+CREATE TABLE im_user_friend_1113_9 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     target_id varchar(255) not null comment 'target_id',
@@ -1188,7 +1188,7 @@ CREATE TABLE im_user_friend_1112_9 (
     UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 
-create table im_group_1112_0 (
+create table im_group_1113_0 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1201,7 +1201,7 @@ create table im_group_1112_0 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
-create table im_group_1112_1 (
+create table im_group_1113_1 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1214,7 +1214,7 @@ create table im_group_1112_1 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
-create table im_group_1112_2 (
+create table im_group_1113_2 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1227,7 +1227,7 @@ create table im_group_1112_2 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
-create table im_group_1112_3 (
+create table im_group_1113_3 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1240,7 +1240,7 @@ create table im_group_1112_3 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
-create table im_group_1112_4 (
+create table im_group_1113_4 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1253,7 +1253,7 @@ create table im_group_1112_4 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
-create table im_group_1112_5 (
+create table im_group_1113_5 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1266,7 +1266,7 @@ create table im_group_1112_5 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
-create table im_group_1112_6 (
+create table im_group_1113_6 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1279,7 +1279,7 @@ create table im_group_1112_6 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
-create table im_group_1112_7 (
+create table im_group_1113_7 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1292,7 +1292,7 @@ create table im_group_1112_7 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
-create table im_group_1112_8 (
+create table im_group_1113_8 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1305,7 +1305,7 @@ create table im_group_1112_8 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
-create table im_group_1112_9 (
+create table im_group_1113_9 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1318,7 +1318,7 @@ create table im_group_1112_9 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组表';
 
-create table im_ultra_group_1112_0 (
+create table im_ultra_group_1113_0 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1330,7 +1330,7 @@ create table im_ultra_group_1112_0 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
-create table im_ultra_group_1112_1 (
+create table im_ultra_group_1113_1 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1342,7 +1342,7 @@ create table im_ultra_group_1112_1 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
-create table im_ultra_group_1112_2 (
+create table im_ultra_group_1113_2 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1354,7 +1354,7 @@ create table im_ultra_group_1112_2 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
-create table im_ultra_group_1112_3 (
+create table im_ultra_group_1113_3 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1366,7 +1366,7 @@ create table im_ultra_group_1112_3 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
-create table im_ultra_group_1112_4 (
+create table im_ultra_group_1113_4 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1378,7 +1378,7 @@ create table im_ultra_group_1112_4 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
-create table im_ultra_group_1112_5 (
+create table im_ultra_group_1113_5 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1390,7 +1390,7 @@ create table im_ultra_group_1112_5 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
-create table im_ultra_group_1112_6 (
+create table im_ultra_group_1113_6 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1402,7 +1402,7 @@ create table im_ultra_group_1112_6 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
-create table im_ultra_group_1112_7 (
+create table im_ultra_group_1113_7 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1414,7 +1414,7 @@ create table im_ultra_group_1112_7 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
-create table im_ultra_group_1112_8 (
+create table im_ultra_group_1113_8 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1426,7 +1426,7 @@ create table im_ultra_group_1112_8 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
-create table im_ultra_group_1112_9 (
+create table im_ultra_group_1113_9 (
     id bigint unsigned primary key comment '全局唯一群组 id',
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
@@ -1438,7 +1438,7 @@ create table im_ultra_group_1112_9 (
     unique (app_key, group_id, group_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群表';
 
-create table im_ultra_group_channel_1112_0 (
+create table im_ultra_group_channel_1113_0 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     bus_channel varchar(20) not null comment '频道 ID',
@@ -1449,7 +1449,7 @@ create table im_ultra_group_channel_1112_0 (
     unique (app_key, group_id, bus_channel)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
-create table im_ultra_group_channel_1112_1 (
+create table im_ultra_group_channel_1113_1 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     bus_channel varchar(20) not null comment '频道 ID',
@@ -1460,7 +1460,7 @@ create table im_ultra_group_channel_1112_1 (
     unique (app_key, group_id, bus_channel)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
-create table im_ultra_group_channel_1112_2 (
+create table im_ultra_group_channel_1113_2 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     bus_channel varchar(20) not null comment '频道 ID',
@@ -1471,7 +1471,7 @@ create table im_ultra_group_channel_1112_2 (
     unique (app_key, group_id, bus_channel)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
-create table im_ultra_group_channel_1112_3 (
+create table im_ultra_group_channel_1113_3 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     bus_channel varchar(20) not null comment '频道 ID',
@@ -1482,7 +1482,7 @@ create table im_ultra_group_channel_1112_3 (
     unique (app_key, group_id, bus_channel)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
-create table im_ultra_group_channel_1112_4 (
+create table im_ultra_group_channel_1113_4 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     bus_channel varchar(20) not null comment '频道 ID',
@@ -1493,7 +1493,7 @@ create table im_ultra_group_channel_1112_4 (
     unique (app_key, group_id, bus_channel)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
-create table im_ultra_group_channel_1112_5 (
+create table im_ultra_group_channel_1113_5 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     bus_channel varchar(20) not null comment '频道 ID',
@@ -1504,7 +1504,7 @@ create table im_ultra_group_channel_1112_5 (
     unique (app_key, group_id, bus_channel)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
-create table im_ultra_group_channel_1112_6 (
+create table im_ultra_group_channel_1113_6 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     bus_channel varchar(20) not null comment '频道 ID',
@@ -1515,7 +1515,7 @@ create table im_ultra_group_channel_1112_6 (
     unique (app_key, group_id, bus_channel)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
-create table im_ultra_group_channel_1112_7 (
+create table im_ultra_group_channel_1113_7 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     bus_channel varchar(20) not null comment '频道 ID',
@@ -1526,7 +1526,7 @@ create table im_ultra_group_channel_1112_7 (
     unique (app_key, group_id, bus_channel)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
-create table im_ultra_group_channel_1112_8 (
+create table im_ultra_group_channel_1113_8 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     bus_channel varchar(20) not null comment '频道 ID',
@@ -1537,7 +1537,7 @@ create table im_ultra_group_channel_1112_8 (
     unique (app_key, group_id, bus_channel)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
-create table im_ultra_group_channel_1112_9 (
+create table im_ultra_group_channel_1113_9 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     bus_channel varchar(20) not null comment '频道 ID',
@@ -1548,7 +1548,7 @@ create table im_ultra_group_channel_1112_9 (
     unique (app_key, group_id, bus_channel)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群频道表';
 
-create table im_group_member_1112_0 (
+create table im_group_member_1113_0 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1559,7 +1559,7 @@ create table im_group_member_1112_0 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_1 (
+create table im_group_member_1113_1 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1570,7 +1570,7 @@ create table im_group_member_1112_1 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_2 (
+create table im_group_member_1113_2 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1581,7 +1581,7 @@ create table im_group_member_1112_2 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_3 (
+create table im_group_member_1113_3 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1592,7 +1592,7 @@ create table im_group_member_1112_3 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_4 (
+create table im_group_member_1113_4 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1603,7 +1603,7 @@ create table im_group_member_1112_4 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_5 (
+create table im_group_member_1113_5 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1614,7 +1614,7 @@ create table im_group_member_1112_5 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_6 (
+create table im_group_member_1113_6 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1625,7 +1625,7 @@ create table im_group_member_1112_6 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_7 (
+create table im_group_member_1113_7 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1636,7 +1636,7 @@ create table im_group_member_1112_7 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_8 (
+create table im_group_member_1113_8 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1647,7 +1647,7 @@ create table im_group_member_1112_8 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_9 (
+create table im_group_member_1113_9 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1658,7 +1658,7 @@ create table im_group_member_1112_9 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_10 (
+create table im_group_member_1113_10 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1669,7 +1669,7 @@ create table im_group_member_1112_10 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_11 (
+create table im_group_member_1113_11 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1680,7 +1680,7 @@ create table im_group_member_1112_11 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_12 (
+create table im_group_member_1113_12 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1691,7 +1691,7 @@ create table im_group_member_1112_12 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_13 (
+create table im_group_member_1113_13 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1702,7 +1702,7 @@ create table im_group_member_1112_13 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_14 (
+create table im_group_member_1113_14 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1713,7 +1713,7 @@ create table im_group_member_1112_14 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_15 (
+create table im_group_member_1113_15 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1724,7 +1724,7 @@ create table im_group_member_1112_15 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_16 (
+create table im_group_member_1113_16 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1735,7 +1735,7 @@ create table im_group_member_1112_16 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_17 (
+create table im_group_member_1113_17 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1746,7 +1746,7 @@ create table im_group_member_1112_17 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_18 (
+create table im_group_member_1113_18 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1757,7 +1757,7 @@ create table im_group_member_1112_18 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_group_member_1112_19 (
+create table im_group_member_1113_19 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1768,7 +1768,7 @@ create table im_group_member_1112_19 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '群组成员表';
 
-create table im_ultra_group_member_1112_0 (
+create table im_ultra_group_member_1113_0 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1779,7 +1779,7 @@ create table im_ultra_group_member_1112_0 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_1 (
+create table im_ultra_group_member_1113_1 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1790,7 +1790,7 @@ create table im_ultra_group_member_1112_1 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_2 (
+create table im_ultra_group_member_1113_2 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1801,7 +1801,7 @@ create table im_ultra_group_member_1112_2 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_3 (
+create table im_ultra_group_member_1113_3 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1812,7 +1812,7 @@ create table im_ultra_group_member_1112_3 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_4 (
+create table im_ultra_group_member_1113_4 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1823,7 +1823,7 @@ create table im_ultra_group_member_1112_4 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_5 (
+create table im_ultra_group_member_1113_5 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1834,7 +1834,7 @@ create table im_ultra_group_member_1112_5 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_6 (
+create table im_ultra_group_member_1113_6 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1845,7 +1845,7 @@ create table im_ultra_group_member_1112_6 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_7 (
+create table im_ultra_group_member_1113_7 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1856,7 +1856,7 @@ create table im_ultra_group_member_1112_7 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_8 (
+create table im_ultra_group_member_1113_8 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1867,7 +1867,7 @@ create table im_ultra_group_member_1112_8 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_9 (
+create table im_ultra_group_member_1113_9 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1878,7 +1878,7 @@ create table im_ultra_group_member_1112_9 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_10 (
+create table im_ultra_group_member_1113_10 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1889,7 +1889,7 @@ create table im_ultra_group_member_1112_10 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_11 (
+create table im_ultra_group_member_1113_11 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1900,7 +1900,7 @@ create table im_ultra_group_member_1112_11 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_12 (
+create table im_ultra_group_member_1113_12 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1911,7 +1911,7 @@ create table im_ultra_group_member_1112_12 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_13 (
+create table im_ultra_group_member_1113_13 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1922,7 +1922,7 @@ create table im_ultra_group_member_1112_13 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_14 (
+create table im_ultra_group_member_1113_14 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1933,7 +1933,7 @@ create table im_ultra_group_member_1112_14 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_15 (
+create table im_ultra_group_member_1113_15 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1944,7 +1944,7 @@ create table im_ultra_group_member_1112_15 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_16 (
+create table im_ultra_group_member_1113_16 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1955,7 +1955,7 @@ create table im_ultra_group_member_1112_16 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_17 (
+create table im_ultra_group_member_1113_17 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1966,7 +1966,7 @@ create table im_ultra_group_member_1112_17 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_18 (
+create table im_ultra_group_member_1113_18 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1977,7 +1977,7 @@ create table im_ultra_group_member_1112_18 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_ultra_group_member_1112_19 (
+create table im_ultra_group_member_1113_19 (
     app_key varchar(255) not null comment '标识唯一应用',
     group_id varchar(64) not null comment '群组 id',
     user_id varchar(255) not null comment 'user_id',
@@ -1988,7 +1988,7 @@ create table im_ultra_group_member_1112_19 (
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
 
-create table im_session_1112_0 (
+create table im_session_1113_0 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2001,7 +2001,7 @@ create table im_session_1112_0 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_1 (
+create table im_session_1113_1 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2014,7 +2014,7 @@ create table im_session_1112_1 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_2 (
+create table im_session_1113_2 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2027,7 +2027,7 @@ create table im_session_1112_2 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_3 (
+create table im_session_1113_3 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2040,7 +2040,7 @@ create table im_session_1112_3 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_4 (
+create table im_session_1113_4 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2053,7 +2053,7 @@ create table im_session_1112_4 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_5 (
+create table im_session_1113_5 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2066,7 +2066,7 @@ create table im_session_1112_5 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_6 (
+create table im_session_1113_6 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2079,7 +2079,7 @@ create table im_session_1112_6 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_7 (
+create table im_session_1113_7 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2092,7 +2092,7 @@ create table im_session_1112_7 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_8 (
+create table im_session_1113_8 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2105,7 +2105,7 @@ create table im_session_1112_8 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_9 (
+create table im_session_1113_9 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2118,7 +2118,7 @@ create table im_session_1112_9 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_10 (
+create table im_session_1113_10 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2131,7 +2131,7 @@ create table im_session_1112_10 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_11 (
+create table im_session_1113_11 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2144,7 +2144,7 @@ create table im_session_1112_11 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_12 (
+create table im_session_1113_12 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2157,7 +2157,7 @@ create table im_session_1112_12 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_13 (
+create table im_session_1113_13 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2170,7 +2170,7 @@ create table im_session_1112_13 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_14 (
+create table im_session_1113_14 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2183,7 +2183,7 @@ create table im_session_1112_14 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_15 (
+create table im_session_1113_15 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2196,7 +2196,7 @@ create table im_session_1112_15 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_16 (
+create table im_session_1113_16 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2209,7 +2209,7 @@ create table im_session_1112_16 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_17 (
+create table im_session_1113_17 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2222,7 +2222,7 @@ create table im_session_1112_17 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_18 (
+create table im_session_1113_18 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
@@ -2235,7 +2235,7 @@ create table im_session_1112_18 (
     index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 
-create table im_session_1112_19 (
+create table im_session_1113_19 (
     id bigint unsigned not null comment '全局唯一会话 id' primary key,
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) null comment 'uid1',
