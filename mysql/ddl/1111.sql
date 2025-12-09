@@ -593,12 +593,13 @@ CREATE TABLE im_user_device_1111_0 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -607,12 +608,13 @@ CREATE TABLE im_user_device_1111_1 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -621,12 +623,13 @@ CREATE TABLE im_user_device_1111_2 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -635,12 +638,13 @@ CREATE TABLE im_user_device_1111_3 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -649,12 +653,13 @@ CREATE TABLE im_user_device_1111_4 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -663,12 +668,13 @@ CREATE TABLE im_user_device_1111_5 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -677,12 +683,13 @@ CREATE TABLE im_user_device_1111_6 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -691,12 +698,13 @@ CREATE TABLE im_user_device_1111_7 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -705,12 +713,13 @@ CREATE TABLE im_user_device_1111_8 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -719,12 +728,13 @@ CREATE TABLE im_user_device_1111_9 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -733,12 +743,13 @@ CREATE TABLE im_user_device_1111_10 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -747,12 +758,13 @@ CREATE TABLE im_user_device_1111_11 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -761,12 +773,13 @@ CREATE TABLE im_user_device_1111_12 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -775,12 +788,13 @@ CREATE TABLE im_user_device_1111_13 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -789,12 +803,13 @@ CREATE TABLE im_user_device_1111_14 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -803,12 +818,13 @@ CREATE TABLE im_user_device_1111_15 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -817,12 +833,13 @@ CREATE TABLE im_user_device_1111_16 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -831,12 +848,13 @@ CREATE TABLE im_user_device_1111_17 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -845,12 +863,13 @@ CREATE TABLE im_user_device_1111_18 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 
@@ -859,12 +878,13 @@ CREATE TABLE im_user_device_1111_19 (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 

@@ -85,19 +85,6 @@ create table im_ultra_group_member (
     primary key (app_key, group_id, user_id),
     index idx_app_key_user_id (app_key, user_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '超级群成员表';
-create table im_stat_connection (
-    id bigint unsigned primary key comment '主键',
-    app_key varchar(255) not null comment '标识唯一应用',
-    user_id varchar(255) not null comment '应用的用户 id',
-    up_time bigint not null comment '上线时间',
-    down_time bigint not null comment '下线时间',
-    platform varchar(10) not null comment '端标识',
-    ip varchar(255) default '' comment 'ip',
-    broker_id int comment 'broker 信息',
-    create_time bigint unsigned comment '创建时间',
-    update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_platform (app_key, user_id, platform)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '对连接的统计表';
 CREATE TABLE im_user_setting (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment '应用的用户 id',
@@ -145,12 +132,13 @@ CREATE TABLE im_user_device (
     app_key varchar(255) not null comment '标识唯一应用',
     user_id varchar(255) not null comment 'user_id',
     device varchar(255) comment '设备',
+    device_id varchar(255) comment '设备 id',
     package_name varchar(255) comment 'package name',
     os varchar(10) comment 'os',
     platform varchar(255) comment 'platform',
     create_time bigint unsigned comment '创建时间',
     update_time bigint unsigned comment ' 更新时间',
-    index idx_app_key_user_id_device (app_key, user_id, device),
+    index idx_app_key_user_id_device (app_key, user_id, device_id),
     index idx_app_key_user_id_update_time (app_key, user_id, update_time desc)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户设备表';
 CREATE TABLE im_user_tag (
