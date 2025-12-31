@@ -30,7 +30,10 @@ create table im_session (
     seq bigint unsigned not null comment '序号，用于增量操作',
     create_time bigint unsigned null comment '创建时间',
     update_time bigint unsigned null comment ' 更新时间',
-    index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type)
+    index idx_app_key_uid_target_id_type (app_key, user_id, target_id, type),
+    index idx_app_key_user_id_type (app_key, user_id, type),
+    index idx_app_key_target_id_type (app_key, target_id, type),
+    index idx_app_key_seq (app_key, seq)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci comment '会话表';
 create table im_group (
     id bigint unsigned primary key comment '全局唯一群组 id',
@@ -125,7 +128,8 @@ CREATE TABLE im_user_friend (
     flag tinyint unsigned not null comment '标识：1-正常、2-已删除、3-已注销',
     created_at bigint unsigned comment '创建时间',
     updated_at bigint unsigned comment ' 更新时间',
-    UNIQUE KEY pk_user_setting (app_key, user_id, target_id)
+    UNIQUE KEY pk_user_setting (app_key, user_id, target_id),
+    index idx_app_key_seq (app_key, seq)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT = '用户好友表';
 CREATE TABLE im_user_device (
     id bigint unsigned primary key comment '主键',
